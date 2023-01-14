@@ -1,0 +1,4 @@
+repository "Hanakiri@Hanakiri@cloud"
+  path "/"
+    br "/main"
+    co "/main"
