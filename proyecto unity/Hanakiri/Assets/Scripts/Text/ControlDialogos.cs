@@ -10,10 +10,20 @@ public class ControlDialogos : MonoBehaviour
     Textos texto;
     [SerializeField] TextMeshProUGUI textoPantalla;
 
+    bool activado = false;
+
     void Start()
     {
         anim = GetComponent<Animator>();
         colaDialogos = new Queue<string>();
+    }
+
+    void Update()
+    {
+        if(activado == true && Input.GetKeyDown("e"))
+        {
+            SiguienteFrase();
+        }
     }
 
     public void ActivarCartel(Textos textoObjeto)
@@ -29,6 +39,7 @@ public class ControlDialogos : MonoBehaviour
         {
             colaDialogos.Enqueue(textoGuardar);
         }
+        activado = true;
         SiguienteFrase();
     }
 
@@ -36,6 +47,7 @@ public class ControlDialogos : MonoBehaviour
     {
         if(colaDialogos.Count == 0)
         {
+            textoPantalla.text = "";
             CierraCartel();
             return;
         }

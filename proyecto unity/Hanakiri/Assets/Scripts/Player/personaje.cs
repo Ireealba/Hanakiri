@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class personaje : MonoBehaviour
 {
@@ -16,10 +17,23 @@ public class personaje : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+    public bool lobby;
+
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        Scene scene = SceneManager.GetActiveScene();
+        if(scene.name == "lobby")
+        {
+            animator.SetBool("Lobby", true);
+            lobby = true;
+        }
+        else
+        {
+            animator.SetBool("Lobby", false);
+            lobby = false;
+        }
     }
 
 
@@ -46,7 +60,7 @@ public class personaje : MonoBehaviour
             animator.SetBool("Run", false);
         }
 
-        if(Input.GetKey("space") && CheckGround.isGrounded)
+        if(Input.GetKey("space") && CheckGround.isGrounded && lobby == false)
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
         }

@@ -8,7 +8,7 @@ public class ObjetoInteractable : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("E"))
+        if (Input.GetKeyDown("e"))
         {
           FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
         }
