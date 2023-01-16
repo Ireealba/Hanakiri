@@ -9,10 +9,18 @@ public class CheckGround : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         isGrounded = true;
+        if(collision.tag == "cuadro de accion")
+        {
+            personaje.iconoaccion = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         isGrounded = false;
+        if (collision.tag == "cuadro de accion")
+        {
+            personaje.iconoaccion = false;
+        }
     }
 }

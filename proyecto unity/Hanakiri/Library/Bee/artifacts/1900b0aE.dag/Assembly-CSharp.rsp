@@ -399,6 +399,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/Damage Objects/DamageObject.cs"
 "Assets/Scripts/Enemies/SpiderBaja.cs"
+"Assets/Scripts/NPC/ControlIcono.cs"
+"Assets/Scripts/Objects/Trampilla/Trampilla.cs"
 "Assets/Scripts/Player/CheckGround.cs"
 "Assets/Scripts/Player/personaje.cs"
 "Assets/Scripts/Text/ControlDialogos.cs"

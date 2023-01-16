@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - suelo
-  - Suelo
+  - dialogo
+  - cuadro de accion
   layers:
   - Default
   - TransparentFX
@@ -48,6 +48,9 @@ TagManager:
     locked: 0
   - name: NPC
     uniqueID: 2343004219
+    locked: 0
+  - name: IconosAccion
+    uniqueID: 2005238975
     locked: 0
   - name: Player
     uniqueID: 2060229239

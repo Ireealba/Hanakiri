@@ -18,6 +18,8 @@ public class personaje : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Animator animator;
     public bool lobby;
+    public static bool accion = false;
+    public static bool iconoaccion = false;
 
 
     void Start()
@@ -36,59 +38,81 @@ public class personaje : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "cuadro de accion")
+        {
+            accion = true;
+            iconoaccion= true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "cuadro de accion")
+        {
+            accion = false;
+            iconoaccion= false;
+        }
+    }
+
 
     void FixedUpdate()
     {
-        if (Input.GetKey("d") || Input.GetKey("right"))
+        if (ObjetoInteractable.dialogo == false )
         {
-
-            rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
-            spriteRenderer.flipX = false;
-            animator.SetBool("Run", true);
-
-        }else if(Input.GetKey("a") || Input.GetKey("left"))
-        {
-
-            rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
-            spriteRenderer.flipX = true;
-            animator.SetBool("Run", true);
-
-        }
-        else
-        {
-            rb2D.velocity = new Vector2(0, rb2D.velocity.y);
-            animator.SetBool("Run", false);
-        }
-
-        if(Input.GetKey("space") && CheckGround.isGrounded && lobby == false)
-        {
-            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
-        }
-
-        if(CheckGround.isGrounded == false)
-        {
-            animator.SetBool("Jump", true);
-            animator.SetBool("Run", false);
-        }
-
-        if(CheckGround.isGrounded == true)
-        {
-            animator.SetBool("Jump", false);
-        }
-
-        if (betterJump)
-        {
-
-            if (rb2D.velocity.y < 0)
+            if (Input.GetKey("d") || Input.GetKey("right"))
             {
-                rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier) * Time.deltaTime;
+
+                rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
+                spriteRenderer.flipX = false;
+                animator.SetBool("Run", true);
+
+            }
+            else if (Input.GetKey("a") || Input.GetKey("left"))
+            {
+
+                rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
+                spriteRenderer.flipX = true;
+                animator.SetBool("Run", true);
+
+            }
+            else
+            {
+                rb2D.velocity = new Vector2(0, rb2D.velocity.y);
+                animator.SetBool("Run", false);
             }
 
-            if (rb2D.velocity.y > 0 && !Input.GetKey("space"))
+            if (Input.GetKey("space") && CheckGround.isGrounded && lobby == false)
             {
-                rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
+                rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
             }
 
+            if (CheckGround.isGrounded == false)
+            {
+                animator.SetBool("Jump", true);
+                animator.SetBool("Run", false);
+            }
+
+            if (CheckGround.isGrounded == true)
+            {
+                animator.SetBool("Jump", false);
+            }
+
+            if (betterJump)
+            {
+
+                if (rb2D.velocity.y < 0)
+                {
+                    rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier) * Time.deltaTime;
+                }
+
+                if (rb2D.velocity.y > 0 && !Input.GetKey("space"))
+                {
+                    rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
+                }
+
+            }
         }
     }
 

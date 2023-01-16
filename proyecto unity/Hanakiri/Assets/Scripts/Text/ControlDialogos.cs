@@ -11,18 +11,31 @@ public class ControlDialogos : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoPantalla;
 
     bool activado = false;
+    public static bool dialogo = false;
 
     void Start()
     {
         anim = GetComponent<Animator>();
         colaDialogos = new Queue<string>();
+        dialogo = true;
     }
 
     void Update()
     {
         if(activado == true && Input.GetKeyDown("e"))
-        {
+        {            
             SiguienteFrase();
+        }
+
+        if(dialogo == false)
+        {
+            textoPantalla.text = "";
+            CierraCartel();
+            ObjetoInteractable.dialogo = false;
+            if (FindObjectOfType<ObjetoInteractable>().name == "dialogo inicial trampilla")
+            {
+                Trampilla.activo = true;
+            }
         }
     }
 
@@ -45,10 +58,10 @@ public class ControlDialogos : MonoBehaviour
 
     public void SiguienteFrase()
     {
-        if(colaDialogos.Count == 0)
+
+        if (colaDialogos.Count == 0)
         {
-            textoPantalla.text = "";
-            CierraCartel();
+            dialogo = false;
             return;
         }
 
