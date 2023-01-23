@@ -397,6 +397,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Scripts/cambio de escena/lobbyToTutorial.cs"
 "Assets/Scripts/Damage Objects/DamageObject.cs"
 "Assets/Scripts/Enemies/SpiderBaja.cs"
 "Assets/Scripts/NPC/ControlIcono.cs"

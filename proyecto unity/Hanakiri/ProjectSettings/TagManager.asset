@@ -6,6 +6,8 @@ TagManager:
   tags:
   - dialogo
   - cuadro de accion
+  - Suelo
+  - cambio de nivel
   layers:
   - Default
   - TransparentFX
@@ -54,4 +56,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2060229239
+    locked: 0
+  - name: Front
+    uniqueID: 1890374983
     locked: 0

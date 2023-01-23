@@ -4,20 +4,31 @@ using UnityEngine;
 
 public class Trampilla : MonoBehaviour
 {
-    public Animator animator;
+    public Animator animator1;
+    public Animator animator2;
+    public BoxCollider2D colliderTrampillaSuelo;
+    public BoxCollider2D colliderTrampillaPared;
+    public BoxCollider2D colliderSuelo;
     public static bool activo = false;
 
     void Update()
     {
         if (activo == true)
         {
-            animator.SetBool("aparece", true);
+            animator1.SetBool("aparece", true);
+            animator2.SetBool("aparece", true);
+            colliderSuelo.enabled = false;
+            colliderTrampillaSuelo.enabled = true;
+            colliderTrampillaPared.enabled = true;
             
         }
         else
         {
-            animator.SetBool("aparece", false);
-            
+            animator1.SetBool("aparece", false);
+            animator2.SetBool("aparece", false);
+            colliderSuelo.enabled = true;
+            colliderTrampillaSuelo.enabled = false;
+            colliderTrampillaPared.enabled = false;
         }
     }
 }
