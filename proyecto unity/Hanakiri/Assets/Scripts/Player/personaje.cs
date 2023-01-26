@@ -9,6 +9,7 @@ public class personaje : MonoBehaviour
     public float runSpeed = 10;
     public float jumpSpeed = 310;
     public float doubleJumpSpeed = 2;
+   
 
     private bool canDoubleJump;
 
@@ -23,6 +24,10 @@ public class personaje : MonoBehaviour
     public bool lobby;
     public static bool accion = false;
     public static bool iconoaccion = false;
+
+    public float dashCooldown;
+    public float dashForce = 30;
+    public GameObject dashParticle;
 
 
     void Start()
@@ -61,6 +66,8 @@ public class personaje : MonoBehaviour
 
     private void Update()
     {
+        dashCooldown -= Time.deltaTime;
+
         if (Input.GetKey("space"))
         {
             if(CheckGround.isGrounded && lobby == false)
@@ -124,6 +131,12 @@ public class personaje : MonoBehaviour
                 animator.SetBool("Run", true);
 
             }
+            else if (Input.GetKey(KeyCode.LeftShift) && dashCooldown <= 0)
+            {
+                animator.SetBool("Dash", true);
+                Dash();
+                animator.SetBool("Dash", false);
+            }
             else if (Input.GetKey("a") || Input.GetKey("left"))
             {
 
@@ -153,6 +166,29 @@ public class personaje : MonoBehaviour
 
             }
         }
+    }
+
+    public void Dash()
+    {
+        GameObject dashObject;
+
+        dashObject = Instantiate(dashParticle, transform.position, transform.rotation);
+        
+
+        if(spriteRenderer.flipX == true)
+        {
+            rb2D.AddForce(Vector2.left * dashForce, ForceMode2D.Impulse);
+        }
+        else
+        {
+            rb2D.AddForce(Vector2.right * dashForce, ForceMode2D.Impulse);
+        }
+
+        dashCooldown = 2;
+
+        
+
+        Destroy(dashObject, 1);
     }
 
 }
