@@ -8,6 +8,8 @@ TagManager:
   - cuadro de accion
   - Suelo
   - cambio de nivel
+  - ParedIzquierda
+  - ParedDerecha
   layers:
   - Default
   - TransparentFX

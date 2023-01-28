@@ -29,6 +29,15 @@ public class personaje : MonoBehaviour
     public float dashForce = 30;
     public GameObject dashParticle;
 
+    bool isTouchingFront = false;
+    bool wallSliding;
+    bool wallJumping;
+
+    public float wallSlidingSpeed = 0.75f;
+
+    bool isTouchingDerecha;
+    bool isTouchingIzquierda;
+
 
     void Start()
     {
@@ -117,13 +126,29 @@ public class personaje : MonoBehaviour
         {
             animator.SetBool("Falling", false);
         }
+
+        if(isTouchingFront ==true && CheckGround.isGrounded == false)
+        {
+            wallSliding = true;
+        }
+        else
+        {
+            wallSliding = false;
+        }
+
+        if (wallSliding)
+        {
+            animator.Play("wallSlide");
+            rb2D.velocity = new Vector2(rb2D.velocity.x, Mathf.Clamp(rb2D.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+
     }
 
     void FixedUpdate()
     {
         if (ObjetoInteractable.dialogo == false )
         {
-            if (Input.GetKey("d") || Input.GetKey("right"))
+            if (Input.GetKey("d") || Input.GetKey("right") && isTouchingDerecha == false)
             {
 
                 rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
@@ -137,7 +162,7 @@ public class personaje : MonoBehaviour
                 Dash();
                 animator.SetBool("Dash", false);
             }
-            else if (Input.GetKey("a") || Input.GetKey("left"))
+            else if (Input.GetKey("a") || Input.GetKey("left") && isTouchingIzquierda == false)
             {
 
                 rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
@@ -189,6 +214,36 @@ public class personaje : MonoBehaviour
         
 
         Destroy(dashObject, 1);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ParedDerecha"))
+        {
+            isTouchingFront = true;
+            isTouchingDerecha = true;
+        }
+
+        if (collision.gameObject.CompareTag("ParedIzquierda"))
+        {
+            isTouchingFront = true;
+            isTouchingIzquierda = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isTouchingFront = false;
+        isTouchingDerecha = false;
+        isTouchingIzquierda = false;
+    }
+
+    private void WallJump()
+    {
+        if (wallSliding)
+        {
+            wallJumping = false;
+        }
     }
 
 }

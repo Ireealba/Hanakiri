@@ -15,7 +15,7 @@ C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54253
+52452
 Successfully changed project path to: C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
 C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 152.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 131.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010117 seconds.
+Registered in 0.008855 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 124.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 140.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  0.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (748ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (765ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011017 seconds.
+Registered in 0.010311 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.638 seconds
+- Completed reload, in  1.584 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1638ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1584ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1393ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (872ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (870ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (446ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4895 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 93 unused Assets / (252.7 KB). Loaded Objects now: 5313.
 Memory consumption went from 176.7 MB to 176.4 MB.
-Total: 8.159500 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.348100 ms MarkObjects: 7.160800 ms  DeleteObjects: 0.260100 ms)
+Total: 7.744900 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.467800 ms MarkObjects: 6.566700 ms  DeleteObjects: 0.304300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,100 +164,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 865246.027191 seconds.
-  path: Assets/Sprites/Personajes/Hana/varios.png
-  artifactKey: Guid(2b0f03fff695d994b946cb3d7026b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Personajes/Hana/varios.png using Guid(2b0f03fff695d994b946cb3d7026b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2add9273e7d47c0ba97b3a2c7b81b7a') in 0.375802 seconds 
+  Time since last request: 934880.332191 seconds.
+  path: Assets/Scenes/MenuInicial.unity
+  artifactKey: Guid(1683781fbdf50bb489089e13981f61e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuInicial.unity using Guid(1683781fbdf50bb489089e13981f61e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05da2b34343105eab6e3f181bbfdc968') in 0.012680 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 300.964600 seconds.
-  path: Assets/Sprites/Personajes/Hana/varios.png
-  artifactKey: Guid(2b0f03fff695d994b946cb3d7026b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Personajes/Hana/varios.png using Guid(2b0f03fff695d994b946cb3d7026b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4287c23f9e8e3396156d57f89ca54740') in 0.227752 seconds 
+  Time since last request: 458.053290 seconds.
+  path: Assets/Fonts/Autography SDF.asset
+  artifactKey: Guid(381c0f520b817fd4c8ec8b097747a5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Autography SDF.asset using Guid(381c0f520b817fd4c8ec8b097747a5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf1a170b13e94b2ef11c71c49193397') in 0.327336 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 619.612732 seconds.
-  path: Assets/Scripts/Player/personaje.cs
-  artifactKey: Guid(7be5138adb3deb747af8067b03151d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/personaje.cs using Guid(7be5138adb3deb747af8067b03151d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2b42023b0e40ecf4fe27365990e1e') in 0.016765 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fonts/FuturaHandwritten SDF.asset
+  artifactKey: Guid(f95fb37dce50c4a4cbbac9397d124082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/FuturaHandwritten SDF.asset using Guid(f95fb37dce50c4a4cbbac9397d124082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d842165ef30cc3fd504d893ee331fb') in 0.122551 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1181.823937 seconds.
-  path: Assets/Animations/objects
-  artifactKey: Guid(f75d54c2c6e8b854caac9ba634742dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/objects using Guid(f75d54c2c6e8b854caac9ba634742dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe86cd8a40c5dec67ef405231de9f7c') in 0.007718 seconds 
+  Time since last request: 1.619088 seconds.
+  path: Assets/Fonts/Lemon Juice SDF.asset
+  artifactKey: Guid(7d916f0c8035a0540bb20f5dc5c383e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lemon Juice SDF.asset using Guid(7d916f0c8035a0540bb20f5dc5c383e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717c9f2f80025dac089a8ec912d4b22e') in 0.100389 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.865073 seconds.
-  path: Assets/Animations/objects/dustparticles
-  artifactKey: Guid(30dfe6eec695c0f4e8602db5b42c6f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/objects/dustparticles using Guid(30dfe6eec695c0f4e8602db5b42c6f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd469252f5b9b064c65332b523fe4693c') in 0.007749 seconds 
+  Time since last request: 0.334389 seconds.
+  path: Assets/Fonts/Purple Smile SDF.asset
+  artifactKey: Guid(b7162506f49e6a14696794ed523bd523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Purple Smile SDF.asset using Guid(b7162506f49e6a14696794ed523bd523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c40f090943872c207fe6c21dc9526c') in 0.091878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.493523 seconds.
-  path: Assets/Animations/objects/dustparticles/dustParticle.controller
-  artifactKey: Guid(b4dadb9c1420e72499dd75799d7da207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/objects/dustparticles/dustParticle.controller using Guid(b4dadb9c1420e72499dd75799d7da207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa1af3b598c63e57a051133fffc85fc') in 0.014075 seconds 
+  Time since last request: 0.274678 seconds.
+  path: Assets/Fonts/Sunny Spells SDF.asset
+  artifactKey: Guid(cc508fb614e1e40468b20746ace8a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Sunny Spells SDF.asset using Guid(cc508fb614e1e40468b20746ace8a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38186927f01e51627879a457e1a9c2d') in 0.093494 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.042192 seconds.
-  path: Assets/Animations/objects/dustparticles/dash.anim
-  artifactKey: Guid(e536dfd6a87487142baf98805df9475d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/objects/dustparticles/dash.anim using Guid(e536dfd6a87487142baf98805df9475d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e8be762177f3e09a05c7aea433f9e4') in 0.009455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 329.480799 seconds.
-  path: Assets/Prefabs/player/Hana.prefab
-  artifactKey: Guid(19dc2e8a4dd5f5d42b859f08fde4beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/player/Hana.prefab using Guid(19dc2e8a4dd5f5d42b859f08fde4beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d9d7090533f5eaf90a2270fd8cf4ca') in 0.137409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.088091 seconds.
-  path: Assets/Prefabs/player/dustParticleFather.prefab
-  artifactKey: Guid(28d323fa8ad7046488daff3bf22dd388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/player/dustParticleFather.prefab using Guid(28d323fa8ad7046488daff3bf22dd388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (dustParticle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (dustParticle) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'b0840d641fe85596086ec8811666a278') in 0.033190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.386091 seconds.
-  path: Assets/Prefabs/player/dustParticleFather.prefab
-  artifactKey: Guid(28d323fa8ad7046488daff3bf22dd388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/player/dustParticleFather.prefab using Guid(28d323fa8ad7046488daff3bf22dd388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50cf405e8ab4668dc6a4e362f13fd42') in 0.025985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.266554 seconds.
-  path: Assets/Scripts/Player/personaje.cs
-  artifactKey: Guid(7be5138adb3deb747af8067b03151d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/personaje.cs using Guid(7be5138adb3deb747af8067b03151d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299fce8b22b6a9bc1ebfb87f975c0ca9') in 0.003807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 89.984192 seconds.
-  path: Assets/Scripts/Player/personaje.cs
-  artifactKey: Guid(7be5138adb3deb747af8067b03151d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/personaje.cs using Guid(7be5138adb3deb747af8067b03151d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ca008e315941c4eedbf1921f85b5c6') in 0.002959 seconds 
+  Time since last request: 0.330758 seconds.
+  path: Assets/Fonts/Wash Your Hand SDF.asset
+  artifactKey: Guid(6d4d96b756b447c42b292df96e004920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Wash Your Hand SDF.asset using Guid(6d4d96b756b447c42b292df96e004920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2c29103fc740d1a415b0668e07d3fd') in 0.123111 seconds 
