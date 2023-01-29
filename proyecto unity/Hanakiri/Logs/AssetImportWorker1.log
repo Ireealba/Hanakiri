@@ -15,7 +15,7 @@ D:/GitHub/Hanakiri/proyecto unity/Hanakiri
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54671
+60094
 Successfully changed project path to: D:/GitHub/Hanakiri/proyecto unity/Hanakiri
 D:/GitHub/Hanakiri/proyecto unity/Hanakiri
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/GitHub/Hanakiri/proyecto unity/Hanakiri
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 127.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path D:/UnityHubEditor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'D:/UnityHubEditor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityHubEditor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityHubEditor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityHubEditor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002292 seconds.
+Registered in 0.002407 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 98.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 113.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.621 seconds
 Domain Reload Profiling:
-	ReloadAssembly (555ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (396ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (249ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (114ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007304 seconds.
+Registered in 0.007726 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.67 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 122.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
+- Completed reload, in  1.275 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (252ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (567ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (604ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (226ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (242ms)
 				ProcessInitializeOnLoadMethodAttributes (120ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -141,12 +141,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4896 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 93 unused Assets / (252.6 KB). Loaded Objects now: 5314.
-Memory consumption went from 176.7 MB to 176.4 MB.
-Total: 6.564900 ms (FindLiveObjects: 0.485400 ms CreateObjectMapping: 0.119600 ms MarkObjects: 5.721500 ms  DeleteObjects: 0.237200 ms)
+Memory consumption went from 176.7 MB to 176.5 MB.
+Total: 6.625300 ms (FindLiveObjects: 0.484400 ms CreateObjectMapping: 0.114400 ms MarkObjects: 5.722000 ms  DeleteObjects: 0.303100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,130 +160,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9383.419641 seconds.
-  path: Assets/Sprites/menu inicial/hana.png
-  artifactKey: Guid(16c2c47e750dee64a9d168a78849ee44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/menu inicial/hana.png using Guid(16c2c47e750dee64a9d168a78849ee44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4d2188fe1692313522ce3ec8661a38') in 0.305739 seconds 
+  Time since last request: 20849.566550 seconds.
+  path: Assets/Sprites/escenarios/suelos/escenarios_0.asset
+  artifactKey: Guid(8ae81e50c1da0bc43926f67d267fecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_0.asset using Guid(8ae81e50c1da0bc43926f67d267fecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a384e3c877bca52445fcaf7c92441f') in 0.104825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3697.682947 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png
-  artifactKey: Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png using Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5003f5bca19e42698767bbc274201c7') in 0.028866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Paste@4x.png
-  artifactKey: Guid(35a3340b835c797478eb139353421953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Paste@4x.png using Guid(35a3340b835c797478eb139353421953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83540479b355e868002cebe944e09f21') in 0.020920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence@3x.png
-  artifactKey: Guid(dd74e4fa4aa2947d6a14ab33d32d7c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Sprite_Influence@3x.png using Guid(dd74e4fa4aa2947d6a14ab33d32d7c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82497e80cae9435bde4d7f74417cdbd1') in 0.023368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.526674 seconds.
-  path: Assets/Background/lobby capa frontal trampilla .png
-  artifactKey: Guid(9def0aa3d5336d246b5383cc67482655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Background/lobby capa frontal trampilla .png using Guid(9def0aa3d5336d246b5383cc67482655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3f02f705c090d4b0113f5f48e2b9ac') in 0.119353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/personaje.png
-  artifactKey: Guid(1f8e40be2183121428df7374a94c616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/personaje.png using Guid(1f8e40be2183121428df7374a94c616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702368cb354a9f1d90207cd007cab615') in 0.182242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.231989 seconds.
-  path: Packages/com.unity.2d.path/Editor/Handles/ShapeTool.png
-  artifactKey: Guid(0601759dc49769849996e4dae10a2204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.path/Editor/Handles/ShapeTool.png using Guid(0601759dc49769849996e4dae10a2204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a99af9ec9d5002cbdf05560087ce65') in 0.022790 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/escenarios/suelos/escenarios_2.asset
+  artifactKey: Guid(7c19c51d19566a34ba574d6d585511f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_2.asset using Guid(7c19c51d19566a34ba574d6d585511f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e42c7e13e26a93aaa9ea41c97060c18') in 0.013676 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.2d.path/Editor/Handles/ShapeToolPro.png
-  artifactKey: Guid(20ac412813dce2241a95fcf2dad05436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.path/Editor/Handles/ShapeToolPro.png using Guid(20ac412813dce2241a95fcf2dad05436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ccdfd901aaddee3c059ba8515e32c') in 0.025744 seconds 
+  path: Assets/Sprites/escenarios/suelos/escenarios_9.asset
+  artifactKey: Guid(b7acefa48d628b44ea2e2d47c001f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_9.asset using Guid(b7acefa48d628b44ea2e2d47c001f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8b628f53e61beb2a2c991c3803d0db') in 0.015078 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Personajes/SKULL/skull.png
-  artifactKey: Guid(f8e4584f49a9ca74ea5fd895488af43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Personajes/SKULL/skull.png using Guid(f8e4584f49a9ca74ea5fd895488af43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd906c88b7b85be12e180b3464a50451') in 0.156776 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/escenarios/suelos/escenarios_1.asset
+  artifactKey: Guid(f3ebc74b231d89e488668509a37d74d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_1.asset using Guid(f3ebc74b231d89e488668509a37d74d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50805e5355b37b1978c771d2c4518989') in 0.013381 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.364434 seconds.
-  path: Packages/com.unity.2d.path/Editor/Handles/TangentBroken.png
-  artifactKey: Guid(b370d25fdf6f8914287e27c0c3dede6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.path/Editor/Handles/TangentBroken.png using Guid(b370d25fdf6f8914287e27c0c3dede6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23af3c8cffb106f1b749d603aa15aeeb') in 0.028095 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/escenarios/suelos/escenarios_10.asset
+  artifactKey: Guid(d02e6accd78a10b45896c10b2c947e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_10.asset using Guid(d02e6accd78a10b45896c10b2c947e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6794e89a699f30679c1f3bc0ad2793') in 0.013715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.487971 seconds.
-  path: Packages/com.unity.2d.path/Editor/Handles/TangentContinuousPro.png
-  artifactKey: Guid(8d4a2ded892e27742bb6d4d263639dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.path/Editor/Handles/TangentContinuousPro.png using Guid(8d4a2ded892e27742bb6d4d263639dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2548894011749c75accd077b06eb169b') in 0.021649 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/escenarios/suelos/escenarios_3.asset
+  artifactKey: Guid(e53bb9b96cacdd548b7849eb9829c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_3.asset using Guid(e53bb9b96cacdd548b7849eb9829c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc64d57b24663c78c018c7d93e0c2dfc') in 0.012669 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/tecla e.png
-  artifactKey: Guid(77b7477c4a690044aa0715e784ce64bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tecla e.png using Guid(77b7477c4a690044aa0715e784ce64bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a56b3789fd4f54b553bc46cf5d4318f') in 0.063622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.2d.path/Editor/Handles/TangentLinear.png
-  artifactKey: Guid(a728d9332cba5f448a36350199dc573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.path/Editor/Handles/TangentLinear.png using Guid(a728d9332cba5f448a36350199dc573b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672de04c617415d3c1e43701d96347a4') in 0.020264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/escenarios/Lobby/trampilla.png
-  artifactKey: Guid(865ea6ca9c851664f826881897df2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/escenarios/Lobby/trampilla.png using Guid(865ea6ca9c851664f826881897df2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e219910164a11801da4a8c65fe7cbb0a') in 0.111333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1318.864584 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f300f228dae2ffe8b1dbac088a47ee59') in 0.111282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e5962583165a40df1b6c1b77745b29') in 0.042100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.158091 seconds.
-  path: Assets/Fonts/Lemon Juice SDF.asset
-  artifactKey: Guid(7d916f0c8035a0540bb20f5dc5c383e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Lemon Juice SDF.asset using Guid(7d916f0c8035a0540bb20f5dc5c383e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7932a490ed198227f9dcde2088cd8f76') in 0.099375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Fonts/PinkChicken-Regular SDF.asset
-  artifactKey: Guid(f6edc4b530f23a44887f09ec27bb6987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/PinkChicken-Regular SDF.asset using Guid(f6edc4b530f23a44887f09ec27bb6987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47acd2ee7f8fc2749a981986fa401e4b') in 0.072559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
-  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1ea6a63e88643b801e34b87610c57e') in 0.031847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fonts/Sunny Spells SDF.asset
-  artifactKey: Guid(cc508fb614e1e40468b20746ace8a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Sunny Spells SDF.asset using Guid(cc508fb614e1e40468b20746ace8a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5895f556b9165d2ac66c4431ad53c673') in 0.063823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.412394 seconds.
-  path: Assets/Fonts/FuturaHandwritten SDF.asset
-  artifactKey: Guid(f95fb37dce50c4a4cbbac9397d124082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/FuturaHandwritten SDF.asset using Guid(f95fb37dce50c4a4cbbac9397d124082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc50e1cacaa07b5d9d877bd97c84f7de') in 0.083944 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/escenarios/suelos/escenarios_4.asset
+  artifactKey: Guid(59deeb5d08b41ed449471651bc3e4636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escenarios/suelos/escenarios_4.asset using Guid(59deeb5d08b41ed449471651bc3e4636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d9c06ff1e4df4e4c9663d89e48387b') in 0.013546 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
