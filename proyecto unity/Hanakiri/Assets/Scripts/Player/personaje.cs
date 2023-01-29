@@ -40,8 +40,12 @@ public class personaje : MonoBehaviour
     public static bool iconoaccion = false;
 
     //dash
-    private bool dashing;
-    [SerializeField] private float dashForce;
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashTime;
+    private float initialGravity;
+    private bool canDash = true;
+    private bool canMove = true;
+
 
     //wallsliding
     private bool sliding;
@@ -59,6 +63,8 @@ public class personaje : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         Scene scene = SceneManager.GetActiveScene();
+
+        initialGravity = rb2D.gravityScale;
 
         //nos indicará si estamos o no en el lobby para desactivar o activar algunas funciones
         if (scene.name == "lobby")
@@ -93,14 +99,10 @@ public class personaje : MonoBehaviour
             sliding = false;
         }
 
-        animator.SetBool("Dashing", dashing);
-
-        if (Input.GetKeyDown(KeyCode.LeftShift)){
-            dashing = true;
-        }
-        else
+        //dash
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
-            dashing = false;
+            StartCoroutine(Dash());
         }
 
         //salto (en el lobby desactivado)
@@ -135,8 +137,12 @@ public class personaje : MonoBehaviour
         {
             if (!wallJumping)
             {
-                //moverse y saltar
-                Move(horizontalMove * Time.fixedDeltaTime, jump);
+                if (canMove)
+                {
+                    //moverse y saltar
+                    Move(horizontalMove * Time.fixedDeltaTime, jump);
+                }
+                
 
                 jump = false;
 
@@ -144,11 +150,6 @@ public class personaje : MonoBehaviour
                 if (sliding)
                 {
                     rb2D.velocity = new Vector2(rb2D.velocity.x, Mathf.Clamp(rb2D.velocity.y, -slideSpeed, float.MaxValue));
-                }
-
-                if (dashing)
-                {
-                    rb2D.velocity = new Vector2(dashForce, rb2D.velocity.y);
                 }
             }
         }
@@ -244,5 +245,18 @@ public class personaje : MonoBehaviour
         wallJumping = false;
     }
 
+    private IEnumerator Dash()
+    {
+        canMove = false;
+        canDash = false;
+        rb2D.gravityScale = 0;
+        rb2D.velocity = new Vector2(dashSpeed * transform.localScale.x, 0);
+        animator.SetTrigger("Dashing");
 
+        yield return new WaitForSeconds(dashTime);
+
+        canMove = true;
+        canDash = true;
+        rb2D.gravityScale = initialGravity;
+    }
 }
