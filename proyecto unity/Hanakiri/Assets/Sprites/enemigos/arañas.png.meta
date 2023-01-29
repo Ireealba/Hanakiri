@@ -1,0 +1,1291 @@
+fileFormatVersion: 2
+guid: 1ad498409374eb74e9bd6c1948164156
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ara\xF1a_caer1"
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 28
+        width: 538
+        height: 1984
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: -749}
+        - {x: 107, y: -726}
+        - {x: 152, y: -722}
+        - {x: 207, y: -752}
+        - {x: 249, y: -799}
+        - {x: 264, y: -828}
+        - {x: 260, y: -852}
+        - {x: 232, y: -890}
+        - {x: 172, y: -958}
+        - {x: 140, y: -961}
+        - {x: 134, y: -933}
+        - {x: 132, y: -905}
+        - {x: 94, y: -965}
+        - {x: 2, y: -984}
+        - {x: -80, y: -974}
+        - {x: -117, y: -946}
+        - {x: -136, y: -978}
+        - {x: -169, y: -978}
+        - {x: -210, y: -936}
+        - {x: -266, y: -880}
+        - {x: -267, y: -844}
+        - {x: -246, y: -801}
+        - {x: -197, y: -760}
+        - {x: -135, y: -736}
+        - {x: -99, y: -758}
+        - {x: -88, y: -812}
+        - {x: -60, y: -798}
+        - {x: -20, y: -790}
+        - {x: -18, y: 992}
+        - {x: 11, y: 992}
+        - {x: 10, y: -239}
+        - {x: 10, y: -267}
+        - {x: 11, y: -789}
+        - {x: 56, y: -792}
+        - {x: 80, y: -799}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1919c8adf0514e849b29bcf0a351e6fe
+      internalID: 5137741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a_caer2"
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 298
+        width: 532
+        height: 1719
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: -674.5}
+        - {x: 105, y: -606.5}
+        - {x: 152, y: -592.5}
+        - {x: 229, y: -631.5}
+        - {x: 256, y: -688.5}
+        - {x: 266, y: -720.5}
+        - {x: 252, y: -778.5}
+        - {x: 146, y: -859.5}
+        - {x: -124, y: -859.5}
+        - {x: -187, y: -857.5}
+        - {x: -266, y: -753.5}
+        - {x: -261, y: -689.5}
+        - {x: -209, y: -649.5}
+        - {x: -151, y: -611.5}
+        - {x: -95, y: -627.5}
+        - {x: -82, y: -674.5}
+        - {x: -38, y: -672.5}
+        - {x: -8, y: -671.5}
+        - {x: -7, y: 859.5}
+        - {x: 25, y: 859.5}
+        - {x: 25, y: -671.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be54ea7ae8d7f784a822a11a54382ab0
+      internalID: 59365118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_2"
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 463
+        width: 284
+        height: 574
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142, y: -2}
+        - {x: -142, y: 31}
+        - {x: -59, y: 35}
+        - {x: -89, y: 144}
+        - {x: -88, y: 244}
+        - {x: -40, y: 287}
+        - {x: 73, y: 287}
+        - {x: 142, y: 114}
+        - {x: 142, y: -96}
+        - {x: 142, y: -233}
+        - {x: 47, y: -287}
+        - {x: -14, y: -282}
+        - {x: -63, y: -173}
+        - {x: -57, y: -3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d67244c524ff264283ffbba85ff34c5
+      internalID: -1375255941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a_caer3"
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 36
+        width: 531
+        height: 1473
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.5, y: -521.5}
+        - {x: 98.5, y: -481.5}
+        - {x: 139.5, y: -474.5}
+        - {x: 209.5, y: -492.5}
+        - {x: 265.5, y: -575.5}
+        - {x: 239.5, y: -683.5}
+        - {x: 99.5, y: -736.5}
+        - {x: -101.5, y: -736.5}
+        - {x: -186.5, y: -728.5}
+        - {x: -265.5, y: -625.5}
+        - {x: -265.5, y: -553.5}
+        - {x: -192.5, y: -489.5}
+        - {x: -98.5, y: -489.5}
+        - {x: -20.5, y: -525.5}
+        - {x: -21.5, y: 736.5}
+        - {x: 30.5, y: 736.5}
+        - {x: 21.5, y: -504.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678bb9bf45b6e0540aeca55a3a795278
+      internalID: 1532077753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_0"
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 313
+        width: 528
+        height: 1076
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 148, y: -538}
+        - {x: -161, y: -538}
+        - {x: -247, y: -513}
+        - {x: -264, y: -418}
+        - {x: -244, y: -303}
+        - {x: -104, y: -302}
+        - {x: -12, y: -354}
+        - {x: -10, y: 538}
+        - {x: 21, y: 538}
+        - {x: 22, y: -354}
+        - {x: 112, y: -265}
+        - {x: 219, y: -279}
+        - {x: 264, y: -396}
+        - {x: 219, y: -513}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2175ffd330008e47881fae2d26e2a39
+      internalID: -1621166820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_1"
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 35
+        width: 522
+        height: 863
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -164, y: -426.5}
+        - {x: -261, y: -315.5}
+        - {x: -261, y: -275.5}
+        - {x: -205, y: -209.5}
+        - {x: -132, y: -175.5}
+        - {x: -14, y: -233.5}
+        - {x: -12, y: 431.5}
+        - {x: 17, y: 431.5}
+        - {x: 17, y: -233.5}
+        - {x: 118, y: -155.5}
+        - {x: 186, y: -177.5}
+        - {x: 261, y: -243.5}
+        - {x: 261, y: -318.5}
+        - {x: 153, y: -425.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69df6ce2db276a4cba60042da9ec480
+      internalID: -1297305652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_3"
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 118
+        width: 581
+        height: 886
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -147.5, y: -443}
+        - {x: -290.5, y: -382}
+        - {x: -290.5, y: -290}
+        - {x: -194.5, y: -237}
+        - {x: -85.5, y: -244}
+        - {x: -36.5, y: -215}
+        - {x: -4.5, y: -212}
+        - {x: -1.5, y: 443}
+        - {x: 31.5, y: 443}
+        - {x: 35.5, y: -215}
+        - {x: 83.5, y: -215}
+        - {x: 192.5, y: -193}
+        - {x: 288.5, y: -223}
+        - {x: 290.5, y: -272}
+        - {x: 267.5, y: -306}
+        - {x: 203.5, y: -365}
+        - {x: 125.5, y: -431}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97d6fff90d9989429c3167a1d0a3a11
+      internalID: 433484792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_4"
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 283
+        width: 594
+        height: 1121
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: -543.5}
+        - {x: -270, y: -546.5}
+        - {x: -297, y: -384.5}
+        - {x: -183, y: -337.5}
+        - {x: -97, y: -340.5}
+        - {x: -15.347046, y: -335.29663}
+        - {x: -8, y: 560.5}
+        - {x: 29, y: 560.5}
+        - {x: 38.11682, y: -331.88965}
+        - {x: 107, y: -327.5}
+        - {x: 185, y: -296.5}
+        - {x: 297, y: -360.5}
+        - {x: 269, y: -437.5}
+        - {x: 169, y: -518.5}
+        - {x: 99, y: -519.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62809acbc154f408aa488cb92779ca
+      internalID: -1511384228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_5"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 39
+        width: 586
+        height: 1483
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84, y: -741.5}
+        - {x: -256, y: -728.5}
+        - {x: -293, y: -615.5}
+        - {x: -253, y: -554.5}
+        - {x: -145, y: -504.5}
+        - {x: -25, y: -533.5}
+        - {x: -8, y: -365.5}
+        - {x: -8, y: -342.5}
+        - {x: -20, y: -69.5}
+        - {x: -24, y: 105.5}
+        - {x: -21, y: 741.5}
+        - {x: 34, y: 741.5}
+        - {x: 29, y: 111.5}
+        - {x: 30, y: -1.5}
+        - {x: 33, y: -84.5}
+        - {x: 27, y: -334.5}
+        - {x: 33, y: -365.5}
+        - {x: 49, y: -529.5}
+        - {x: 107, y: -531.5}
+        - {x: 182, y: -496.5}
+        - {x: 293, y: -568.5}
+        - {x: 238, y: -671.5}
+        - {x: 178, y: -726.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3152ce8f97310f14fbd7375a26fe2803
+      internalID: 1646033815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_6"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 265
+        width: 572
+        height: 1732
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -286, y: -866}
+        - {x: -286, y: -616}
+        - {x: -14, y: -173}
+        - {x: -2, y: 866}
+        - {x: 50, y: 866}
+        - {x: 70, y: -159}
+        - {x: 286, y: -619}
+        - {x: 286, y: -866}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbc9141d3fc8e428e0482e12972953
+      internalID: 454831136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_7"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 30
+        width: 585
+        height: 1977
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -144.5, y: -988.5}
+        - {x: -292.5, y: -975.5}
+        - {x: -292.5, y: -759.5}
+        - {x: -13.8828125, y: -759.0171}
+        - {x: -4.5, y: -374.5}
+        - {x: -1.5, y: -336.5}
+        - {x: -1.5, y: -301.5}
+        - {x: -10.5, y: -271.5}
+        - {x: -9.5, y: 988.5}
+        - {x: 57.5, y: 988.5}
+        - {x: 42.5, y: -366.5}
+        - {x: 31.5, y: -635.5}
+        - {x: 39.5, y: -758.5}
+        - {x: 284.5, y: -758.5}
+        - {x: 286.5, y: -976.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff4343b3dcd49e4b9077abe71d697ba
+      internalID: -100171587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 307
+        height: 555
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -153.5, y: -277.5}
+        - {x: -153.5, y: 277.5}
+        - {x: -26.5, y: 277.5}
+        - {x: 63.5, y: 235.5}
+        - {x: 153.5, y: 10.5}
+        - {x: 153.5, y: -54.5}
+        - {x: 77.5, y: -277.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df6b50eda19d984d8b953c857890a1f
+      internalID: -2029155020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_9"
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 532
+        width: 278
+        height: 526
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7336cd381fd4d43449a29906a1a5e34a
+      internalID: -1889495628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_10"
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 385
+        width: 406
+        height: 600
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -58}
+        - {x: 45, y: -208}
+        - {x: -16, y: -300}
+        - {x: -89, y: -300}
+        - {x: -179, y: -170}
+        - {x: -203, y: 32}
+        - {x: -203, y: 198}
+        - {x: -160, y: 281}
+        - {x: -55, y: 300}
+        - {x: 45, y: 153}
+        - {x: 17, y: 6}
+        - {x: 203, y: 4}
+        - {x: 203, y: -52}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ccc921bf4586d48a2048ece5ca7b8f
+      internalID: 790717542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_11"
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 904
+        width: 517
+        height: 381
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121.5, y: -190.5}
+        - {x: -201.5, y: -190.5}
+        - {x: -258.5, y: -84.5}
+        - {x: -258.5, y: -27.5}
+        - {x: -199.5, y: 33.5}
+        - {x: -145.5, y: 49.5}
+        - {x: -100.5, y: 52.5}
+        - {x: -90.5, y: 2.5}
+        - {x: -35.5, y: 12.5}
+        - {x: -26.5, y: 190.5}
+        - {x: 25.5, y: 190.5}
+        - {x: 124.5, y: 78.5}
+        - {x: 258.5, y: 58.5}
+        - {x: 258.5, y: -135.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62dc9e44561a6c44a1d7d9c4b53bc2c
+      internalID: -1373911288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_12"
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 998
+        width: 572
+        height: 398
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 286, y: -65}
+        - {x: 223, y: -119}
+        - {x: 173, y: -199}
+        - {x: 40, y: -193}
+        - {x: -4, y: -184}
+        - {x: -45, y: -181}
+        - {x: -62, y: -199}
+        - {x: -185, y: -199}
+        - {x: -286, y: -139}
+        - {x: -286, y: -59}
+        - {x: -249, y: -12}
+        - {x: -37, y: 17}
+        - {x: -21, y: 199}
+        - {x: 33, y: 199}
+        - {x: 53.56775, y: 22.822266}
+        - {x: 243, y: 35}
+        - {x: 286, y: -32}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba276391a3a484a97afcd0b4d64e34
+      internalID: -1533630773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_13"
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1319
+        width: 572
+        height: 638
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 139, y: -319}
+        - {x: -85, y: -319}
+        - {x: -286, y: -312}
+        - {x: -286, y: -192}
+        - {x: -185, y: -93}
+        - {x: -12, y: -81}
+        - {x: -6, y: 319}
+        - {x: 33, y: 319}
+        - {x: 40, y: -78}
+        - {x: 93, y: -78}
+        - {x: 286, y: -94}
+        - {x: 286, y: -171}
+        - {x: 243, y: -238}
+        - {x: 185, y: -239}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b55e48e718553f4a8ec476f23d0528b
+      internalID: -1325112031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_14"
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1358
+        width: 546
+        height: 394
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -156}
+        - {x: -56, y: -153}
+        - {x: -76, y: -197}
+        - {x: -273, y: -197}
+        - {x: -273, y: -92}
+        - {x: -154, y: 24}
+        - {x: -32, y: 48}
+        - {x: -16, y: 197}
+        - {x: 44, y: 197}
+        - {x: 63, y: 40}
+        - {x: 273, y: 61}
+        - {x: 273, y: -68}
+        - {x: 241, y: -90}
+        - {x: 214, y: -142}
+        - {x: 76, y: -181}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1594aa43e88fb0046a94598d27607bf0
+      internalID: -2010389393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_15"
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1434
+        width: 525
+        height: 620
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: -309}
+        - {x: -189.5, y: -310}
+        - {x: -240.5, y: -265}
+        - {x: -250.5, y: -204}
+        - {x: -262.5, y: -196}
+        - {x: -262.5, y: -150}
+        - {x: -240.5, y: -52}
+        - {x: -93.5, y: -66}
+        - {x: -78.5, y: -121}
+        - {x: -33.5, y: -116}
+        - {x: -20.5, y: 185}
+        - {x: -18.5, y: 310}
+        - {x: 18.5, y: 310}
+        - {x: 21.5, y: 183}
+        - {x: 55.5, y: -92}
+        - {x: 106.5, y: -38}
+        - {x: 194.5, y: -57}
+        - {x: 262.5, y: -152}
+        - {x: 247.5, y: -193}
+        - {x: 139.5, y: -306}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f07dbd91c6425744a442e7750f6b7d8
+      internalID: 25381291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_16"
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1751
+        width: 553
+        height: 658
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -130.5, y: -329}
+        - {x: -276.5, y: -319}
+        - {x: -276.5, y: -222}
+        - {x: -204.5, y: -138}
+        - {x: -109.5, y: -109}
+        - {x: -14.5, y: -94}
+        - {x: -13.5, y: 329}
+        - {x: 34.5, y: 329}
+        - {x: 37.5, y: -79}
+        - {x: 99.5, y: -92}
+        - {x: 189.5, y: -71}
+        - {x: 276.5, y: -106}
+        - {x: 276.5, y: -223}
+        - {x: 204.5, y: -329}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09cea091e23e5240b991b0d2cc6c33b
+      internalID: 1336731529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_17"
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1911
+        width: 587
+        height: 637
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: -318.5}
+        - {x: -293.5, y: -313.5}
+        - {x: -293.5, y: -171.5}
+        - {x: -217.5, y: -82.5}
+        - {x: -109.5, y: -104.5}
+        - {x: -85.5, y: -135.5}
+        - {x: -58.5, y: -123.5}
+        - {x: -30.5, y: -107.5}
+        - {x: -15.5, y: 318.5}
+        - {x: 41.5, y: 318.5}
+        - {x: 69.5, y: -104.5}
+        - {x: 178.5, y: -65.5}
+        - {x: 293.5, y: -77.5}
+        - {x: 293.5, y: -179.5}
+        - {x: 234.5, y: -262.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d15fc1167a87494bb40bbba5010e598
+      internalID: -702349294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_18"
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 2049
+        width: 293
+        height: 592
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ebe0a1227c90349abf6dc69032904a
+      internalID: -1798595248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_19"
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 1009
+        width: 582
+        height: 1984
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.574707, y: 739.78394}
+        - {x: 7, y: 634}
+        - {x: 8, y: 340}
+        - {x: 4, y: -992}
+        - {x: -38, y: -992}
+        - {x: -36, y: 481}
+        - {x: -34, y: 644}
+        - {x: -43.504395, y: 740.7473}
+        - {x: -291, y: 745}
+        - {x: -291, y: 992}
+        - {x: 291, y: 992}
+        - {x: 291, y: 735}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3a38ad60974394cab8f5728215e8f8
+      internalID: -507903843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_20"
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 995
+        width: 584
+        height: 1744
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.510742, y: 602.7505}
+        - {x: -4, y: -872}
+        - {x: -46, y: -872}
+        - {x: -53.279785, y: 605.78125}
+        - {x: -292, y: 616}
+        - {x: -292, y: 862}
+        - {x: 292, y: 872}
+        - {x: 292, y: 591}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1430b41e4b23bb54a9cd98fd7b0df480
+      internalID: -206045948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_21"
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 1468
+        width: 592
+        height: 1485
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 511.5}
+        - {x: -5, y: 344.5}
+        - {x: -5, y: -742.5}
+        - {x: -52, y: -742.5}
+        - {x: -39, y: 285.5}
+        - {x: -49.016113, y: 508.26123}
+        - {x: -296, y: 499.5}
+        - {x: -296, y: 742.5}
+        - {x: 296, y: 742.5}
+        - {x: 296, y: 520.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c86cb8de1b75044abc96edacff1beea
+      internalID: -1794644011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_22"
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1573
+        width: 586
+        height: 1102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 301}
+        - {x: 6, y: -551}
+        - {x: -39, y: -551}
+        - {x: -38, y: -94}
+        - {x: -54.404297, y: 305.1858}
+        - {x: -293, y: 306}
+        - {x: -288, y: 550}
+        - {x: 293, y: 551}
+        - {x: 293, y: 304}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1267bed48fe44bbb2741428515352
+      internalID: -2123111440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_23"
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2032
+        width: 602
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 208.5}
+        - {x: -1, y: -437.5}
+        - {x: -40, y: -437.5}
+        - {x: -41, y: -4.5}
+        - {x: -57, y: 193.5}
+        - {x: -123, y: 184.5}
+        - {x: -301, y: 202.5}
+        - {x: -301, y: 284.5}
+        - {x: -246, y: 369.5}
+        - {x: -160, y: 399.5}
+        - {x: -24, y: 416.5}
+        - {x: 42, y: 437.5}
+        - {x: 205, y: 427.5}
+        - {x: 286, y: 374.5}
+        - {x: 298, y: 291.5}
+        - {x: 202, y: 206.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f0b087a62de2c408d51df47e9ecdd3
+      internalID: -1449370456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_24"
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2111
+        width: 546
+        height: 889
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 138, y: 212.5}
+        - {x: 43.500244, y: 202.50024}
+        - {x: 11, y: 198.5}
+        - {x: 7, y: -444.5}
+        - {x: -35, y: -444.5}
+        - {x: -31, y: 81.5}
+        - {x: -32, y: 138.5}
+        - {x: -51, y: 192.5}
+        - {x: -141, y: 210.5}
+        - {x: -216, y: 194.5}
+        - {x: -258, y: 232.5}
+        - {x: -273, y: 286.5}
+        - {x: -273, y: 327.5}
+        - {x: -258, y: 426.5}
+        - {x: 149, y: 444.5}
+        - {x: 240, y: 426.5}
+        - {x: 273, y: 368.5}
+        - {x: 214, y: 258.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7be900bfff9a54a90978f285166b33
+      internalID: -52843650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_25"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1639
+        width: 543
+        height: 1119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.09729, y: 317.5}
+        - {x: 10.5, y: -184.5}
+        - {x: 9.5, y: -559.5}
+        - {x: -33.5, y: -559.5}
+        - {x: -54.930054, y: 317.5}
+        - {x: -259.5, y: 317.5}
+        - {x: -271.5, y: 419.5}
+        - {x: -259.5, y: 548.5}
+        - {x: 150.5, y: 559.5}
+        - {x: 257.5, y: 548.5}
+        - {x: 271.5, y: 480.5}
+        - {x: 257.5, y: 317.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9927bd0b125204c8b11814a7019ebf
+      internalID: -1477558685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_26"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1478
+        width: 545
+        height: 1506
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -753}
+        - {x: -34.5, y: 514}
+        - {x: -110.5, y: 520}
+        - {x: -151.5, y: 518}
+        - {x: -187.5, y: 503}
+        - {x: -269.5, y: 524}
+        - {x: -272.5, y: 625}
+        - {x: -220.5, y: 709}
+        - {x: -80.5, y: 731}
+        - {x: 46.5, y: 753}
+        - {x: 157.5, y: 753}
+        - {x: 212.5, y: 700}
+        - {x: 272.5, y: 690}
+        - {x: 272.5, y: 649}
+        - {x: 229.5, y: 540}
+        - {x: 95.5, y: 536}
+        - {x: 4.5, y: 514}
+        - {x: 7.5, y: -753}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6938676c99928c4292a06ddea15ad0d
+      internalID: 17715715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_27"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 984
+        width: 544
+        height: 1761
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -880.5}
+        - {x: -66, y: 632.5}
+        - {x: -115, y: 652.5}
+        - {x: -249, y: 613.5}
+        - {x: -272, y: 709.5}
+        - {x: -272, y: 845.5}
+        - {x: -154, y: 864.5}
+        - {x: 103, y: 872.5}
+        - {x: 122, y: 868.5}
+        - {x: 142, y: 880.5}
+        - {x: 223, y: 858.5}
+        - {x: 272, y: 818.5}
+        - {x: 260, y: 696.5}
+        - {x: 108, y: 659.5}
+        - {x: 25, y: 625.5}
+        - {x: 11, y: -880.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e184c37714c2da44c9778f78d706e772
+      internalID: 46958502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1as_28"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 981
+        width: 560
+        height: 2006
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: -1003}
+        - {x: -59, y: 745}
+        - {x: -121, y: 767}
+        - {x: -280, y: 742}
+        - {x: -280, y: 986}
+        - {x: -13, y: 1003}
+        - {x: 280, y: 1003}
+        - {x: 280, y: 897}
+        - {x: 237, y: 841}
+        - {x: 156, y: 773}
+        - {x: 12, y: 746}
+        - {x: 12, y: -1003}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9cd4cd8f965d4095b7b1379c2cbd6
+      internalID: 382219523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "ara\xF1as_6": 454831136
+      "ara\xF1as_15": -2010389393
+      "ara\xF1as_27": 17715715
+      "ara\xF1as_24": -1449370456
+      "ara\xF1as_26": -1477558685
+      "ara\xF1a_caer2": 59365118
+      "ara\xF1as_7": -100171587
+      "ara\xF1a_caer1": 5137741
+      "ara\xF1as_12": -1533630773
+      "ara\xF1as_11": -1373911288
+      "ara\xF1as_9": -1889495628
+      "ara\xF1as_20": -507903843
+      "ara\xF1as_4": -1511384228
+      "ara\xF1as_22": -1794644011
+      "ara\xF1as_8": -2029155020
+      "ara\xF1as_17": 1336731529
+      "ara\xF1as_2": -1375255941
+      "ara\xF1as_18": -702349294
+      "ara\xF1as_28": 46958502
+      "ara\xF1as_23": -2123111440
+      "ara\xF1as_14": 2027847779
+      "ara\xF1as_1": -1297305652
+      "ara\xF1as_16": 25381291
+      "ara\xF1as_0": -1621166820
+      "ara\xF1as_5": 1646033815
+      "ara\xF1as_13": -1325112031
+      "ara\xF1as_3": 433484792
+      "ara\xF1a_caer3": 1532077753
+      "ara\xF1as_19": -1798595248
+      "ara\xF1as_21": -206045948
+      "ara\xF1as_25": -52843650
+      "ara\xF1as_10": 790717542
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
