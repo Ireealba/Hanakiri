@@ -403,6 +403,7 @@
 "Assets/Scripts/NPC/ControlIcono.cs"
 "Assets/Scripts/Objects/Trampilla/Trampilla.cs"
 "Assets/Scripts/Player/CheckGround.cs"
+"Assets/Scripts/Player/CheckWall.cs"
 "Assets/Scripts/Player/personaje.cs"
 "Assets/Scripts/Text/ControlDialogos.cs"
 "Assets/Scripts/Text/ObjetoInteractable.cs"

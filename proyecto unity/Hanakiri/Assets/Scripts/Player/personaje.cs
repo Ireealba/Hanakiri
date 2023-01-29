@@ -5,245 +5,244 @@ using UnityEngine.SceneManagement;
 
 public class personaje : MonoBehaviour
 {
-
-    public float runSpeed = 10;
-    public float jumpSpeed = 310;
-    public float doubleJumpSpeed = 2;
-   
-
-    private bool canDoubleJump;
-
     Rigidbody2D rb2D;
-
-    public bool betterJump = false;
-    public float fallMultiplier = 0.5f;
-    public float lowJumpMultiplier = 1f;
-
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+
+    //controlador suelo
+    [SerializeField] private LayerMask isGround;
+    [SerializeField] private Transform checkGround;
+    [SerializeField] private Vector3 dimensionGround;
+    [SerializeField] private bool ground;
+
+    //controlador pared
+    [SerializeField] private Transform checkWall;
+    [SerializeField] private Vector3 dimensionWall;
+    private bool wall;
+
+    //movimiento
+    private float horizontalMove = 0f;
+    [SerializeField] private float moveSpeed;
+    [Range(0, 0.3f)][SerializeField] private float moveSuavizador;
+    private Vector3 speed = Vector3.zero;
+    private bool lookRight = true;
+    private float inputX;
+
+    //salto
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float doubleJumpForce;
+    private bool jump = false;
+    private bool canDoubleJump;
+
+    //lobby
     public bool lobby;
     public static bool accion = false;
     public static bool iconoaccion = false;
 
-    public float dashCooldown;
-    public float dashForce = 30;
-    public GameObject dashParticle;
+    //dash
+    private bool dashing;
+    [SerializeField] private float dashForce;
 
-    bool isTouchingFront = false;
-    bool wallSliding;
-    bool wallJumping;
+    //wallsliding
+    private bool sliding;
+    [SerializeField] private float slideSpeed;
 
-    public float wallSlidingSpeed = 0.75f;
+    //walljump
+    [SerializeField] private float wallJumpPowerX;
+    [SerializeField] private float wallJumpPowerY;
+    [SerializeField] private float wallJumpTime;
+    private bool wallJumping;
 
-    bool isTouchingDerecha;
-    bool isTouchingIzquierda;
 
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         Scene scene = SceneManager.GetActiveScene();
-        if(scene.name == "lobby")
+
+        //nos indicará si estamos o no en el lobby para desactivar o activar algunas funciones
+        if (scene.name == "lobby")
         {
-            animator.SetBool("Lobby", true);
+            //animator.SetBool("Lobby", true);
             lobby = true;
         }
         else
         {
-            animator.SetBool("Lobby", false);
+            //animator.SetBool("Lobby", false);
             lobby = false;
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "cuadro de accion")
-        {
-            accion = true;
-            iconoaccion= true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "cuadro de accion")
-        {
-            accion = false;
-            iconoaccion= false;
-        }
-    }
+    } 
 
     private void Update()
     {
-        dashCooldown -= Time.deltaTime;
+        //posición en x y movimiento
+        inputX = Input.GetAxisRaw("Horizontal");
+        horizontalMove = inputX * moveSpeed;
+        animator.SetFloat("Horizontal", Mathf.Abs(horizontalMove));
+        animator.SetFloat("Vertical", rb2D.velocity.y);
 
-        if (Input.GetKey("space"))
+        //deslizarse pared
+        animator.SetBool("Sliding", sliding);
+
+        if (!ground && wall && inputX != 0)
         {
-            if(CheckGround.isGrounded && lobby == false)
-            {
-                canDoubleJump = true;
-                rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
-            }
-            else
-            {
-                if (Input.GetKeyDown("space"))
-                {
-                    if (canDoubleJump)
-                    {
-                        animator.SetBool("DoubleJump", true);
-                        rb2D.velocity = new Vector2(rb2D.velocity.x, 0);
-                        rb2D.velocity = new Vector2(rb2D.velocity.x, doubleJumpSpeed);
-                        canDoubleJump = false;
-                    }
-                }
-            }
-            
-        }
-
-        if (CheckGround.isGrounded == false)
-        {
-            animator.SetBool("Jump", true);
-            animator.SetBool("Run", false);
-        }
-
-        if (CheckGround.isGrounded == true)
-        {
-            animator.SetBool("Jump", false);
-            animator.SetBool("DoubleJump", false);
-            animator.SetBool("Falling", false);
-            if ((Input.GetKeyDown("d") || Input.GetKeyDown("right") || Input.GetKeyDown("a") || Input.GetKeyDown("left")))
-            {
-                animator.SetBool("Run", true);
-        }
-
-        }
-
-        if (rb2D.velocity.y < 0)
-        {
-            animator.SetBool("Falling", true);
-
-        }else if(rb2D.velocity.y > 0)
-        {
-            animator.SetBool("Falling", false);
-        }
-
-        if(isTouchingFront ==true && CheckGround.isGrounded == false)
-        {
-            wallSliding = true;
+            sliding = true;
         }
         else
         {
-            wallSliding = false;
+            sliding = false;
         }
 
-        if (wallSliding)
+        animator.SetBool("Dashing", dashing);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)){
+            dashing = true;
+        }
+        else
         {
-            animator.Play("wallSlide");
-            rb2D.velocity = new Vector2(rb2D.velocity.x, Mathf.Clamp(rb2D.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            dashing = false;
+        }
+
+        //salto (en el lobby desactivado)
+        if (Input.GetButtonDown("Jump") && ground && !sliding && !lobby)
+        {
+            jump = true;
+            
+        }
+        else if(Input.GetButtonDown("Jump") && !ground && canDoubleJump && !sliding && !lobby)
+        {
+            jump = true;
+        }
+        else if(Input.GetButtonDown("Jump") && wall && sliding && !lobby)
+        {
+            WallJump();
         }
 
     }
 
     void FixedUpdate()
     {
+        //crear caja para saber si está en suelo
+        ground = Physics2D.OverlapBox(checkGround.position, dimensionGround, 0f, isGround);
+        animator.SetBool("Ground", ground);
+
+        //crear caja para saber si está en pared
+        wall = Physics2D.OverlapBox(checkWall.position, dimensionWall, 0f, isGround);
+
+
+        //si no hay un dialogo
         if (ObjetoInteractable.dialogo == false )
         {
-            if (Input.GetKey("d") || Input.GetKey("right") && isTouchingDerecha == false)
+            if (!wallJumping)
             {
+                //moverse y saltar
+                Move(horizontalMove * Time.fixedDeltaTime, jump);
 
-                rb2D.velocity = new Vector2(runSpeed, rb2D.velocity.y);
-                spriteRenderer.flipX = false;
-                animator.SetBool("Run", true);
+                jump = false;
 
-            }
-            else if (Input.GetKey(KeyCode.LeftShift) && dashCooldown <= 0)
-            {
-                animator.SetBool("Dash", true);
-                Dash();
-                animator.SetBool("Dash", false);
-            }
-            else if (Input.GetKey("a") || Input.GetKey("left") && isTouchingIzquierda == false)
-            {
-
-                rb2D.velocity = new Vector2(-runSpeed, rb2D.velocity.y);
-                spriteRenderer.flipX = true;
-                animator.SetBool("Run", true);
-
-            }
-            else
-            {
-                rb2D.velocity = new Vector2(0, rb2D.velocity.y);
-                animator.SetBool("Run", false);
-            }
-
-            if (betterJump)
-            {
-
-                if (rb2D.velocity.y < 0)
+                //deslizarse por pared
+                if (sliding)
                 {
-                    rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier) * Time.deltaTime;
+                    rb2D.velocity = new Vector2(rb2D.velocity.x, Mathf.Clamp(rb2D.velocity.y, -slideSpeed, float.MaxValue));
                 }
 
-                if (rb2D.velocity.y > 0 && !Input.GetKey("space"))
+                if (dashing)
                 {
-                    rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier) * Time.deltaTime;
+                    rb2D.velocity = new Vector2(dashForce, rb2D.velocity.y);
                 }
-
             }
         }
     }
 
-    public void Dash()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        GameObject dashObject;
-
-        dashObject = Instantiate(dashParticle, transform.position, transform.rotation);
-        
-
-        if(spriteRenderer.flipX == true)
+        //aparece icono de accion
+        if (collision.tag == "cuadro de accion")
         {
-            rb2D.AddForce(Vector2.left * dashForce, ForceMode2D.Impulse);
-        }
-        else
-        {
-            rb2D.AddForce(Vector2.right * dashForce, ForceMode2D.Impulse);
-        }
-
-        dashCooldown = 2;
-
-        
-
-        Destroy(dashObject, 1);
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("ParedDerecha"))
-        {
-            isTouchingFront = true;
-            isTouchingDerecha = true;
-        }
-
-        if (collision.gameObject.CompareTag("ParedIzquierda"))
-        {
-            isTouchingFront = true;
-            isTouchingIzquierda = true;
+            accion = true;
+            iconoaccion = true;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        isTouchingFront = false;
-        isTouchingDerecha = false;
-        isTouchingIzquierda = false;
+        //desaparece icono de accion
+        if (collision.tag == "cuadro de accion")
+        {
+            accion = false;
+            iconoaccion = false;
+        }
+    }
+
+    private void Move(float move, bool jump)
+    {
+        Vector3 speedObject = new Vector2(move, rb2D.velocity.y);
+        rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, speedObject, ref speed, moveSuavizador);
+
+        if(move > 0 && !lookRight)
+        {
+            Girar();
+        }
+        else if(move < 0 && lookRight)
+        {
+            Girar();
+        }
+
+        if(jump)
+        {
+            if (!canDoubleJump && ground)
+            {
+                ground = false;
+                canDoubleJump = true;
+                rb2D.AddForce(new Vector2(0f, jumpForce));
+            }
+            else if (canDoubleJump && !ground)
+            {
+                ground = false;
+                animator.SetBool("DoubleJump", true);
+                rb2D.AddForce(new Vector2(0f, doubleJumpForce));
+                canDoubleJump = false;
+            }
+
+        }
+        else if(ground)
+        {
+            jump = false;
+            canDoubleJump = false;
+            animator.SetBool("DoubleJump", false);
+        }
+    }
+
+    private void Girar()
+    {
+        lookRight = !lookRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(checkGround.position, dimensionGround);
+        Gizmos.DrawWireCube(checkWall.position, dimensionWall);
     }
 
     private void WallJump()
     {
-        if (wallSliding)
-        {
-            wallJumping = false;
-        }
+        wall = false;
+        animator.Play("doubleJump");
+        rb2D.velocity = new Vector2(wallJumpPowerX * -inputX, wallJumpPowerY);
+
+        StartCoroutine(ChangeWallJump());
     }
+
+    IEnumerator ChangeWallJump()
+    {
+        wallJumping = true;
+        yield return new WaitForSeconds(wallJumpTime);
+        wallJumping = false;
+    }
+
 
 }
