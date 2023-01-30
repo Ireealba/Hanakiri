@@ -189,7 +189,7 @@ public class personaje : MonoBehaviour
             Girar();
         }
 
-        if(jump)
+        if(jump && !lobby)
         {
             if (!canDoubleJump && ground)
             {

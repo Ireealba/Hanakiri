@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class lobbyToTutorial : MonoBehaviour
 {
+    [SerializeField] private int actualScene;
+    [SerializeField] private int nextScene;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if(collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
