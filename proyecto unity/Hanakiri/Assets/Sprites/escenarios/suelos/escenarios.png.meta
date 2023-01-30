@@ -367,6 +367,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: escenarios_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 857
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab73f05ffeed074d90b5075aa5ccfbd
+      internalID: -1081054778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenarios_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 857
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89780bc0e2a89747addeb1fb5b4abdd
+      internalID: -2046615237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenarios_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 857
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ff848cea0a61841bac716fe4ac6d7a
+      internalID: 1012268698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenarios_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 857
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a74d65f21aa3f4388662f6aadd4543
+      internalID: 2002784481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -379,10 +463,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       escenarios_8: 1705721600
+      escenarios_15: 1012268698
       escenarios_2: 250781970
       escenarios_4: -1207216244
+      escenarios_14: -2046615237
       escenarios_10: 1668950005
+      escenarios_12: -1253145594
       escenarios_5: 1663677117
+      escenarios_13: -1081054778
       escenarios_7: -394771594
       escenarios_0: -2108970528
       escenarios_3: -161268381
