@@ -717,7 +717,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706173233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.08, y: -43.37, z: -17.849998}
+  m_LocalPosition: {x: -23.08, y: -43.44, z: -17.849998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1637,7 +1637,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351471055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.08, y: -43.37, z: -17.849998}
+  m_LocalPosition: {x: -23.08, y: -43.44, z: -17.849998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1797,7 +1797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6717678015036280540, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -48.64
+      value: -48.71
       objectReference: {fileID: 0}
     - target: {fileID: 6717678015036280540, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1831,13 +1831,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6717678015036280541, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717678015036280541, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2060229239
+      objectReference: {fileID: 0}
     - target: {fileID: 6717678015036280543, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
       propertyPath: lobby
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6717678015036280543, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
       propertyPath: moveSpeed
-      value: 500
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717678015036280543, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+      propertyPath: moveSuavizador
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717678015036280543, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+      propertyPath: dimensionGround.x
+      value: 3.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717678015036280543, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+      propertyPath: dimensionGround.y
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
@@ -2277,9 +2297,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1945795378}
   - component: {fileID: 1945795379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: trampillaSuelo
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2292,7 +2312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945795377}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.799999, y: -5.83305, z: 1.8800001}
+  m_LocalPosition: {x: -7.799999, y: -5.886, z: 1.8800001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2414,7 +2434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056493356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.75, y: -12.53, z: 1.8800001}
+  m_LocalPosition: {x: -16.75, y: -15.11, z: 1.8800001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

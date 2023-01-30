@@ -100,7 +100,7 @@ public class personaje : MonoBehaviour
         }
 
         //dash
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !lobby)
         {
             StartCoroutine(Dash());
         }
