@@ -6,49 +6,30 @@ public class SpiderSlide : MonoBehaviour
 {
     [Range(1, 8)][SerializeField] private int slideType;
     [SerializeField] private Animator animator;
+    [SerializeField] private PolygonCollider2D[] colliders;
+    private int currentColliderIndex = 0;
 
     void Start()
     {
-        /*
-        switch (slideType)
+        if(slideType == 1)
         {
-            case 1:
-                animator.SetBool("slide1", true);
-                break;
-
-            case 2:
-                animator.SetBool("slide2", true);
-                break;
-
-            case 3:
-                animator.SetBool("slide3", true);
-                break;
-
-            case 4:
-                animator.SetBool("slide4", true);
-                break;
-
-            case 5:
-                animator.SetBool("slide5", true);
-                break;
-
-            case 6:
-                animator.SetBool("slide6", true);
-                break;
-
-            case 7:
-                animator.SetBool("slide7", true);
-                break;
-
-            case 8:
-                animator.SetBool("slide8", true);
-                break;
+            animator.Play("slide1");
         }
-        */
-
-        if(slideType == 7)
+        else if(slideType == 2)
         {
-            animator.Play("slide7");
+            animator.Play("slide2");
+        }
+        else if(slideType == 3)
+        {
+            animator.Play("slide3");
+        }
+        else if(slideType == 4)
+        {
+            animator.Play("slide4");
+        }
+        else if(slideType == 5)
+        {
+            animator.Play("slide5");
         }
     }
 
@@ -64,5 +45,12 @@ public class SpiderSlide : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void SetColliderForSprite(int spriteNum)
+    {
+        colliders[currentColliderIndex].enabled = false;
+        currentColliderIndex = spriteNum;
+        colliders[currentColliderIndex].enabled = true;
     }
 }
