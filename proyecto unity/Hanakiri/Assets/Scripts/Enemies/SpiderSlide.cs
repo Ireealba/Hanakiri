@@ -37,8 +37,7 @@ public class SpiderSlide : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            Debug.Log("Player Damaged");
-            Destroy(collision.gameObject);
+            //PlayerDamaged();
         }
     }
 

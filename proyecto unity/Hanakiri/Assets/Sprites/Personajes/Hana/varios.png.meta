@@ -596,6 +596,37 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: varios_7
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 465
+        width: 1228
+        height: 1406
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 555, y: 357}
+        - {x: 614, y: -7}
+        - {x: 549, y: -494}
+        - {x: 77, y: -703}
+        - {x: -614, y: -703}
+        - {x: -614, y: -253}
+        - {x: -499, y: 369}
+        - {x: -349, y: 699}
+        - {x: -28, y: 674}
+        - {x: 267, y: 493}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31abe9f3f85a2b14c870f08179995bd8
+      internalID: 1677760915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -613,6 +644,7 @@ TextureImporter:
       varios_6: -894276786
       varios_5: 1958215311
       varios_3: -204160326
+      varios_7: 1677760915
       varios_2: -847467614
   spritePackingTag: 
   pSDRemoveMatte: 0

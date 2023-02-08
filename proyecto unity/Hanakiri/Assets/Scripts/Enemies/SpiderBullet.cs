@@ -6,11 +6,13 @@ public class SpiderBullet : MonoBehaviour
 {
     [SerializeField] float speed = 2;
     [SerializeField] float lifeTime = 2;
+    private personaje player;
     //[SerializeField] SpriteRenderer sprite;
 
     void Start()
     {
         Destroy(gameObject, lifeTime);
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<personaje>();
     }
 
     void Update()
@@ -23,7 +25,7 @@ public class SpiderBullet : MonoBehaviour
         if (collision.transform.CompareTag("Player"))
         {
             Debug.Log("Player Damaged");
-            Destroy(collision.gameObject);
+            player.PlayerDamaged();
             Destroy(gameObject);
         }
     }

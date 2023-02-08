@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class personaje : MonoBehaviour
 {
     Rigidbody2D rb2D;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
+
+    [SerializeField] private int vidas;
+    [SerializeField] private TMP_Text textovidas;
 
     //controlador suelo
     [SerializeField] private LayerMask isGround;
@@ -81,6 +85,14 @@ public class personaje : MonoBehaviour
 
     private void Update()
     {
+        textovidas.text = "Vidas: " + vidas + "/3";
+
+        if(vidas < 1)
+        {
+            Debug.Log("Player dead");
+            Destroy(gameObject);
+        }
+
         //posición en x y movimiento
         inputX = Input.GetAxisRaw("Horizontal");
         horizontalMove = inputX * moveSpeed;
@@ -258,5 +270,10 @@ public class personaje : MonoBehaviour
         canMove = true;
         canDash = true;
         rb2D.gravityScale = initialGravity;
+    }
+
+    public void PlayerDamaged()
+    {
+        vidas--;
     }
 }
