@@ -7,6 +7,8 @@ public class SpiderSlide : MonoBehaviour
     [Range(1, 8)][SerializeField] private int slideType;
     [SerializeField] private Animator animator;
     [SerializeField] private PolygonCollider2D[] colliders;
+    [SerializeField] private GameObject spider;
+    [SerializeField] private GameObject tela;
     private int currentColliderIndex = 0;
 
     void Start()
@@ -43,7 +45,11 @@ public class SpiderSlide : MonoBehaviour
 
     void Update()
     {
-
+        if(spider == null)
+        {
+            Destroy(tela);
+            Destroy(gameObject);
+        }
     }
 
     public void SetColliderForSprite(int spriteNum)
@@ -52,4 +58,5 @@ public class SpiderSlide : MonoBehaviour
         currentColliderIndex = spriteNum;
         colliders[currentColliderIndex].enabled = true;
     }
+
 }

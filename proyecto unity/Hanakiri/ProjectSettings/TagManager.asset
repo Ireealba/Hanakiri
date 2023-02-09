@@ -10,6 +10,7 @@ TagManager:
   - cambio de nivel
   - ParedIzquierda
   - ParedDerecha
+  - Enemy
   layers:
   - Default
   - TransparentFX
