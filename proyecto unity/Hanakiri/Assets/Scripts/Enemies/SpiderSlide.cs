@@ -10,6 +10,7 @@ public class SpiderSlide : MonoBehaviour
     [SerializeField] private GameObject spider;
     [SerializeField] private GameObject tela;
     private int currentColliderIndex = 0;
+    
 
     void Start()
     {
@@ -33,14 +34,8 @@ public class SpiderSlide : MonoBehaviour
         {
             animator.Play("slide5");
         }
-    }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("Player"))
-        {
-            //PlayerDamaged();
-        }
+       
     }
 
     void Update()

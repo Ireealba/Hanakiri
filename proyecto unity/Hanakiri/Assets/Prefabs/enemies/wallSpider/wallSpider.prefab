@@ -14,9 +14,8 @@ GameObject:
   - component: {fileID: 557940318698070620}
   - component: {fileID: 557940318698070623}
   - component: {fileID: 557940318698070617}
-  - component: {fileID: 557940318698070616}
-  - component: {fileID: 557940318698070619}
-  - component: {fileID: 5934317715956897491}
+  - component: {fileID: 3055170361120853530}
+  - component: {fileID: 6458064062909515112}
   m_Layer: 2
   m_Name: spider
   m_TagString: Enemy
@@ -442,7 +441,7 @@ PolygonCollider2D:
       - {x: -0.4057251, y: 1.0637724}
       - {x: -0.4057251, y: 1.0124904}
       - {x: -0.38863108, y: 1.0124904}
---- !u!114 &557940318698070616
+--- !u!114 &3055170361120853530
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -451,42 +450,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 557940318698070609}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d5f68d4f3eb2344a9e44191d8f594c7, type: 3}
+  m_Script: {fileID: 11500000, guid: db03bf783cea1ed4897c32f1fd901247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 557940318698070619}
-  spriteRenderer: {fileID: 557940318698070618}
-  speed: 0.5
-  moveSpots:
-  - {fileID: 557940318990092491}
-  - {fileID: 557940320414098761}
-  startWaitTime: 5
-  colliders:
-  - {fileID: 557940318698070621}
-  - {fileID: 557940318698070620}
-  - {fileID: 557940318698070623}
-  - {fileID: 557940318698070617}
---- !u!95 &557940318698070619
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557940318698070609}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5f67f912e706f2a4a924d35204581697, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5934317715956897491
+--- !u!114 &6458064062909515112
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -543,7 +510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053981268d882a645934d658b0ceb9f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 557940318698070619}
+  animator: {fileID: 0}
   distanceRaycast: 0.75
   rangoRaycast: 10
   spiderBullet: {fileID: 4588368523523511348, guid: 18562a8ada10ba4459b475bfc8852321, type: 3}
@@ -619,6 +586,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 557940320115633425}
+  - component: {fileID: 3657915800295544835}
+  - component: {fileID: 8933902897422102755}
   m_Layer: 2
   m_Name: wallSpider
   m_TagString: Enemy
@@ -644,6 +613,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3657915800295544835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557940320115633427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f68d4f3eb2344a9e44191d8f594c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 8933902897422102755}
+  spriteRenderer: {fileID: 557940318698070618}
+  speed: 0.5
+  moveSpots:
+  - {fileID: 557940318990092491}
+  - {fileID: 557940320414098761}
+  startWaitTime: 5
+  colliders:
+  - {fileID: 557940318698070621}
+  - {fileID: 557940318698070620}
+  - {fileID: 557940318698070623}
+  - {fileID: 557940318698070617}
+--- !u!95 &8933902897422102755
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557940320115633427}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f67f912e706f2a4a924d35204581697, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &557940320414098760
 GameObject:
   m_ObjectHideFlags: 0

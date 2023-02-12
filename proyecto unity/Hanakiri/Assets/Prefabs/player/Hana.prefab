@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 6717678015036280543}
   - component: {fileID: 6717678015036280542}
   - component: {fileID: 6717678015036280529}
+  - component: {fileID: 7557393690315442189}
   m_Layer: 3
   m_Name: Hana
   m_TagString: Player
@@ -224,6 +225,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7557393690315442189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717678015036280539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e96f05598d6ef48b3bfdecac2c487d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorGolpe: {fileID: 4209627331228005024}
+  radioGolpe: 1
+  damageGolpe: 20
 --- !u!1 &6717678015353611843
 GameObject:
   m_ObjectHideFlags: 0

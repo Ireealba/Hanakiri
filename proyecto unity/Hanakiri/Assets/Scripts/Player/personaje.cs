@@ -13,6 +13,9 @@ public class personaje : MonoBehaviour
     [SerializeField] private int vidas;
     [SerializeField] private TMP_Text textovidas;
 
+    [SerializeField] private int monedas;
+    [SerializeField] private TMP_Text textoMonedas;
+
     //controlador suelo
     [SerializeField] private LayerMask isGround;
     [SerializeField] private Transform checkGround;
@@ -86,6 +89,7 @@ public class personaje : MonoBehaviour
     private void Update()
     {
         textovidas.text = "Vidas: " + vidas + "/3";
+        textoMonedas.text = "Monedas: " + monedas;
 
         if(vidas < 1)
         {
@@ -275,5 +279,10 @@ public class personaje : MonoBehaviour
     public void PlayerDamaged()
     {
         vidas--;
+    }
+
+    public void SumarMonedas(int cantMonedas)
+    {
+        monedas += cantMonedas;
     }
 }

@@ -15,21 +15,9 @@ public class BossSpider : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            Debug.Log("Boss spider dead");
-           // aparecerllave.activo = true;
-        }
+
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("Player"))
-        {
-            Debug.Log("Player Damaged");
-            Destroy(collision.gameObject);
-        }
-    }
 
     public void SetColliderForSprite(int spriteNum)
     {
