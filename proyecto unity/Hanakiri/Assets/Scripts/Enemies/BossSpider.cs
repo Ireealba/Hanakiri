@@ -7,6 +7,8 @@ public class BossSpider : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private PolygonCollider2D[] colliders;
     private int currentColliderIndex = 0;
+    [SerializeField] private GameObject spider;
+    [SerializeField] private GameObject tela;
 
     void Start()
     {
@@ -15,7 +17,11 @@ public class BossSpider : MonoBehaviour
 
     void Update()
     {
-
+        if (spider == null)
+        {
+            Destroy(tela);
+            Destroy(gameObject);
+        }
     }
 
 
