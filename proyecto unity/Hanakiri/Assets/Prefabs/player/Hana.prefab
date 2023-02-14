@@ -158,8 +158,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 6717678015036280541}
   animator: {fileID: 6717678015036280529}
-  vidas: 0
+  vidas: 3
   textovidas: {fileID: 0}
+  monedas: 0
+  textoMonedas: {fileID: 0}
   isGround:
     serializedVersion: 2
     m_Bits: 64
@@ -168,17 +170,17 @@ MonoBehaviour:
   ground: 0
   checkWall: {fileID: 6717678015369957522}
   dimensionWall: {x: 0.09, y: 3.04, z: 0}
-  moveSpeed: 0
+  moveSpeed: 400
   moveSuavizador: 0
-  jumpForce: 0
-  doubleJumpForce: 0
+  jumpForce: 400
+  doubleJumpForce: 400
   lobby: 0
-  dashSpeed: 0
-  dashTime: 0
+  dashSpeed: 50
+  dashTime: 0.4
   slideSpeed: 1
-  wallJumpPowerX: 0
-  wallJumpPowerY: 0
-  wallJumpTime: 0
+  wallJumpPowerX: 1
+  wallJumpPowerY: 1
+  wallJumpTime: 1
 --- !u!61 &6717678015036280542
 BoxCollider2D:
   m_ObjectHideFlags: 0
