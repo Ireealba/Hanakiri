@@ -94,7 +94,9 @@ public class personaje : MonoBehaviour
         if(vidas < 1)
         {
             Debug.Log("Player dead");
-            Destroy(gameObject);
+            //Destroy(gameObject);//Menú de muerte
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         //posición en x y movimiento
