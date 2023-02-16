@@ -14,26 +14,41 @@ public class SpiderSlide : MonoBehaviour
 
     void Start()
     {
-        if(slideType == 1)
+        switch (slideType)
         {
-            animator.Play("slide1");
+            case 1:
+                animator.Play("slide1");
+                break;
+
+            case 2:
+                animator.Play("slide2");
+                break;
+
+            case 3:
+                animator.Play("slide3");
+                break;
+
+            case 4:
+                animator.Play("slide4");
+                break;
+
+            case 5:
+                animator.Play("slide5");
+                break;
+
+            case 6:
+                animator.Play("slide6");
+                break;
+
+            case 7:
+                animator.Play("slide7");
+                break;
+
+            case 8:
+                animator.Play("slide8");
+                break;
         }
-        else if(slideType == 2)
-        {
-            animator.Play("slide2");
-        }
-        else if(slideType == 3)
-        {
-            animator.Play("slide3");
-        }
-        else if(slideType == 4)
-        {
-            animator.Play("slide4");
-        }
-        else if(slideType == 5)
-        {
-            animator.Play("slide5");
-        }
+        
 
        
     }

@@ -1116,6 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db03bf783cea1ed4897c32f1fd901247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownattack: 2
 --- !u!114 &6654322863660266022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,6 +1130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 20
+  cantMonedas: 0
 --- !u!1 &6900954188204110892
 GameObject:
   m_ObjectHideFlags: 0
