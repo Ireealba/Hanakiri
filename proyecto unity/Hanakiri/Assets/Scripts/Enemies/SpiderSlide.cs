@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpiderSlide : MonoBehaviour
 {
-    [Range(1, 8)][SerializeField] private int slideType;
+    [Range(1, 12)][SerializeField] private int slideType;
     [SerializeField] private Animator animator;
     [SerializeField] private PolygonCollider2D[] colliders;
     [SerializeField] private GameObject spider;
@@ -46,6 +46,22 @@ public class SpiderSlide : MonoBehaviour
 
             case 8:
                 animator.Play("slide8");
+                break;
+
+            case 9:
+                animator.Play("slide9");
+                break;
+
+            case 10:
+                animator.Play("slide10");
+                break;
+
+            case 11:
+                animator.Play("slide11");
+                break;
+
+            case 12:
+                animator.Play("slide12");
                 break;
         }
         

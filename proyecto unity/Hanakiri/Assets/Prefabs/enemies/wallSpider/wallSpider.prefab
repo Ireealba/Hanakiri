@@ -455,6 +455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db03bf783cea1ed4897c32f1fd901247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownattack: 1.5
+  actualcooldownattack: 0
 --- !u!114 &6458064062909515112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,6 +495,7 @@ MonoBehaviour:
   - {fileID: 557940318698070620}
   - {fileID: 557940318698070623}
   - {fileID: 557940318698070617}
+  localScale: {x: 0, y: 0, z: 0}
 --- !u!95 &3234842840611105390
 Animator:
   serializedVersion: 4
@@ -562,6 +565,7 @@ MonoBehaviour:
   rangoRaycast: 10
   spiderBullet: {fileID: 4588368523523511348, guid: 18562a8ada10ba4459b475bfc8852321, type: 3}
   controladorShoot: {fileID: 557940319913304368}
+  spider: {fileID: 557940318698070609}
 --- !u!1 &557940318990092490
 GameObject:
   m_ObjectHideFlags: 0

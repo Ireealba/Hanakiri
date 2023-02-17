@@ -14,10 +14,12 @@ public class WallSpider : MonoBehaviour
     private Vector2 actualPos;
     [SerializeField] private PolygonCollider2D[] colliders;
     private int currentColliderIndex = 0;
+    public bool flip;
 
     void Start()
     {
         waitTime = startWaitTime;
+        flip = spriteRenderer.flipX;
     }
 
     void Update()

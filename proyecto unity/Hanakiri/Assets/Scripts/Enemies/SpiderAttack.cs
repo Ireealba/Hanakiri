@@ -13,22 +13,35 @@ public class SpiderAttack : MonoBehaviour
     //[SerializeField] SpriteRenderer sprite;
     [SerializeField] Transform controladorShoot;
 
+    private SpriteRenderer wspider;
+    [SerializeField] GameObject spider;
+
     void Start()
     {
         actualCooldownAttack = 0;
+
+        wspider = spider.GetComponent<SpriteRenderer>();
+
+        if(wspider.flipX) {
+            Debug.Log("al reves");
+            transform.Rotate(0f, 180f, 0f);
+            controladorShoot.Rotate(0f, 180f, 0f);
+        }
+
     }
 
     
     void Update()
     {
+
         actualCooldownAttack -= Time.deltaTime;
 
-            Debug.DrawRay(controladorShoot.position, controladorShoot.right * rangoRaycast, Color.green, distanceRaycast);
+        Debug.DrawRay(controladorShoot.position, controladorShoot.right * rangoRaycast, Color.green, distanceRaycast);
     }
 
     void FixedUpdate()
     {
-            RaycastHit2D hit2D = Physics2D.Raycast(controladorShoot.position, controladorShoot.right * distanceRaycast, rangoRaycast);
+        RaycastHit2D hit2D = Physics2D.Raycast(controladorShoot.position, controladorShoot.right * distanceRaycast, rangoRaycast);
 
         if (hit2D.collider != null)
         {
