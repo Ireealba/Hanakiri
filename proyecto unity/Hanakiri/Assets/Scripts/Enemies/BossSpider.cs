@@ -9,16 +9,20 @@ public class BossSpider : MonoBehaviour
     private int currentColliderIndex = 0;
     [SerializeField] private GameObject spider;
     [SerializeField] private GameObject tela;
+    [SerializeField] private BoxCollider2D colliderllave;
+    [SerializeField] private Transform llave;
 
     void Start()
     {
-       // animator.SetBool("move", true);
+       
     }
 
     void Update()
     {
         if (spider == null)
         {
+            colliderllave.enabled = true;
+            llave.localScale = new Vector3 (0.3414f, 0.3414f, 0.3414f);
             Destroy(tela);
             Destroy(gameObject);
         }

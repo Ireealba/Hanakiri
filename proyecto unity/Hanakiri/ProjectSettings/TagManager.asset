@@ -11,6 +11,8 @@ TagManager:
   - ParedIzquierda
   - ParedDerecha
   - Enemy
+  - llave
+  - puerta
   layers:
   - Default
   - TransparentFX

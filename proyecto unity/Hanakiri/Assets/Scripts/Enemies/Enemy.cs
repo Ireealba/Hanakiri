@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         vida -= damage;
-        //animacion daño
+        //TODO animacion daño
         Debug.Log("Enemy damaged");
 
         if(vida <= 0)
@@ -29,7 +29,8 @@ public class Enemy : MonoBehaviour
 
     private void Muerte()
     {
-        //animacion muerte
+        
+        //TODO animacion muerte
         Destroy(gameObject);
         Debug.Log("Enemy dead");
         player.SumarMonedas(cantMonedas);

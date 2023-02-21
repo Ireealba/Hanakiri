@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class lobbyToTutorial : MonoBehaviour
+public class changeScene : MonoBehaviour
 {
     [SerializeField] private int actualScene;
     [SerializeField] private int nextScene;
