@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,316 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_0"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2142
+        width: 1517
+        height: 853
+      alignment: 9
+      pivot: {x: 0.5065297, y: 0.37661624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf398f2503813a47a37d9dc939a541c
+      internalID: -2142002810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_1"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1299
+        width: 1585
+        height: 845
+      alignment: 9
+      pivot: {x: 0.50543535, y: 0.38785204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 792.5, y: -399.5}
+        - {x: 522.8032, y: -342.46716}
+        - {x: -45.5, y: -347.5}
+        - {x: -362.5, y: -422.5}
+        - {x: -680.5, y: -422.5}
+        - {x: -792.5, y: 36.5}
+        - {x: -706.5, y: 296.5}
+        - {x: -365.5, y: 393.5}
+        - {x: 262.5, y: 422.5}
+        - {x: 792.5, y: 422.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fc477e14186884ca9cf86b8ec74700
+      internalID: 1844751901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_2"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 490
+        width: 1603
+        height: 844
+      alignment: 9
+      pivot: {x: 0.4971445, y: 0.39153293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -441.5, y: -422}
+        - {x: -652.5, y: -380}
+        - {x: -801.5, y: -51}
+        - {x: -801.5, y: 162}
+        - {x: -613.5, y: 334}
+        - {x: -429.5, y: 380}
+        - {x: -201.5, y: 357}
+        - {x: 142.5, y: 396}
+        - {x: 373.5, y: 422}
+        - {x: 617.5, y: 422}
+        - {x: 801.5, y: 261}
+        - {x: 801.5, y: -110}
+        - {x: 540.5, y: -385}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df7df625dda5c541b622304e74628d5
+      internalID: -1640356037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_3"
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2146
+        width: 1574
+        height: 854
+      alignment: 9
+      pivot: {x: 0.49223295, y: 0.39406812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 291, y: -306}
+        - {x: 3, y: -339}
+        - {x: -288, y: -319}
+        - {x: -389, y: -164}
+        - {x: -416, y: -427}
+        - {x: -516, y: -415}
+        - {x: -654, y: -297}
+        - {x: -765, y: -206}
+        - {x: -787, y: -47}
+        - {x: -779, y: 187}
+        - {x: -495, y: 389}
+        - {x: -243, y: 375}
+        - {x: -182, y: 240}
+        - {x: 137, y: 242}
+        - {x: 161, y: 374}
+        - {x: 315, y: 427}
+        - {x: 542, y: 427}
+        - {x: 705, y: 300}
+        - {x: 787, y: 181}
+        - {x: 766, y: 78}
+        - {x: 787, y: -16}
+        - {x: 755, y: -130}
+        - {x: 662, y: -180}
+        - {x: 573, y: -311}
+        - {x: 507, y: -334}
+        - {x: 471, y: -339}
+        - {x: 443.22412, y: -264.2412}
+        - {x: 377, y: -86}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb91f7ca490b224f97a646ef4f3d2f8
+      internalID: -672155572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_4"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1497
+        width: 1586
+        height: 784
+      alignment: 9
+      pivot: {x: 0.5035713, y: 0.34346926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 327, y: -307}
+        - {x: 18, y: -359}
+        - {x: -282, y: -333}
+        - {x: -365, y: -149}
+        - {x: -427, y: -116}
+        - {x: -465, y: -366}
+        - {x: -524, y: -392}
+        - {x: -663, y: -340}
+        - {x: -752, y: -190}
+        - {x: -769, y: 32}
+        - {x: -617, y: 285}
+        - {x: -394, y: 354}
+        - {x: -209, y: 331}
+        - {x: -179, y: 173}
+        - {x: 10, y: 204}
+        - {x: 188, y: 183}
+        - {x: 190, y: 322}
+        - {x: 323, y: 378}
+        - {x: 562, y: 392}
+        - {x: 793, y: 195}
+        - {x: 793, y: -56}
+        - {x: 753, y: -248}
+        - {x: 605, y: -278}
+        - {x: 400, y: -100}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e559f2944267964c9db6127209a2c1c
+      internalID: -1575694181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_5"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 804
+        width: 1594
+        height: 757
+      alignment: 9
+      pivot: {x: 0.49125534, y: 0.31849998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 296, y: -348.5}
+        - {x: -22, y: -368.5}
+        - {x: -299, y: -356.5}
+        - {x: -391, y: -140.5}
+        - {x: -484, y: -351.5}
+        - {x: -574, y: -378.5}
+        - {x: -743, y: -266.5}
+        - {x: -797, y: 47.5}
+        - {x: -663, y: 254.5}
+        - {x: -385, y: 344.5}
+        - {x: -178, y: 326.5}
+        - {x: -177, y: 170.5}
+        - {x: -3, y: 187.5}
+        - {x: 132, y: 166.5}
+        - {x: 106, y: 283.5}
+        - {x: 282, y: 378.5}
+        - {x: 513, y: 378.5}
+        - {x: 717, y: 209.5}
+        - {x: 785, y: 1.5}
+        - {x: 671, y: -307.5}
+        - {x: 552, y: -254.5}
+        - {x: 381, y: -104.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09bf516169aa344d93ec5acd5fda8a8
+      internalID: -801527895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ara\xF1a idle 1_6"
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 0
+        width: 1536
+        height: 821
+      alignment: 9
+      pivot: {x: 0.49438047, y: 0.39906773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 284, y: -271.5}
+        - {x: 21, y: -322.5}
+        - {x: -265, y: -299.5}
+        - {x: -383, y: -140.5}
+        - {x: -433, y: -206.5}
+        - {x: -376, y: -410.5}
+        - {x: -499, y: -410.5}
+        - {x: -665, y: -362.5}
+        - {x: -768, y: -112.5}
+        - {x: -768, y: 84.5}
+        - {x: -656, y: 264.5}
+        - {x: -444, y: 364.5}
+        - {x: -282, y: 356.5}
+        - {x: -235, y: 193.5}
+        - {x: -33, y: 259.5}
+        - {x: 196, y: 217.5}
+        - {x: 194, y: 353.5}
+        - {x: 298, y: 410.5}
+        - {x: 519, y: 410.5}
+        - {x: 714, y: 266.5}
+        - {x: 768, y: 137.5}
+        - {x: 768, y: -75.5}
+        - {x: 711, y: -183.5}
+        - {x: 559, y: -345.5}
+        - {x: 464, y: -310.5}
+        - {x: 474, y: -135.5}
+        - {x: 389, y: -87.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74500b26840842e45934952ce86f3ae6
+      internalID: 1850843700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +396,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "ara\xF1a idle 1_2": -1640356037
+      "ara\xF1a idle 1_0": -2142002810
+      "ara\xF1a idle 1_5": -801527895
+      "ara\xF1a idle 1_1": 1844751901
+      "ara\xF1a idle 1_6": 1850843700
+      "ara\xF1a idle 1_4": -1575694181
+      "ara\xF1a idle 1_3": -672155572
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
