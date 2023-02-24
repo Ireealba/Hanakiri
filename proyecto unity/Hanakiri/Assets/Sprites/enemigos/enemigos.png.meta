@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: f4375ba3b8f37104ba64ba5bb089fabf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pinchos1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 158
+        width: 356
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bda16266c2a0d64d9abd3b3117a85b8
+      internalID: 673476625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinchos2
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 157
+        width: 86
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcab6a9413412244a96768fb0c28997f
+      internalID: 189688204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinchos3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 158
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e958c8dc26cb341bfd7f396bcfad88
+      internalID: -459595317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiderDisparo2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 491
+        width: 146
+        height: 298
+      alignment: 9
+      pivot: {x: 0.7756377, y: 0.5316457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ff2283b2969e046991ff7afb43ea4e
+      internalID: 866053221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiderDisparo3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 501
+        width: 155
+        height: 296
+      alignment: 9
+      pivot: {x: 0.7732979, y: 0.47799352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b40fadb9fb90a940a162fda8bfe2d12
+      internalID: 72318825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiderDisparo1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 496
+        width: 147
+        height: 300
+      alignment: 9
+      pivot: {x: 0.7766441, y: 0.49011576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381cc43019b703544aa98133fe71d216
+      internalID: -996967875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spiderDisparo0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 798
+        width: 173
+        height: 301
+      alignment: 9
+      pivot: {x: 0.6794511, y: 0.47216856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a42cc0441c0ca44999f8f6965a12d30
+      internalID: -1238685532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disparo1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 942
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5281555, y: 0.46615836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccf001044066d64ab76585bb1bf40ca
+      internalID: 606020057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disparo2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 947
+        width: 62
+        height: 45
+      alignment: 9
+      pivot: {x: 0.49432373, y: 0.45307347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97806c8fe6488b64db2e4ff73fef3283
+      internalID: -803019463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disparo3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 943
+        width: 53
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51827484, y: 0.50672656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a885b1d9a8b0bf744b500a77225b737a
+      internalID: -703473266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disparo4
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 947
+        width: 57
+        height: 41
+      alignment: 9
+      pivot: {x: 0.48687637, y: 0.49820766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e18484d734cd848bea922025706416
+      internalID: -2136963643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disparo5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 943
+        width: 58
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49140352, y: 0.5103887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4937082e8b364f47a93c2e7ecf95a85
+      internalID: -1839516569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos_0
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 2468
+        width: 543
+        height: 269
+      alignment: 9
+      pivot: {x: 0.49891058, y: 0.68028015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaae69a0d492504f904f6f5e8cae277
+      internalID: 2006686198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos_1
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 2050
+        width: 598
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5216334, y: 0.7403977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e576c9656c279854db3a0ee754af9efb
+      internalID: -654992292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos_2
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1682
+        width: 639
+        height: 280
+      alignment: 9
+      pivot: {x: 0.51508933, y: 0.72540283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21488c11f8e3484c981e95d8a33a598
+      internalID: -591823814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos_3
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 1306
+        width: 573
+        height: 266
+      alignment: 9
+      pivot: {x: 0.51491475, y: 0.8405413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ed29d9eb4e9f49b77a6d80a7f1db5
+      internalID: 95951534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos_4
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 695
+        width: 58
+        height: 1780
+      alignment: 9
+      pivot: {x: 0.46135423, y: 0.97360563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c953586d6e3441469c7ca11cdb764dd
+      internalID: 1117382872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spiderDisparo1: -996967875
+      disparo3: -703473266
+      pinchos1: 673476625
+      enemigos_2: -654992292
+      enemigos_0: -1839516569
+      enemigos_3: -591823814
+      enemigos_1: 2006686198
+      pinchos3: -459595317
+      enemigos_4: 95951534
+      spiderDisparo3: 72318825
+      disparo2: -803019463
+      spiderDisparo2: 866053221
+      disparo4: -2136963643
+      disparo5: -1839516569
+      disparo1: 606020057
+      spiderDisparo0: -1238685532
+      pinchos2: 189688204
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
