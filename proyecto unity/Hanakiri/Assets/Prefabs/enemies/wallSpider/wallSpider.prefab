@@ -83,12 +83,12 @@ SpriteRenderer:
   m_SortingLayerID: -1951963077
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -996967875, guid: f4375ba3b8f37104ba64ba5bb089fabf, type: 3}
+  m_Sprite: {fileID: -541747289, guid: b586e48a1521ad34a99b1616b73f9906, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.4703591, y: 3.0000002}
+  m_Size: {x: 1.9504764, y: 3.1100001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -110,9 +110,9 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.7766441, y: 0.49011576}
-    oldSize: {x: 1.4703591, y: 3.0000002}
-    newSize: {x: 1.4703591, y: 3.0000002}
+    pivot: {x: 0.82069904, y: 0.5051564}
+    oldSize: {x: 1.9504764, y: 3.1100001}
+    newSize: {x: 1.9504764, y: 3.1100001}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -207,9 +207,9 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.7766441, y: 0.49011576}
-    oldSize: {x: 1.4703591, y: 3.0000002}
-    newSize: {x: 1.4703591, y: 3.0000002}
+    pivot: {x: 0.82069904, y: 0.5051564}
+    oldSize: {x: 1.9504764, y: 3.1100001}
+    newSize: {x: 1.9504764, y: 3.1100001}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -291,9 +291,9 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.7766441, y: 0.49011576}
-    oldSize: {x: 1.4703591, y: 3.0000002}
-    newSize: {x: 1.4703591, y: 3.0000002}
+    pivot: {x: 0.82069904, y: 0.5051564}
+    oldSize: {x: 1.9504764, y: 3.1100001}
+    newSize: {x: 1.9504764, y: 3.1100001}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -358,9 +358,9 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.7766441, y: 0.49011576}
-    oldSize: {x: 1.4703591, y: 3.0000002}
-    newSize: {x: 1.4703591, y: 3.0000002}
+    pivot: {x: 0.82069904, y: 0.5051564}
+    oldSize: {x: 1.9504764, y: 3.1100001}
+    newSize: {x: 1.9504764, y: 3.1100001}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
   - {fileID: 557940318698070620}
   - {fileID: 557940318698070623}
   - {fileID: 557940318698070617}
-  localScale: {x: 0, y: 0, z: 0}
+  flip: 0
 --- !u!95 &3234842840611105390
 Animator:
   serializedVersion: 4

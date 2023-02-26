@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,1093 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gummyred_0
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2291
+        width: 362
+        height: 566
+      alignment: 9
+      pivot: {x: 0.19209813, y: 0.7044419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e4516366e8b642a36e41d5f4fee4a
+      internalID: -354583968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyred_1
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2312
+        width: 365
+        height: 458
+      alignment: 9
+      pivot: {x: 0.19691062, y: 0.67849773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23d29267ddeab344a85fd40e54b7e41
+      internalID: -1471875765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyred_2
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 2309
+        width: 367
+        height: 652
+      alignment: 9
+      pivot: {x: 0.1929305, y: 0.69075936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510bfd85fdf2bb04a86e0c6d020d2d57
+      internalID: 276658540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_1_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2332
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7021a5d4ad3e248bd65767062d03db
+      internalID: 1037439354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_2_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2400
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: -29.5}
+        - {x: -25.5, y: 29.5}
+        - {x: 25.5, y: 29.5}
+        - {x: 25.5, y: -0.5}
+        - {x: -12.5, y: -29.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9669f5608871d5044b5a4bfec5dc0146
+      internalID: 1938419189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash3_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2360
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -25.5}
+        - {x: -35.5, y: -25.5}
+        - {x: -35.5, y: -3.5}
+        - {x: -9.5, y: 25.5}
+        - {x: 35.5, y: 25.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2816251a918f5458c498a36725ef7b
+      internalID: 1894480231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_1_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2344
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57409eb5dce7eac489e4f555376cf85d
+      internalID: -106374793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_2_2
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2396
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: -19}
+        - {x: -13.5, y: 19}
+        - {x: 14.5, y: 19}
+        - {x: 14.5, y: -5}
+        - {x: -4.5, y: -19}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdefa86de99e0584d9402b08bec8d98a
+      internalID: 1075302592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_3_
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2366
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -17}
+        - {x: -19.5, y: -17}
+        - {x: -19.5, y: 2}
+        - {x: -0.5, y: 17}
+        - {x: 19.5, y: 17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938cffd2520b15041b354ad6e51886fc
+      internalID: 1983739107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsalash_1_3
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2359
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c46c2308d41efa4396cc68230be2be7
+      internalID: 1530707500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_2_3
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 2455
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e94163273af6f4491cc5c740bd61d9
+      internalID: -1099969959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redsplash_3_3
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 2409
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b87b1446c331c448d078a6c50a6cba
+      internalID: -981716557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyblue_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1570
+        width: 374
+        height: 571
+      alignment: 9
+      pivot: {x: 0.19749646, y: 0.6981372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b99ca314e0e040941d1c78fc77404
+      internalID: -273155274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyblue_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1587
+        width: 366
+        height: 450
+      alignment: 9
+      pivot: {x: 0.19561067, y: 0.6977794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b2ef68d7207dc49897f7d155c2fb84
+      internalID: -231042064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyblue_2
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1587
+        width: 372
+        height: 654
+      alignment: 9
+      pivot: {x: 0.19377974, y: 0.69984925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724858aaaaa5e24479df5bb25c95d1dd
+      internalID: -1212027705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluesplash_1_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1609
+        width: 85
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f925a2aa0ee3e09408322bdbdcfc7ae3
+      internalID: -644357210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluesplash_2_1
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1677
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: -32}
+        - {x: -27.5, y: -32}
+        - {x: -27.5, y: 32}
+        - {x: 27.5, y: 32}
+        - {x: 27.5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cd9ecbb368a204b9bf903391cd87cc
+      internalID: 1462948695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummysplash_3_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1638
+        width: 75
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: -27}
+        - {x: -37.5, y: -9}
+        - {x: -12.5, y: 27}
+        - {x: 37.5, y: 27}
+        - {x: 37.5, y: -27}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3ac4b46c8f9554391aefe1fb084f9e
+      internalID: 788087101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummysplash_1_2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1623
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618cd1f023665494193061e3d538da1b
+      internalID: -636375020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummysplash_2_2
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1676
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -19}
+        - {x: -15, y: 19}
+        - {x: 15, y: 19}
+        - {x: 15, y: -2}
+        - {x: -4, y: -19}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b4014ff42c5bc4b8ac861dbf504ffc
+      internalID: -1596383965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluesplash_3_2
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 2079
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -17}
+        - {x: -20, y: -5}
+        - {x: -3, y: 17}
+        - {x: 20, y: 17}
+        - {x: 20, y: -17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87dd226522e0ff4f8f9eca8bc925b3e
+      internalID: 1096828457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluesplash_1_3
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1639
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c6be78c5883194dad29ffc9090bb02
+      internalID: -339455610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluesplash_2_3
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1737
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d455a92032a7f04fb14512d201fb4a0
+      internalID: -1989096024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluesplash_3_3
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1690
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb89ddc707c48d42a091ed3624bca63
+      internalID: 1993181679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyyellow_0
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 850
+        width: 365
+        height: 573
+      alignment: 9
+      pivot: {x: 0.19229369, y: 0.70006347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305256ec821837f4999252b52781d389
+      internalID: -963765280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyyellow_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 873
+        width: 371
+        height: 449
+      alignment: 9
+      pivot: {x: 0.19619858, y: 0.69330335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a9c64640d427e4383ba0d11d3bac47
+      internalID: 1892658878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummyyellow_2
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 867
+        width: 375
+        height: 658
+      alignment: 9
+      pivot: {x: 0.1980688, y: 0.7012448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f343c67e1f86e948a51de377cf873eb
+      internalID: 329061860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_1_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 892
+        width: 86
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2309281139f8a42bbd2c8166bf4aa5
+      internalID: -436752985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_2_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 963
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb84762cff1c2be42bf25d71bf02e238
+      internalID: 394617562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_3_1
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 922
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5550d46160423544aceefc54e92fa67
+      internalID: -2087118414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_1_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 906
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ba1fed4f572f4479dd2304cab9a28c
+      internalID: -1327027350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_2_2
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 960
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4a381680861464bb847512e062e228
+      internalID: 145518423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_3_2
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 929
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ab7721f6448a84eac28fed87bfda48
+      internalID: -703376809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_1_3
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 921
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bd8c7c2bcc05e489a29d807e767374
+      internalID: -825090160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_2_3
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 1019
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdfe807a85e6b04594a4d1a5dcbfcc4
+      internalID: 1436119633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellowsplash_3_3
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 971
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632581f61f954b14fa2a95bff738e0ac
+      internalID: 556974915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummygreen_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 106
+        width: 370
+        height: 572
+      alignment: 9
+      pivot: {x: 0.2007062, y: 0.695681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bb88a4e72d3f54faaaf9333a2d4399
+      internalID: -730684010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_1_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 146
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9726c43173dc74a4a81681baafe0b410
+      internalID: 619558042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_2_1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 214
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee07ae5fb306424ca9ce2fd414447ea
+      internalID: -724376364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_3_1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 174
+        width: 75
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5878897bb0f74941a973b71d5f9dbf8
+      internalID: 581712095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_1_2
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 157
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd354b00fab2beb469ce07afd1dfaa7f
+      internalID: 642533728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_2_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 211
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d517d7be50444a93f828d5ffd1faa
+      internalID: 1074066454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_3_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 181
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782c26ce7343ad49b41493a18157a89
+      internalID: 1682192100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummygreen_1
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 125
+        width: 369
+        height: 449
+      alignment: 9
+      pivot: {x: 0.19559254, y: 0.69536257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b646a142cba91549956140db8582889
+      internalID: 2043774199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gummygreen_2
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 121
+        width: 376
+        height: 658
+      alignment: 9
+      pivot: {x: 0.20164327, y: 0.7003764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfd296bc19c3dd42ad99b8477bbc5f5
+      internalID: -357815476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_1_3
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 174
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ffd57ba29cf9545bf6336b69ba5505
+      internalID: 1217475474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_2_3
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 270
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598edf54b7b1bea49af4c0ff567b3f00
+      internalID: -1393548630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greensplash_3_3
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 223
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017b18f8cbe58164cbc4acd66c1bd7cd
+      internalID: 676393990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1173,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gummyyellow_0: -963765280
+      gummyblue_0: -273155274
+      greensplash_1_1: 619558042
+      greensplash_3_1: 581712095
+      yellowsplash_2_3: 1436119633
+      gummyred_0: -354583968
+      gummyblue_1: -231042064
+      redsplash_2_3: -1099969959
+      greensplash_2_1: -724376364
+      greensplash_2_2: 1074066454
+      redsplash_3_: 1983739107
+      bluesplash_1_1: -644357210
+      gummysplash_1_2: -636375020
+      gummygreen_0: -730684010
+      greensplash_3_3: 676393990
+      gummyyellow_1: 1892658878
+      redsplash_1_1: 1037439354
+      greensplash_3_2: 1682192100
+      greensplash_1_3: 1217475474
+      redsplash_1_2: -106374793
+      gummyred_2: 276658540
+      bluesplash_2_3: -1989096024
+      gummyblue_2: -1212027705
+      yellowsplash_2_1: 394617562
+      greensplash_2_3: -1393548630
+      redsplash3_1: 1894480231
+      yellowsplash_1_2: -1327027350
+      gummygreen_2: -357815476
+      yellowsplash_3_3: 556974915
+      bluesplash_2_1: 1462948695
+      bluesplash_3_2: 1096828457
+      gummysplash_2_2: -1596383965
+      yellowsplash_2_2: 145518423
+      yellowsplash_3_2: -703376809
+      gummygreen_1: 2043774199
+      yellowsplash_1_3: -825090160
+      redsplash_2_2: 1075302592
+      gummysplash_3_1: 788087101
+      yellowsplash_1_1: -436752985
+      bluesplash_1_3: -339455610
+      redsplash_3_3: -981716557
+      gummyred_1: -1471875765
+      redsalash_1_3: 1530707500
+      yellowsplash_3_1: -2087118414
+      bluesplash_3_3: 1993181679
+      gummyyellow_2: 329061860
+      redsplash_2_1: 1938419189
+      greensplash_1_2: 642533728
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
