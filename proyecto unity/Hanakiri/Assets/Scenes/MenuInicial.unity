@@ -156,7 +156,7 @@ RectTransform:
   m_Children:
   - {fileID: 1081888875}
   m_Father: {fileID: 1877300119}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -545,8 +545,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1414641225}
-        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+      - m_Target: {fileID: 1414641227}
+        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
         m_MethodName: SalidaJuego
         m_Mode: 1
         m_Arguments:
@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 0
+  nextScene: 3
   nuevaPartida: {fileID: 0}
   Coleccionables: {fileID: 1398321418}
   Configuracion: {fileID: 0}
@@ -1993,7 +1993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1414641226}
-  - component: {fileID: 1414641225}
+  - component: {fileID: 1414641227}
   m_Layer: 0
   m_Name: ControladorMenu
   m_TagString: Untagged
@@ -2001,18 +2001,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1414641225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414641224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c941aea7aa58a0c4c96410e2f5259e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1414641226
 Transform:
   m_ObjectHideFlags: 0
@@ -2028,6 +2016,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1414641227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414641224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 0
+  nuevaPartida: {fileID: 0}
+  Coleccionables: {fileID: 0}
+  Configuracion: {fileID: 0}
+  Logros: {fileID: 0}
+  Salir: {fileID: 0}
 --- !u!1 &1514649269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2110,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514649269}
   m_CullTransparentMesh: 1
+--- !u!1 &1526330924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526330925}
+  m_Layer: 0
+  m_Name: Fondos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526330925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526330924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 504.65457, y: 262.7309, z: -8.956326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1877300119}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1544554783
 GameObject:
   m_ObjectHideFlags: 0
@@ -2620,6 +2657,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1526330925}
   - {fileID: 12197932}
   m_Father: {fileID: 0}
   m_RootOrder: 0

@@ -30,5 +30,19 @@ public class MenuInicial : MonoBehaviour
     }
     
 
+
+
+
+
+    public void SalidaJuego()
+    {
+
+    #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+    #else
+        Application.Quit();
+    #endif
+    
+    }
     
 }
