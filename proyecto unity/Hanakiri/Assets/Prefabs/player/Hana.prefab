@@ -166,10 +166,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   checkGround: {fileID: 6717678015353611842}
-  dimensionGround: {x: 1.2, y: 0.09, z: 0}
+  dimensionGround: {x: 1.17, y: 0.09, z: 0}
   ground: 0
   checkWall: {fileID: 6717678015369957522}
-  dimensionWall: {x: 0.09, y: 3.04, z: 0}
+  dimensionWall: {x: 0.09, y: 2.09, z: 0}
   moveSpeed: 400
   moveSuavizador: 0
   jumpForce: 400
