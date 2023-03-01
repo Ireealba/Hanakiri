@@ -213,12 +213,17 @@ public class personaje : MonoBehaviour
             {
                 ground = false;
                 canDoubleJump = true;
+                rb2D.velocity = new Vector3(rb2D.velocity.x, 0f, 0f);
                 rb2D.AddForce(new Vector2(0f, jumpForce));
             }
             else if (canDoubleJump && !ground)
             {
                 ground = false;
                 animator.SetBool("DoubleJump", true);
+                if(rb2D.velocity.y <= 0)
+                {
+                    rb2D.velocity = new Vector3(rb2D.velocity.x, 0f, 0f);
+                }
                 rb2D.AddForce(new Vector2(0f, doubleJumpForce));
                 canDoubleJump = false;
             }
