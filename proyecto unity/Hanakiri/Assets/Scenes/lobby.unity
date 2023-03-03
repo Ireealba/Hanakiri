@@ -2867,5 +2867,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "AAAAAAAAA\t"
-    - holis
+    - "Hola Hana, Imagina que aqu\xED hay tremendo textaco"
+    - "metete por la trampilla de detr\xE1s tuya porfi"
