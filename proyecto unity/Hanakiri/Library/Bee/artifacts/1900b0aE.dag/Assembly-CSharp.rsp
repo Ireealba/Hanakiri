@@ -409,6 +409,7 @@
 "Assets/Scripts/Enemies/tutorial/SpiderSlide.cs"
 "Assets/Scripts/Enemies/tutorial/WallSpider.cs"
 "Assets/Scripts/NPC/ControlIcono.cs"
+"Assets/Scripts/Objects/activateObjects.cs"
 "Assets/Scripts/Objects/CollectObjects.cs"
 "Assets/Scripts/Objects/puerta.cs"
 "Assets/Scripts/Objects/Trampilla/Trampilla.cs"
