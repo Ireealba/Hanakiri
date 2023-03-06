@@ -108,7 +108,7 @@ public class personaje : MonoBehaviour
         //deslizarse pared
         animator.SetBool("Sliding", sliding);
 
-        if (!ground && wall && inputX != 0)
+        if (!ground && wall && inputX != 0 && !lobby)
         {
             sliding = true;
         }
@@ -165,7 +165,7 @@ public class personaje : MonoBehaviour
                 jump = false;
 
                 //deslizarse por pared
-                if (sliding)
+                if (sliding )
                 {
                     rb2D.velocity = new Vector2(rb2D.velocity.x, Mathf.Clamp(rb2D.velocity.y, -slideSpeed, float.MaxValue));
                 }
@@ -181,6 +181,11 @@ public class personaje : MonoBehaviour
             accion = true;
             iconoaccion = true;
         }
+
+        if (collision.tag == "noSlide")
+        {
+            lobby = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -190,6 +195,11 @@ public class personaje : MonoBehaviour
         {
             accion = false;
             iconoaccion = false;
+        }
+
+        if (collision.tag == "noSlide")
+        {
+            lobby = false;
         }
     }
 
