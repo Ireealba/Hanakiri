@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: 13120b29e5ebc804ea6de8805831c926
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caramelos_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2373
+        width: 499
+        height: 454
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70443cc76333bc94c96c2f0f9c927046
+      internalID: 419991384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_1
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2373
+        width: 499
+        height: 434
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918af651a14601540a1a984d90561bf9
+      internalID: -1069039266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1726
+        width: 406
+        height: 420
+      alignment: 9
+      pivot: {x: 0.47285807, y: 0.12919399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea4fc6628f7a9b46b6869c4b7246ffd
+      internalID: 968174321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_3
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1711
+        width: 402
+        height: 435
+      alignment: 9
+      pivot: {x: 0.4741211, y: 0.16741733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0d1d48015744f40bcedb6600f2208d
+      internalID: -1334913888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1725
+        width: 403
+        height: 425
+      alignment: 9
+      pivot: {x: 0.4662459, y: 0.14148696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafb258792cba3d4aba55d51782b8453
+      internalID: 55404191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_5
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1746
+        width: 401
+        height: 391
+      alignment: 9
+      pivot: {x: 0.44776943, y: 0.06520709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9460b3c42f02d1145b2586d6b96a7eec
+      internalID: -366936371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_6
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1768
+        width: 406
+        height: 380
+      alignment: 9
+      pivot: {x: 0.43606943, y: 0.018379934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279452d0b3f8c8440bf26a35949918fa
+      internalID: -639093408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_7
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 1774
+        width: 430
+        height: 381
+      alignment: 9
+      pivot: {x: 0.4281426, y: 0.019071484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d995883d0bc1af49863bf074590aca9
+      internalID: -848293397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_8
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 1792
+        width: 424
+        height: 382
+      alignment: 9
+      pivot: {x: 0.43662363, y: 0.018915785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4306a9ab84b8d974bb0dd621902d8709
+      internalID: 1845700626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1207
+        width: 406
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4578853, y: 0.024507204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c742212fced5c0c48be44bcfa368ded9
+      internalID: 1690268802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_10
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1221
+        width: 405
+        height: 413
+      alignment: 9
+      pivot: {x: 0.4481397, y: 0.01714275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69984f33df04dee41862bb76cd018cd3
+      internalID: -686735982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_11
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1227
+        width: 398
+        height: 432
+      alignment: 9
+      pivot: {x: 0.45445827, y: 0.011343779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f5c41ef69101445924700337bab04b
+      internalID: 2068751939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_12
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1241
+        width: 399
+        height: 425
+      alignment: 9
+      pivot: {x: 0.44365278, y: 0.017917337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9abc4b8bd26a314fbccbb2bdd210fe6
+      internalID: -308888941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_13
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 1272
+        width: 413
+        height: 387
+      alignment: 9
+      pivot: {x: 0.45766553, y: 0.023118287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f7b599a3aaa9488760ac40f5c2876
+      internalID: -80562528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_14
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 1298
+        width: 441
+        height: 381
+      alignment: 9
+      pivot: {x: 0.4996396, y: 0.026371352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813ba028a3fc02948ba8939d3a36792f
+      internalID: -299833191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 766
+        width: 459
+        height: 380
+      alignment: 9
+      pivot: {x: 0.5312432, y: 0.02140503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b05058ca20219349bc0627c53df776f
+      internalID: -644806928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_16
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 774
+        width: 452
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5099891, y: 0.018194336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3590bc5a021615f458f88b867db1731c
+      internalID: -41328383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caramelos_17
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 740
+        width: 404
+        height: 396
+      alignment: 9
+      pivot: {x: 0.4672377, y: 0.060535163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc85505f8b73c43861d1223ac37201
+      internalID: 780858158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      caramelos_0: 419991384
+      caramelos_12: 2068751939
+      caramelos_2: 968174321
+      caramelos_10: 1690268802
+      caramelos_4: 55404191
+      caramelos_15: -299833191
+      caramelos_9: 1845700626
+      caramelos_1: -1069039266
+      caramelos_7: -639093408
+      caramelos_14: -80562528
+      caramelos_3: -1334913888
+      caramelos_13: -308888941
+      caramelos_17: -41328383
+      caramelos_8: -848293397
+      caramelos_6: 1484527412
+      caramelos_16: -644806928
+      caramelos_5: -366936371
+      caramelos_11: -686735982
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
