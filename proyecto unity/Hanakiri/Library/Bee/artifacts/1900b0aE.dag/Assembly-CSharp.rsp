@@ -401,6 +401,7 @@
 "Assets/Scripts/cambio de escena/MenuInicial.cs"
 "Assets/Scripts/colliders/changeColliders.cs"
 "Assets/Scripts/Damage Objects/DamageObject.cs"
+"Assets/Scripts/Enemies/capitulo1/caramelo.cs"
 "Assets/Scripts/Enemies/capitulo1/gummybear.cs"
 "Assets/Scripts/Enemies/Enemy.cs"
 "Assets/Scripts/Enemies/tutorial/BossSpider.cs"
