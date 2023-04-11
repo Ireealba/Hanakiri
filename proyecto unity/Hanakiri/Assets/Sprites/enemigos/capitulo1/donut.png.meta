@@ -283,6 +283,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: donut_8
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2854
+        width: 135
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0962fffa85c769d44a94985f8f373aba
+      internalID: -1575841884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donut_9
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 2849
+        width: 145
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2e96f7bdbe8154896cc2ab7cbb74a4
+      internalID: -1576708660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donut_10
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 2720
+        width: 144
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84df7e1ff8fa794aa59f9e2e529185f
+      internalID: -531432902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -296,11 +359,14 @@ TextureImporter:
     nameFileIdTable:
       donut_3: 1153540243
       donut_7: 294053664
+      donut_9: -1576708660
       donut_0: -2020546970
+      donut_10: -531432902
       donut_6: -718054947
       donut_5: -1576020370
       donut_1: -1189387507
       donut_4: -321189880
+      donut_8: -1575841884
       donut_2: 116601537
   spritePackingTag: 
   pSDRemoveMatte: 0
