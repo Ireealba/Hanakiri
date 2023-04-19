@@ -179,6 +179,7 @@ MonoBehaviour:
   - {fileID: 2663820998397537736}
   startWaitTime: 20
   lookRight: 0
+  spawnP: {fileID: 6700105955997180982}
 --- !u!1 &6636415765869001999
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,14 +235,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6700105955997180982}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3.3, y: 5.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3689061142228289057}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &127954977431331556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,8 +258,9 @@ MonoBehaviour:
   distanceRaycast: 10
   rangoRaycast: 10
   bullet: {fileID: 6501566241589216363, guid: 83a2749d26c7c044b8afea207fde6e52, type: 3}
-  controlShoot: {fileID: 8069391015762578447}
+  controlShootL: {fileID: 8069391015762578447}
   animator: {fileID: 3689061142228289059}
+  playerDetected: 0
 --- !u!1 &7804235519454793123
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8069391015762578447}
   m_Layer: 0
-  m_Name: controlShoot
+  m_Name: controlShootL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -347,11 +349,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8214089730639291737}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.5, y: 5.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3689061142228289057}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}

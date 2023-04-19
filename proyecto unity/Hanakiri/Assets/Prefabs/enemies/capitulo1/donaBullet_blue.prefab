@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4306353351818677505}
   - component: {fileID: 2282771826687173325}
   - component: {fileID: 1907299800054435419}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: donaBullet_blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,4 +137,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  lifeTime: 2
+  lifeTime: 10
