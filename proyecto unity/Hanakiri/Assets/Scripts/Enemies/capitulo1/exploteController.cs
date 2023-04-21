@@ -13,15 +13,18 @@ public class exploteController : MonoBehaviour
             Debug.Log("explotarrrrr");
             muffin.transform.GetComponent<muffin>().canExplote = true;
         }
-    }
-    /*
-    private void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.GetComponent<Collider>().CompareTag("Player") && muffin.transform.GetComponent<muffin>().playerDetected)
+
+        if (collider.CompareTag("Player"))
         {
-            Debug.Log("explotarrrrr");
-            muffin.transform.GetComponent<muffin>().canExplote = true;
+            muffin.transform.GetComponent<muffin>().playerRange = true;
         }
     }
-    */
+
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.CompareTag("Player")){
+            muffin.transform.GetComponent<muffin>().playerRange = false;
+        }
+    }
+
 }
