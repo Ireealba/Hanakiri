@@ -8,15 +8,20 @@ public class exploteController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.CompareTag("Player"))
+        if (collider.CompareTag("Player") && muffin.transform.GetComponent<muffin>().playerDetected)
         {
             Debug.Log("explotarrrrr");
             muffin.transform.GetComponent<muffin>().canExplote = true;
         }
-        else
+    }
+    /*
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.GetComponent<Collider>().CompareTag("Player") && muffin.transform.GetComponent<muffin>().playerDetected)
         {
-            Debug.Log("chillingggg");
-
+            Debug.Log("explotarrrrr");
+            muffin.transform.GetComponent<muffin>().canExplote = true;
         }
     }
+    */
 }

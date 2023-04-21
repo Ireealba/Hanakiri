@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,465 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 872
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cc73d37a775df4ab1b30c1d71b2960
+      internalID: 1840226299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 872
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588813ee66125cb44a2517343224f479
+      internalID: -1751463696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 872
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa74bee45557eea4b82c5b332366a304
+      internalID: -1521211214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 872
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182a90671fc24624fae551d3c4645cae
+      internalID: 1013151179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 808
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad473457421236340a79205439302711
+      internalID: 257228821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 808
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b2447a2febf0b4c933d7226a8a2d1d
+      internalID: -1845309979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 808
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced8beeb586988749a4e02acc5624edb
+      internalID: 1105970112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 808
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbd350fc66a09647b1d092feef0443a
+      internalID: 2050883672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 633
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908090ee8ee81647aa31d9121ab3839
+      internalID: -1907472681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 633
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29848bf16e6c954787a96eaf5db9286
+      internalID: -28413959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 633
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e678159a53ddf4841ae6e7ab1f945079
+      internalID: 1204369887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 633
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c989775086513844a396e19a09c3837
+      internalID: -1064051276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 568
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3385b8af6e8fb7443ae507ca1d61d109
+      internalID: 487012951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 568
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92aba175729deb40ab46253de6d845a
+      internalID: -1666267679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 568
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fd19cd81875e2408e5d221e6fd44f3
+      internalID: 1384375890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 568
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbc803db6982f74dbba97dd273160e7
+      internalID: -1507623073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 503
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c131b6e71ac5da647ac635931281f8fe
+      internalID: -1243159593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 503
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2472e8485b4aa51478134da581395c11
+      internalID: -1807547700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 503
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c46fbe1053294089e1d86f384821b
+      internalID: 1517611543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capitulo 1 nivel3_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 503
+        width: 68
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766e06bb868d3e243a55ed8f6faad986
+      internalID: -1956600718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +545,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      capitulo 1 nivel3_6: 1105970112
+      capitulo 1 nivel3_8: -1907472681
+      capitulo 1 nivel3_0: 1840226299
+      capitulo 1 nivel3_9: -28413959
+      capitulo 1 nivel3_1: -1751463696
+      capitulo 1 nivel3_18: 1517611543
+      capitulo 1 nivel3_19: -1956600718
+      capitulo 1 nivel3_12: 487012951
+      capitulo 1 nivel3_13: -1666267679
+      capitulo 1 nivel3_3: 1013151179
+      capitulo 1 nivel3_17: -1807547700
+      capitulo 1 nivel3_4: 257228821
+      capitulo 1 nivel3_7: 2050883672
+      capitulo 1 nivel3_10: 1204369887
+      capitulo 1 nivel3_16: -1243159593
+      capitulo 1 nivel3_14: 1384375890
+      capitulo 1 nivel3_15: -1507623073
+      capitulo 1 nivel3_2: -1521211214
+      capitulo 1 nivel3_5: -1845309979
+      capitulo 1 nivel3_11: -1064051276
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

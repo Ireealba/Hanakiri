@@ -9,12 +9,13 @@ public class muffin : MonoBehaviour
     [SerializeField] float rangoRaycast;
 
     [SerializeField] Transform controlRaycast;
-    [SerializeField] Transform npcBody;
+    [SerializeField] GameObject npcBody;
     [SerializeField] Transform npc;
     private bool move;
     private bool stopped;
     private bool exploted;
     public bool canExplote;
+    public bool playerDetected;
     [SerializeField] private bool lookRight;
     [SerializeField] private float moveSpeed;
 
@@ -22,9 +23,10 @@ public class muffin : MonoBehaviour
     void Start()
     {
         move = false;
-        stopped = true;
+        stopped = false;
         exploted = false;
         canExplote = false;
+        playerDetected = false;
     }
 
     void Update()
@@ -35,15 +37,9 @@ public class muffin : MonoBehaviour
             Move(moveSpeed);
             stopped = false;
         }
-        else if(!move && !stopped)
-        {
-            animator.Play("idle");
-            Stop();
-            stopped = true;
-        }
         else if (exploted)
         {
-            //destruir todo
+            Destroy(npcBody);
 
         }
 
@@ -63,21 +59,27 @@ public class muffin : MonoBehaviour
             {
                 Debug.Log("Player detected");
 
-                if (!move)
+                if (!move && !stopped)
                 {
                     move = true;
-                }
-                else if (canExplote)
+                    playerDetected = true;
+                }else if (stopped)
                 {
-                    Stop();
-                    Explote();
+                    move = false;
                 }
+                
             }
             else
             {
                 Debug.Log("Player not detected");
             }
 
+        }
+
+        if (canExplote)
+        {
+            Stop();
+            Explote();
         }
     }
 
@@ -100,6 +102,8 @@ public class muffin : MonoBehaviour
     private void Stop()
     {
         npc.position = new Vector2(npc.position.x, npc.position.y);
+        stopped = true;
+        move = false;
 
     }
 
@@ -107,6 +111,11 @@ public class muffin : MonoBehaviour
     {
         Debug.Log("explotar");
         animator.Play("explosion");
+ 
+    }
+    private void Exploted()
+    {
+        exploted = true;
     }
 
     

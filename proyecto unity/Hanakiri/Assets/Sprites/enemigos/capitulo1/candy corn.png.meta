@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: b9ce217742e441044a44289eed3346c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: candy corn_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2120
+        width: 762
+        height: 844
+      alignment: 9
+      pivot: {x: 0.41010183, y: 0.020135527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc47b1a3d691d2d4e937428f1be2ea49
+      internalID: -2014207015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_1
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 2119
+        width: 667
+        height: 839
+      alignment: 9
+      pivot: {x: 0.39489764, y: 0.012095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275de508c189e9f4c97afd9af2cfc304
+      internalID: -1311289995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_2
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 2093
+        width: 800
+        height: 872
+      alignment: 9
+      pivot: {x: 0.41277465, y: 0.021766592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ecf6f1eeea18a43848c7cf070f2c74
+      internalID: 1673548312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1203
+        width: 528
+        height: 842
+      alignment: 9
+      pivot: {x: 0.41743273, y: 0.021070756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a656b58a319c0c438f11c1d5a2ed9c1
+      internalID: 197925047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1205
+        width: 545
+        height: 870
+      alignment: 9
+      pivot: {x: 0.36004716, y: 0.020595647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55078473d8edaa4aaa139ad08f1676b
+      internalID: 1427306146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_5
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 1203
+        width: 595
+        height: 853
+      alignment: 9
+      pivot: {x: 0.3412528, y: 0.025927706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90862dd77131f4a48997a142359185fd
+      internalID: 650081833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 713
+        width: 686
+        height: 445
+      alignment: 9
+      pivot: {x: 0.16920038, y: 0.049396094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562b1be94e697364ea79f083b6a5c590
+      internalID: -1860325112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 705
+        width: 675
+        height: 419
+      alignment: 9
+      pivot: {x: 0.15917724, y: 0.042451628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35852eea3dfa2c45bd1b9d298c72663
+      internalID: -1136487440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_8
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 660
+        width: 524
+        height: 409
+      alignment: 9
+      pivot: {x: 0.20215262, y: 0.045871574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8136958ef5cd84541aab98b602b0f3f2
+      internalID: -637398414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_9
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 641
+        width: 527
+        height: 438
+      alignment: 9
+      pivot: {x: 0.20524259, y: 0.04443276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c76e87e2e8dedf48a6eabeec3caac9e
+      internalID: -2142906347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candy corn_10
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 896
+        width: 225
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f85716c87a2a47aea8f18aed36f41
+      internalID: -1912927841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      candy corn_0: -2014207015
+      candy corn_5: 650081833
+      candy corn_6: -1860325112
+      candy corn_2: 1673548312
+      candy corn_4: 1427306146
+      candy corn_8: -637398414
+      candy corn_7: -1136487440
+      candy corn_9: -2142906347
+      candy corn_10: -1912927841
+      candy corn_1: -1311289995
+      candy corn_3: 197925047
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
