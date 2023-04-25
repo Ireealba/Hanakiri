@@ -24,6 +24,11 @@ public class donut : MonoBehaviour
     //detect player
     [SerializeField] private GameObject spawnP;
     [SerializeField] private GameObject actioner;
+    private bool playerDetectedR;
+    private bool playerDetectedL;
+    [SerializeField] private Transform shootControllerL;
+    [SerializeField] private Transform shootControllerR;
+    private bool rotated;
     
 
 
@@ -40,7 +45,10 @@ public class donut : MonoBehaviour
 
     void Update()
     {
-        
+        playerDetectedL = spawnP.transform.GetComponent<bulletController>().playerDetectedL;
+        playerDetectedR = spawnP.transform.GetComponent<bulletController>().playerDetectedR;
+
+
 
         if (moving)
         {
@@ -78,13 +86,19 @@ public class donut : MonoBehaviour
         }
         else
         {
+            if (rotated)
+            {
+                Girar();
+                rotated = false;
+            }
+
             Debug.Log("No está en waypoint");
             moving = true;
             canRotate = true;
         }
 
 
-        if (!spawnP.transform.GetComponent<bulletController>().playerDetected)
+        if (!playerDetectedL && !playerDetectedR)
         {
             transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
 
@@ -114,6 +128,12 @@ public class donut : MonoBehaviour
         else
         {
             moving = false;
+
+            if((playerDetectedL && lookRight) || (playerDetectedR && !lookRight))
+            {
+                Girar();
+                rotated = true;
+            }
             
             if(spawnP.transform.GetComponent<bulletController>().actualCooldownAttack < 0)
             {
@@ -136,6 +156,8 @@ public class donut : MonoBehaviour
         lookRight = !lookRight;
 
         donago.transform.Rotate(0f, 180f, 0f);
+        shootControllerL.Rotate(0f, 180f, 0f);
+        shootControllerR.Rotate(0f, 180f, 0f);
     }
 
 

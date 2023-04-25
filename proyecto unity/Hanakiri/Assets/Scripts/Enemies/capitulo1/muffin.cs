@@ -57,11 +57,12 @@ public class muffin : MonoBehaviour
         RaycastHit2D hit2DL = Physics2D.Raycast(controlRaycastL.position, controlRaycastL.right * distanceRaycast, rangoRaycast);
         RaycastHit2D hit2DR = Physics2D.Raycast(controlRaycastR.position, controlRaycastR.right * distanceRaycast, rangoRaycast);
 
-        if(hit2DL.collider != null) {
+        if(hit2DL.collider != null)
+        {//izquierda
 
             Debug.Log("colisionando con " + hit2DL.collider.name);
 
-            if (hit2DL.collider.CompareTag("Player"))//izquierda
+            if (hit2DL.collider.CompareTag("Player"))
             {
                 Debug.Log("Player detected");
 

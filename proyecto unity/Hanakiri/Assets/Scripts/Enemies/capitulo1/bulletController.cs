@@ -11,8 +11,10 @@ public class bulletController : MonoBehaviour
     public float actualCooldownAttack;
     [SerializeField] GameObject[] bullet;
     [SerializeField] Transform controlShootL;
+    [SerializeField] Transform controlShootR;
     [SerializeField] private Animator animator;
-    public bool playerDetected;
+    public bool playerDetectedL;
+    public bool playerDetectedR;
     public bool shooting;
     [SerializeField] GameObject setFalse;
 
@@ -24,7 +26,8 @@ public class bulletController : MonoBehaviour
     {
         //inicialización de variables
         actualCooldownAttack = 0;
-        playerDetected = false;
+        playerDetectedL = false;
+        playerDetectedR = false;
         shooting = false;
         bulletType = 0;
 
@@ -38,6 +41,7 @@ public class bulletController : MonoBehaviour
 
         //dibujar raycast de detección de personaje R y L
         Debug.DrawRay(controlShootL.position, controlShootL.right * rangoRaycast, Color.green, distanceRaycast);
+        Debug.DrawRay(controlShootR.position, controlShootR.right * rangoRaycast, Color.green, distanceRaycast);
 
         shooting = setFalse.transform.GetComponent<SetFalse>().shoot;
     }
@@ -45,26 +49,43 @@ public class bulletController : MonoBehaviour
     void FixedUpdate()
     {
 
-        RaycastHit2D hit2D = Physics2D.Raycast(controlShootL.position, controlShootL.right * distanceRaycast, rangoRaycast);
+        RaycastHit2D hit2DL = Physics2D.Raycast(controlShootL.position, controlShootL.right * distanceRaycast, rangoRaycast);
+        RaycastHit2D hit2DR = Physics2D.Raycast(controlShootR.position, controlShootR.right * distanceRaycast, rangoRaycast);
 
 
-        if(hit2D.collider != null)
+        if(hit2DL.collider != null)
         {
-            Debug.Log("colisionando con " + hit2D.collider.name);
+            Debug.Log("colisionando por la izquierda con " + hit2DL.collider.name);
 
-            if (hit2D.collider.CompareTag("Player"))
+            if (hit2DL.collider.CompareTag("Player"))
             {
-                playerDetected = true;
+                playerDetectedL = true;
+                playerDetectedR = false;
             }
             else
             {
-                playerDetected = false;
+                playerDetectedL = false;
             }
 
         }
+        else if(hit2DR.collider != null)
+        {
+            Debug.Log("colisionando por la derecha con " + hit2DR.collider.name);
+
+            if (hit2DR.collider.CompareTag("Player"))
+            {
+                playerDetectedR = true;
+                playerDetectedL = false;
+            }
+            else
+            {
+                playerDetectedR = false;
+            }
+        }
         else
         {
-            playerDetected = false; 
+            playerDetectedR = false; 
+            playerDetectedL = false;
         }
 
         /*
