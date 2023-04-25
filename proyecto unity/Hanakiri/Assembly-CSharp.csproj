@@ -59,7 +59,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Player\CheckWall.cs" />
-    <Compile Include="Assets\Scripts\Enemies\capitulo1\donut.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\donut\donut.cs" />
     <Compile Include="Assets\Scripts\Damage Objects\DamageObject.cs" />
     <Compile Include="Assets\Scripts\Player\CheckGround.cs" />
     <Compile Include="Assets\Scripts\Objects\CollectObjects.cs" />
@@ -68,12 +68,12 @@
     <Compile Include="Assets\Scripts\Text\Textos.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\Scripts\Enemies\capitulo1\muffin.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\muffin\muffin.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\SetFalse.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Text\ControlDialogos.cs" />
-    <Compile Include="Assets\Scripts\Enemies\capitulo1\gummybear.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\gummybear\gummybear.cs" />
     <Compile Include="Assets\Scripts\Player\ataqueCuerpoACuerpo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -87,7 +87,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\Text\ObjetoInteractable.cs" />
     <Compile Include="Assets\Scripts\cambio de escena\changeScene.cs" />
-    <Compile Include="Assets\Scripts\Enemies\capitulo1\bulletController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\donut\donuBulletController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\Text\textDown.cs" />
@@ -95,11 +95,11 @@
     <Compile Include="Assets\Scripts\Player\personaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\cambio de escena\MenuInicial.cs" />
-    <Compile Include="Assets\Scripts\Enemies\capitulo1\caramelo.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\caramelo\caramelo.cs" />
     <Compile Include="Assets\Scripts\Objects\Trampilla\Trampilla.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Scripts\Objects\puerta.cs" />
-    <Compile Include="Assets\Scripts\Enemies\capitulo1\exploteController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\muffin\exploteController.cs" />
     <Compile Include="Assets\Scripts\Objects\tutorial\aparecerllave.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -124,6 +124,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\candy corn\candyCorn.cs" />
+    <Compile Include="Assets\Scripts\Enemies\capitulo1\candy corn\cornBulletController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
