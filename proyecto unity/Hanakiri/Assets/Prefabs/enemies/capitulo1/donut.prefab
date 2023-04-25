@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3689061142228289052}
   - component: {fileID: 3689061142228289059}
   - component: {fileID: 3689061142228289058}
+  - component: {fileID: 5965332076280910198}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -124,6 +125,20 @@ CircleCollider2D:
   m_Offset: {x: 0.4366697, y: 4.8}
   serializedVersion: 2
   m_Radius: 3.4798346
+--- !u!114 &5965332076280910198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689061142228289056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9696e655da1bc468bdd36fc517fee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoot: 0
+  action: 0
 --- !u!1 &3689061142263275427
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,6 +195,7 @@ MonoBehaviour:
   startWaitTime: 20
   lookRight: 0
   spawnP: {fileID: 6700105955997180982}
+  actioner: {fileID: 3689061142228289056}
 --- !u!1 &6636415765869001999
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,10 +273,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceRaycast: 10
   rangoRaycast: 10
-  bullet: {fileID: 6501566241589216363, guid: 83a2749d26c7c044b8afea207fde6e52, type: 3}
+  actualCooldownAttack: 0
+  bullet:
+  - {fileID: 6501566241589216363, guid: 83a2749d26c7c044b8afea207fde6e52, type: 3}
+  - {fileID: 6501566241589216363, guid: 872de402e8c12c0428a7df10d514adc4, type: 3}
+  - {fileID: 6501566241589216363, guid: f413f6fc8dfc46b409cd25654eb0f0d2, type: 3}
   controlShootL: {fileID: 8069391015762578447}
   animator: {fileID: 3689061142228289059}
   playerDetected: 0
+  shooting: 0
+  setFalse: {fileID: 3689061142228289056}
 --- !u!1 &7804235519454793123
 GameObject:
   m_ObjectHideFlags: 0

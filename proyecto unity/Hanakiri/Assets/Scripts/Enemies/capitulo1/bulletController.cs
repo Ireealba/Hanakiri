@@ -9,12 +9,15 @@ public class bulletController : MonoBehaviour
     [SerializeField] float rangoRaycast;
     private float cooldownAttack = 2f;
     public float actualCooldownAttack;
-    [SerializeField] GameObject bullet;
+    [SerializeField] GameObject[] bullet;
     [SerializeField] Transform controlShootL;
     [SerializeField] private Animator animator;
     public bool playerDetected;
     public bool shooting;
-    private int j = 0;
+    [SerializeField] GameObject setFalse;
+
+    //cambiar de bullet
+    private int bulletType;
 
 
     void Start()
@@ -23,6 +26,7 @@ public class bulletController : MonoBehaviour
         actualCooldownAttack = 0;
         playerDetected = false;
         shooting = false;
+        bulletType = 0;
 
         //StartCoroutine(waiter());
     }
@@ -34,6 +38,8 @@ public class bulletController : MonoBehaviour
 
         //dibujar raycast de detección de personaje R y L
         Debug.DrawRay(controlShootL.position, controlShootL.right * rangoRaycast, Color.green, distanceRaycast);
+
+        shooting = setFalse.transform.GetComponent<SetFalse>().shoot;
     }
 
     void FixedUpdate()
@@ -55,6 +61,10 @@ public class bulletController : MonoBehaviour
                 playerDetected = false;
             }
 
+        }
+        else
+        {
+            playerDetected = false; 
         }
 
         /*
@@ -85,41 +95,39 @@ public class bulletController : MonoBehaviour
 
         GameObject newBullet;
 
-        newBullet = Instantiate(bullet, transform.position, transform.rotation);//TODO random colores
+        //0: azul, 1: rojo, 2: verde
+        switch (bulletType)
+        {
+            case 0:
+                newBullet = Instantiate(bullet[0], transform.position, transform.rotation);
+                bulletType++;
+                break;
+
+            case 1:
+                newBullet = Instantiate(bullet[1], transform.position, transform.rotation);
+                bulletType++;
+                break;
+
+            case 2:
+                newBullet = Instantiate(bullet[2], transform.position, transform.rotation);
+                bulletType = 0;
+                break;
+
+        }
+
+        //TODO random colores
     }
 
     public void Shoot()
     {
-        if(actualCooldownAttack < 0)
+        if(actualCooldownAttack < 0 && !shooting)
         {
-            if(j == 0)
-            {
-                shooting = true;
-                Invoke("LaunchBullet", 0.5f);
-                actualCooldownAttack = cooldownAttack;
-                j++;
-            }
-            else
-            {
-                animator.Play("idle");//TODO animación frame 0 de shoot
-                j = 0;
-            }
 
-        }
-    }
-
-    IEnumerator waiter()
-    {
-        Debug.Log("waiter start");
-
-        if (shooting)
-        {
-            Debug.Log("waiter shooting");
             animator.Play("shoot");
+            Invoke("LaunchBullet", 0.5f);
+           actualCooldownAttack = cooldownAttack;
 
-            yield return new WaitForSeconds(2);
-
-            shooting = false;
         }
     }
+
 }

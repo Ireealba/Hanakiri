@@ -23,6 +23,7 @@ public class donut : MonoBehaviour
 
     //detect player
     [SerializeField] private GameObject spawnP;
+    [SerializeField] private GameObject actioner;
     
 
 
@@ -43,35 +44,51 @@ public class donut : MonoBehaviour
 
         if (moving)
         {
-            animator.Play("move");
+            Debug.Log("Se puede mover");
+
+            if (!spawnP.transform.GetComponent<bulletController>().shooting)
+            {
+                Debug.Log("No ataca así que se puede mover");
+                animator.Play("move");
+            }
+            
         }
-        else if(!moving && !spawnP.transform.GetComponent<bulletController>().shooting)
+        else if(!moving)
         {
-            animator.Play("idle");
+            Debug.Log("No se mueve");
+
+            if (!spawnP.transform.GetComponent<bulletController>().shooting){
+                Debug.Log("Tampoco ataca");
+                animator.Play("idle");
+            }
+            
         }
 
+        if (transform.position.x == moveSpots[i].transform.position.x)
+        {
+            Debug.Log("En waypoint");
+            moving = false;
 
+            if (canRotate)
+            {
+                Debug.Log("Gira");
+                Girar();
+                canRotate = false;
+            }
+        }
+        else
+        {
+            Debug.Log("No está en waypoint");
+            moving = true;
+            canRotate = true;
+        }
 
 
         if (!spawnP.transform.GetComponent<bulletController>().playerDetected)
         {
             transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
 
-            if (transform.position.x == moveSpots[i].transform.position.x)
-            {
-                moving = false;
-
-                if (canRotate)
-                {
-                    Girar();
-                    canRotate = false;
-                }
-            }
-            else
-            {
-                moving = true;
-                canRotate = true;
-            }
+            
 
             if (waitTime <= 0)
             {
@@ -100,7 +117,7 @@ public class donut : MonoBehaviour
             
             if(spawnP.transform.GetComponent<bulletController>().actualCooldownAttack < 0)
             {
-                animator.Play("shoot");
+
                 spawnP.transform.GetComponent<bulletController>().Shoot();
 
 
