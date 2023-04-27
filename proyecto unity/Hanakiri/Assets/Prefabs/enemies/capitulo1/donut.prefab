@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3689061142228289059}
   - component: {fileID: 3689061142228289058}
   - component: {fileID: 5965332076280910198}
+  - component: {fileID: 2158585076858985260}
+  - component: {fileID: 6884291471083677491}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -140,6 +142,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shoot: 0
   action: 0
+--- !u!114 &2158585076858985260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689061142228289056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76944bf60802dbb48b27d5e93f5e17a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 20
+  cantMonedas: 1
+--- !u!114 &6884291471083677491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689061142228289056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db03bf783cea1ed4897c32f1fd901247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownattack: 1.5
+  actualcooldownattack: 0
 --- !u!1 &3689061142263275427
 GameObject:
   m_ObjectHideFlags: 0
