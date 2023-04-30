@@ -55,7 +55,12 @@ public class cornBulletController : MonoBehaviour
                 playerDetectedL = false;
             }
         }
-        else if(hit2DR.collider != null)
+        else
+        {
+            playerDetectedL = false;
+        }
+        
+        if(hit2DR.collider != null)
         {
             Debug.Log("collisionando por la derecha con " + hit2DR.collider.name);
 
@@ -72,8 +77,8 @@ public class cornBulletController : MonoBehaviour
         else
         {
             playerDetectedR = false;
-            playerDetectedL = false;
         }
+        
     }
 
     void LaunchBullet()

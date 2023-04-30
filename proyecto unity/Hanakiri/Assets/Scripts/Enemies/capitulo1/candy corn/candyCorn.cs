@@ -35,7 +35,7 @@ public class candyCorn : MonoBehaviour
         waitTime = startWaitTime;
         oldspot = transform;
         moving = false;
-        lookRight = false;
+        lookRight = true;
         canRotate = true;
 
     }
@@ -66,7 +66,8 @@ public class candyCorn : MonoBehaviour
             }
         }
 
-        if(transform.position.x == moveSpots[i].transform.position.x)
+        //FUNCIONA
+        if (transform.position.x == moveSpots[i].transform.position.x)
         {
             Debug.Log("En waypoint");
             moving = false;
@@ -91,11 +92,11 @@ public class candyCorn : MonoBehaviour
             canRotate = true;
         }
 
-        if(!playerDetectedL && !playerDetectedR)
+        if (!playerDetectedL && !playerDetectedR)
         {
             transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
 
-            if(waitTime <= 0)
+            if (waitTime <= 0)//FUNCIONA
             {
 
                 if (moveSpots[i] != moveSpots[moveSpots.Length - 1])
@@ -111,34 +112,38 @@ public class candyCorn : MonoBehaviour
             }
             else
             {
-                moving = false;
-
-                if((playerDetectedL && lookRight) || (playerDetectedR && !lookRight))
-                {
-                    Girar();
-                    rotated = true;
-                }
-
-                if(spawnP.transform.GetComponent<cornBulletController>().actualCooldownAttack < 0)
-                {
-                    spawnP.transform.GetComponent<cornBulletController>().Shoot();
-                }           
-            }
-
-            if (corngo == null)
-            {
-                Destroy(todo);
+                waitTime -= Time.deltaTime;
             }
         }
-
-        void Girar()
+        else
         {
-            lookRight = !lookRight;
+            moving = false;
 
-            corngo.transform.Rotate(0f, 180f, 0f);
-            shootControllerL.Rotate(0f, 180f, 0f);
-            shootControllerR.Rotate(0f, 180f, 0f);
+            if ((playerDetectedL && lookRight) || (playerDetectedR && !lookRight))
+            {
+                Girar();
+                rotated = true;
+            }
+
+            if (spawnP.transform.GetComponent<cornBulletController>().actualCooldownAttack < 0)
+            {
+                spawnP.transform.GetComponent<cornBulletController>().Shoot();
+            }
         }
+
+        if (corngo == null)
+        {
+            Destroy(todo);
+        }
+    }   
+
+    private void Girar()
+    {
+        lookRight = !lookRight;
+
+        corngo.transform.Rotate(0f, 180f, 0f);
+        shootControllerL.Rotate(0f, 180f, 0f);
+        shootControllerR.Rotate(0f, 180f, 0f);
     }
 
 }

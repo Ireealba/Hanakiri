@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 838595128743135281}
   - component: {fileID: 4158813028371995244}
   - component: {fileID: 3070646815046794848}
+  - component: {fileID: 5835238216043942097}
   m_Layer: 0
   m_Name: cornBullet
   m_TagString: Untagged
@@ -97,5 +98,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8853af69f775d644bbd1b8ed2b139600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  lifeTime: 2
+  speed: 4
+  lifeTime: 10
+--- !u!61 &5835238216043942097
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950530101775139819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.007759452, y: 0.046552837}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.2505496, y: 1.5699999}
+    newSize: {x: 2.2505496, y: 1.5699999}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.8729529, y: 1.125161}
+  m_EdgeRadius: 0

@@ -68,7 +68,12 @@ public class donuBulletController : MonoBehaviour
             }
 
         }
-        else if(hit2DR.collider != null)
+        else
+        {
+            playerDetectedL = false;
+        }
+
+        if(hit2DR.collider != null)
         {
             Debug.Log("colisionando por la derecha con " + hit2DR.collider.name);
 
