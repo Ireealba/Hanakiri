@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4209627331228005024}
+  - component: {fileID: 5643216342048308901}
   m_Layer: 3
   m_Name: checkAttack
   m_TagString: Untagged
@@ -31,6 +32,32 @@ Transform:
   m_Father: {fileID: 6717678015036280540}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &5643216342048308901
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3349128898049258637}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.727071, y: -1.3351746}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.272043, y: 13.3980465}
+  m_EdgeRadius: 0
 --- !u!1 &6717678015036280539
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,6 +73,9 @@ GameObject:
   - component: {fileID: 6717678015036280542}
   - component: {fileID: 6717678015036280529}
   - component: {fileID: 7557393690315442189}
+  - component: {fileID: 7812008816899432787}
+  - component: {fileID: 7489859539748461694}
+  - component: {fileID: 135692628234264917}
   m_Layer: 3
   m_Name: Hana
   m_TagString: Player
@@ -234,7 +264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6717678015036280539}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11e96f05598d6ef48b3bfdecac2c487d, type: 3}
   m_Name: 
@@ -242,6 +272,48 @@ MonoBehaviour:
   controladorGolpe: {fileID: 4209627331228005024}
   radioGolpe: 1
   damageGolpe: 20
+--- !u!114 &7812008816899432787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717678015036280539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 284ca1fa80e8bdc49a8917063b566f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitbox: {fileID: 5643216342048308901}
+  damage: 20
+--- !u!114 &7489859539748461694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717678015036280539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba7ca37b492aba45b151fc205cec88a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Combat
+--- !u!114 &135692628234264917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717678015036280539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &6717678015353611843
 GameObject:
   m_ObjectHideFlags: 0

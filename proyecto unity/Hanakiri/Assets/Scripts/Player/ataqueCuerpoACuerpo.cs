@@ -24,7 +24,7 @@ public class ataqueCuerpoACuerpo : MonoBehaviour
 
     private void Golpe()
     {
-        animator.SetTrigger("Fighting");  
+        animator.SetTrigger("Attack1");  
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
         foreach(Collider2D colisionador in objetos)
