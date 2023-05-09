@@ -158,8 +158,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
---root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
@@ -349,8 +349,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
---root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll

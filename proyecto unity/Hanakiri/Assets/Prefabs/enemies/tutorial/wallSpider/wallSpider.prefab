@@ -471,6 +471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 20
   cantMonedas: 0
+  destroyObject: {fileID: 557940320115633427}
 --- !u!114 &3707130808577936901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,7 +485,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3234842840611105390}
-  spriteRenderer: {fileID: 557940318698070618}
   speed: 0.5
   moveSpots:
   - {fileID: 557940318990092491}
@@ -495,7 +495,6 @@ MonoBehaviour:
   - {fileID: 557940318698070620}
   - {fileID: 557940318698070623}
   - {fileID: 557940318698070617}
-  flip: 0
 --- !u!95 &3234842840611105390
 Animator:
   serializedVersion: 4

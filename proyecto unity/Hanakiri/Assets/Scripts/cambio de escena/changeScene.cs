@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class changeScene : MonoBehaviour
 {
-    [SerializeField] private int actualScene;
-    [SerializeField] private int nextScene;
+    [SerializeField] public int actualScene;
+    [SerializeField] public int nextScene;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,5 +14,10 @@ public class changeScene : MonoBehaviour
         {
             SceneManager.LoadScene(nextScene);
         }
+    }
+
+    public void changeNextScene(int newScene)
+    {
+        SceneManager.LoadScene(newScene);
     }
 }

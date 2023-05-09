@@ -64,6 +64,11 @@ public class personaje : MonoBehaviour
     [SerializeField] private float wallJumpTime;
     private bool wallJumping;
 
+    //cambiar scene trucos
+    private changeScene chScene;
+    [SerializeField] private int actualScene;
+    [SerializeField] private int nextScene;
+
 
 
     void Start()
@@ -136,6 +141,11 @@ public class personaje : MonoBehaviour
         else if(Input.GetButtonDown("Jump") && wall && sliding && !lobby)
         {
             WallJump();
+        }
+
+        if(Input.GetKeyDown("l"))
+        {
+            SceneManager.LoadScene(nextScene);
         }
 
     }

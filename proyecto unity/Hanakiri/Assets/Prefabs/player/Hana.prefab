@@ -72,7 +72,6 @@ GameObject:
   - component: {fileID: 6717678015036280543}
   - component: {fileID: 6717678015036280542}
   - component: {fileID: 6717678015036280529}
-  - component: {fileID: 7557393690315442189}
   - component: {fileID: 7812008816899432787}
   - component: {fileID: 7489859539748461694}
   - component: {fileID: 135692628234264917}
@@ -208,9 +207,11 @@ MonoBehaviour:
   dashSpeed: 50
   dashTime: 0.4
   slideSpeed: 1
-  wallJumpPowerX: 1
+  wallJumpPowerX: 5
   wallJumpPowerY: 1
-  wallJumpTime: 1
+  wallJumpTime: 0.8
+  actualScene: 0
+  nextScene: 0
 --- !u!61 &6717678015036280542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -257,21 +258,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7557393690315442189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6717678015036280539}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e96f05598d6ef48b3bfdecac2c487d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controladorGolpe: {fileID: 4209627331228005024}
-  radioGolpe: 1
-  damageGolpe: 20
 --- !u!114 &7812008816899432787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +272,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitbox: {fileID: 5643216342048308901}
   damage: 20
+  controlDamage: {fileID: 4209627331228005024}
+  radioDamage: 2.5
 --- !u!114 &7489859539748461694
 MonoBehaviour:
   m_ObjectHideFlags: 0

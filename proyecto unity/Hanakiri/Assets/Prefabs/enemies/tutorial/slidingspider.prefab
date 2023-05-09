@@ -1132,6 +1132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 20
   cantMonedas: 1
+  destroyObject: {fileID: 6900954186461701542}
 --- !u!1 &6900954188204110892
 GameObject:
   m_ObjectHideFlags: 0

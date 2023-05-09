@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6884291471083677491}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,6 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 20
   cantMonedas: 1
+  destroyObject: {fileID: 7804235519454793123}
 --- !u!114 &6884291471083677491
 MonoBehaviour:
   m_ObjectHideFlags: 0

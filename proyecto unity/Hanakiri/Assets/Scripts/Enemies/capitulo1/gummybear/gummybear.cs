@@ -9,7 +9,6 @@ public class gummybear : MonoBehaviour
     [SerializeField] private SpriteRenderer bear;
     [SerializeField] private GameObject beargo;
     [SerializeField] private GameObject todo;
-    protected bool dead;
 
 
     [SerializeField] float speed = 0.5f;
@@ -38,7 +37,6 @@ public class gummybear : MonoBehaviour
         }
         waitTime = startWaitTime;
         oldspot = transform;
-        dead = GetComponent<Enemy>().dead;
     }
 
     void Update()
@@ -71,11 +69,6 @@ public class gummybear : MonoBehaviour
         else
         {
             waitTime -= Time.deltaTime;
-        }
-
-        if (dead)
-        {
-            Destroy(todo);
         }
     }
 }

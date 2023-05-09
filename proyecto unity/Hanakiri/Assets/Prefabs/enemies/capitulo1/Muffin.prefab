@@ -196,7 +196,7 @@ MonoBehaviour:
   playerRange: 0
   lookRight: 1
   moveSpeed: 5
-  player: {fileID: 0}
+  player: {fileID: 6717678015036280539, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
 --- !u!1 &4505023884055808429
 GameObject:
   m_ObjectHideFlags: 0

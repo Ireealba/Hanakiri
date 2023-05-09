@@ -33,7 +33,7 @@ public class caramelo : MonoBehaviour
     {
         actualCooldownAttack -= Time.deltaTime;
         actualCooldownMove -= Time.deltaTime;
-        Debug.Log("acdattack= " + actualCooldownAttack + "    acdmove= " + actualCooldownMove + "    move= " + move);
+        //Debug.Log("acdattack= " + actualCooldownAttack + "    acdmove= " + actualCooldownMove + "    move= " + move);
 
         if (move)
         {
