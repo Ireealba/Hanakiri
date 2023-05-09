@@ -2044,7 +2044,7 @@
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "DefaultCompany\nHanakiri",
+      "WriteTextFilePayload": "Miss Targaryen\nHanakiri",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"

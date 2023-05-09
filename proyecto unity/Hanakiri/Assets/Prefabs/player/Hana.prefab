@@ -207,9 +207,9 @@ MonoBehaviour:
   dashSpeed: 50
   dashTime: 0.4
   slideSpeed: 1
-  wallJumpPowerX: 5
+  wallJumpPowerX: 3
   wallJumpPowerY: 1
-  wallJumpTime: 0.8
+  wallJumpTime: 0.5
   actualScene: 0
   nextScene: 0
 --- !u!61 &6717678015036280542
