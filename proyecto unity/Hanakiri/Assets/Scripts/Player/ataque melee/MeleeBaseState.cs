@@ -15,6 +15,9 @@ public class MeleeBaseState : State
 
     //The damage it takes to enemy
     protected int damage;
+    protected Transform controlDamage;
+    protected float radioDamage;
+
     //The cached hit collider component of this attack
     protected Collider2D hitCollider;
     //Cached already struck objects of said attack to avoid overlapping attacks on same target
@@ -24,6 +27,8 @@ public class MeleeBaseState : State
 
     //input buffer Timer
     private float AttackPressedTimer = 0;
+    
+
 
     public override void OnEnter(StateMachine _stateMachine)
     {
@@ -33,6 +38,9 @@ public class MeleeBaseState : State
         hitCollider = GetComponent<ComboCharacter>().hitbox;
         //HitEffectPrefab = GetComponent<ComboCharacter>().Hiteffect;
         damage = GetComponent<ComboCharacter>().damage;
+        controlDamage = GetComponent<ComboCharacter>().controlDamage;
+        radioDamage = GetComponent<ComboCharacter>().radioDamage;
+
     }
 
     public override void OnUpdate()
@@ -61,12 +69,15 @@ public class MeleeBaseState : State
     protected void Attack()
     {
         Debug.Log("Ataque iniciado");
-        Debug.Log("Colisionando con " + hitCollider.gameObject.name);
-        if (hitCollider.CompareTag("Enemy"))
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(controlDamage.position, radioDamage);
+
+        foreach (Collider2D colisionador in objetos)
         {
-            Debug.Log("Atacar a " + hitCollider.gameObject.name);
-            hitCollider.transform.GetComponent<Enemy>().TakeDamage(damage);
-            Debug.Log("Ataqué a " + hitCollider.gameObject.name);
+            Debug.Log("Colisionando con " + colisionador.gameObject.name);
+            if (colisionador.CompareTag("Enemy"))
+            {
+                colisionador.transform.GetComponent<Enemy>().TakeDamage(damage);
+            }
         }
 
         /*
@@ -91,4 +102,6 @@ public class MeleeBaseState : State
         }
         */
     }
+
+    
 }

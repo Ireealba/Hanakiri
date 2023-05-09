@@ -8,11 +8,13 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int cantMonedas;
     private Animator animator;
     private personaje player;
+    public bool dead;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<personaje>();
+        dead = false;
     }
 
     public void TakeDamage(float damage)
@@ -29,8 +31,9 @@ public class Enemy : MonoBehaviour
 
     private void Muerte()
     {
-        
+
         //TODO animacion muerte
+        dead = true;
         Destroy(gameObject);
         Debug.Log("Enemy dead");
         player.SumarMonedas(cantMonedas);

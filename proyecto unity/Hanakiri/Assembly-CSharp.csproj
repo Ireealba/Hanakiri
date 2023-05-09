@@ -56,10 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Player\ataque melee\Damage\TeamComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Player\CheckWall.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\donut\donut.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\MeleeEntryState.cs" />
     <Compile Include="Assets\Scripts\Damage Objects\DamageObject.cs" />
     <Compile Include="Assets\Scripts\Player\CheckGround.cs" />
     <Compile Include="Assets\Scripts\Objects\CollectObjects.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Assets\Scripts\Enemies\capitulo1\gummybear\gummybear.cs" />
     <Compile Include="Assets\Scripts\Player\ataqueCuerpoACuerpo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\IdleCombatState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\SpiderAttack.cs" />
@@ -104,16 +107,21 @@
     <Compile Include="Assets\Scripts\Objects\tutorial\aparecerllave.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\candy corn\cornBulletController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\MeleeBaseState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\WallSpider.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\SpiderBullet.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Objects\PlataformaMovil.cs" />
     <Compile Include="Assets\Scripts\Player\desactivarSlidePared.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\ComboCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\State.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundEntryState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\BossSpider.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\StateMachine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\SpiderSlide.cs" />
     <Compile Include="Assets\Scripts\NPC\ControlIcono.cs" />
@@ -124,17 +132,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundFinisherState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\State.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\StateMachine.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\ComboCharacter.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\IdleCombatState.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\MeleeEntryState.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundEntryState.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundFinisherState.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\MeleeBaseState.cs" />
-    <Compile Include="Assets\Scripts\Player\ataque melee\Damage\TeamComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

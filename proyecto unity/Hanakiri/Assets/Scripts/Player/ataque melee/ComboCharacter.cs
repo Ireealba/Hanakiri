@@ -10,6 +10,8 @@ public class ComboCharacter : MonoBehaviour
     [SerializeField] public Collider2D hitbox;
     //[SerializeField] public GameObject Hiteffect;
     public int damage;
+    [SerializeField] public Transform controlDamage;
+    public float radioDamage;
 
 
     // Start is called before the first frame update
@@ -25,5 +27,11 @@ public class ComboCharacter : MonoBehaviour
         {
             meleeStateMachine.SetNextState(new GroundEntryState());
         }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+
+        Gizmos.DrawWireSphere(controlDamage.position, radioDamage);
     }
 }
