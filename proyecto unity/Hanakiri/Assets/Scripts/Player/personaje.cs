@@ -10,10 +10,11 @@ public class personaje : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Animator animator;
 
-    [SerializeField] private int vidas;
+    public int totalLife;
+    [SerializeField] public int actualLife;
     [SerializeField] private TMP_Text textovidas;
 
-    [SerializeField] private int monedas;
+    [SerializeField] public int monedas;
     [SerializeField] private TMP_Text textoMonedas;
 
     //controlador suelo
@@ -41,7 +42,9 @@ public class personaje : MonoBehaviour
     private bool jump = false;
     private bool canDoubleJump;
 
-    //lobby
+    //detectar nivel
+    public int actualLvl;
+    //TODO: cambiar codigo de lobby a lvl lobby=lvl0
     public bool lobby;
     public static bool accion = false;
     public static bool iconoaccion = false;
@@ -93,10 +96,10 @@ public class personaje : MonoBehaviour
 
     private void Update()
     {
-        textovidas.text = "Vidas: " + vidas + "/3";
+        textovidas.text = "Vidas: " + actualLife + "/" + totalLife;
         textoMonedas.text = "Monedas: " + monedas;
 
-        if(vidas < 1)
+        if(actualLife < 1)
         {
             Debug.Log("Player dead");
             //Destroy(gameObject);//Menú de muerte
@@ -305,7 +308,7 @@ public class personaje : MonoBehaviour
 
     public void PlayerDamaged()
     {
-        vidas--;
+        actualLife--;
     }
 
     public void SumarMonedas(int cantMonedas)

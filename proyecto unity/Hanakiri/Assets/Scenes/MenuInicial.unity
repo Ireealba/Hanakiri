@@ -451,7 +451,6 @@ GameObject:
   - component: {fileID: 352976463}
   - component: {fileID: 352976462}
   - component: {fileID: 352976461}
-  - component: {fileID: 352976465}
   m_Layer: 0
   m_Name: BotonSalir
   m_TagString: Untagged
@@ -595,24 +594,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352976459}
   m_CullTransparentMesh: 1
---- !u!114 &352976465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352976459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 0
-  nuevaPartida: {fileID: 0}
-  Coleccionables: {fileID: 0}
-  Configuracion: {fileID: 0}
-  Logros: {fileID: 0}
-  Salir: {fileID: 0}
 --- !u!1 &494149651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,7 +1815,6 @@ GameObject:
   - component: {fileID: 1398321419}
   - component: {fileID: 1398321418}
   - component: {fileID: 1398321417}
-  - component: {fileID: 1398321421}
   m_Layer: 0
   m_Name: BotonColeccionables
   m_TagString: Untagged
@@ -1966,24 +1946,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398321415}
   m_CullTransparentMesh: 1
---- !u!114 &1398321421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398321415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 3
-  nuevaPartida: {fileID: 0}
-  Coleccionables: {fileID: 1398321418}
-  Configuracion: {fileID: 0}
-  Logros: {fileID: 0}
-  Salir: {fileID: 0}
 --- !u!1 &1414641224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,12 +1990,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 0
-  nuevaPartida: {fileID: 0}
-  Coleccionables: {fileID: 0}
-  Configuracion: {fileID: 0}
-  Logros: {fileID: 0}
-  Salir: {fileID: 0}
+  nextScene: 1
+  nuevaPartida: {fileID: 1674934547}
+  continuar: {fileID: 809778741}
+  Coleccionables: {fileID: 1398321418}
+  Configuracion: {fileID: 2093486441}
+  Logros: {fileID: 1899963682}
+  Salir: {fileID: 352976462}
 --- !u!1 &1514649269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,6 +2239,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544554783}
   m_CullTransparentMesh: 1
+--- !u!1 &1600921514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600921516}
+  - component: {fileID: 1600921515}
+  m_Layer: 0
+  m_Name: DataController
+  m_TagString: dataController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1600921515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600921514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f281071208956b04a94d12ebfd67d6c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  data: 
+  savedData:
+    actualLvl: 0
+    monedas: 0
+    totalLife: 0
+    actualLife: 0
+--- !u!4 &1600921516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600921514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.287567, y: 13.5935135, z: 0.7324893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1674934544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,7 +2303,6 @@ GameObject:
   - component: {fileID: 1674934548}
   - component: {fileID: 1674934547}
   - component: {fileID: 1674934546}
-  - component: {fileID: 1674934550}
   m_Layer: 0
   m_Name: BotonNuevaPartida
   m_TagString: Untagged
@@ -2421,24 +2434,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674934544}
   m_CullTransparentMesh: 1
---- !u!114 &1674934550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674934544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 1
-  nuevaPartida: {fileID: 1674934547}
-  Coleccionables: {fileID: 0}
-  Configuracion: {fileID: 0}
-  Logros: {fileID: 0}
-  Salir: {fileID: 0}
 --- !u!1 &1679948439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,7 +2670,6 @@ GameObject:
   - component: {fileID: 1899963683}
   - component: {fileID: 1899963682}
   - component: {fileID: 1899963681}
-  - component: {fileID: 1899963685}
   m_Layer: 0
   m_Name: BotonLogros
   m_TagString: Untagged
@@ -2807,24 +2801,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899963679}
   m_CullTransparentMesh: 1
---- !u!114 &1899963685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899963679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 0
-  nuevaPartida: {fileID: 0}
-  Coleccionables: {fileID: 0}
-  Configuracion: {fileID: 0}
-  Logros: {fileID: 0}
-  Salir: {fileID: 0}
 --- !u!1 &2040334184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,7 +2949,6 @@ GameObject:
   - component: {fileID: 2093486442}
   - component: {fileID: 2093486441}
   - component: {fileID: 2093486440}
-  - component: {fileID: 2093486444}
   m_Layer: 0
   m_Name: BotonConfiguracion
   m_TagString: Untagged
@@ -3105,21 +3080,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093486438}
   m_CullTransparentMesh: 1
---- !u!114 &2093486444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093486438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3e7d37740ef48345ba7ce227fa64bd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: 0
-  nuevaPartida: {fileID: 0}
-  Coleccionables: {fileID: 0}
-  Configuracion: {fileID: 0}
-  Logros: {fileID: 0}
-  Salir: {fileID: 0}
