@@ -120,6 +120,7 @@
     <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundEntryState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\BossSpider.cs" />
+    <Compile Include="Assets\Scripts\guardados\DataController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\StateMachine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -129,15 +130,14 @@
     <Compile Include="Assets\Scripts\Objects\activateObjects.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Scripts\guardados\Lobbycontroller.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundFinisherState.cs" />
+    <Compile Include="Assets\Scripts\guardados\SavedData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\guardados\SavedData.cs" />
-    <Compile Include="Assets\Scripts\guardados\DataController.cs" />
-    <Compile Include="Assets\Scripts\guardados\Lobbycontroller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
