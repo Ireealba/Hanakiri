@@ -138,6 +138,10 @@
     <Compile Include="Assets\Scripts\guardados\SavedData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Scripts\dialogos\Personaje.cs" />
+    <Compile Include="Assets\Scripts\dialogos\Conversacion.cs" />
+    <Compile Include="Assets\Scripts\dialogos\Pregunta.cs" />
+    <Compile Include="Assets\Scripts\dialogos\DialogoUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -996,6 +1000,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityExtensions.ArrayDrawer">
+      <HintPath>Library\ScriptAssemblies\UnityExtensions.ArrayDrawer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityExtensions.ArrayDrawer.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityExtensions.ArrayDrawer.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

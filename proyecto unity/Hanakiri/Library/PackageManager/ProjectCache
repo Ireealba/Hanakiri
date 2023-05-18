@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638065425005374282
-    m_Hash: 1912383229
+      ticks: 638200279213894186
+    m_Hash: 3275308751
   m_LockFileStatus:
     m_FilePath: C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638065425005615441
-    m_Hash: 3575623201
+      ticks: 638200280810113111
+    m_Hash: 3526959107
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3544,6 +3544,57 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+- packageId: com.garettbass.unityextensions.arraydrawer@https://github.com/garettbass/UnityExtensions.ArrayDrawer.git
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 5
+  resolvedPath: C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.garettbass.unityextensions.arraydrawer@893d3cdfeb
+  assetPath: Packages/com.garettbass.unityextensions.arraydrawer
+  name: com.garettbass.unityextensions.arraydrawer
+  displayName: Array Drawer
+  author:
+    name: Garett Bass
+    email: garettbass@me.com
+    url: garettbass.com
+  category: 
+  type: 
+  description: ArrayDrawer is a base class like PropertyDrawer, but for arrays and
+    lists.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Editor
+  - Array
+  - List
+  - Inspector
+  - PropertyDrawer
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3760,6 +3811,7 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.8.1
     - 1.8.2
+    - 1.9.0
     compatible:
     - 1.4.2
     - 1.4.3
@@ -3769,6 +3821,7 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.8.1
     - 1.8.2
+    - 1.9.0
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
