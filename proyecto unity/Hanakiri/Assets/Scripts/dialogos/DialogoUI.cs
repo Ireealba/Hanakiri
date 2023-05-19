@@ -48,6 +48,7 @@ public class DialogoUI : MonoBehaviour
         convContainer.SetActive(true);
         pregContainer.SetActive(false);
 
+/*
         switch (comportamiento)
         {
             //retroceder con el texto
@@ -55,9 +56,10 @@ public class DialogoUI : MonoBehaviour
             case -1:
                 if(localIn > 0)
                 {
-                    print("Dialogo anterior")
+                    print("Dialogo anterior");
                 }
 
         }
+*/
     }
 }
