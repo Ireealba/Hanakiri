@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityExtensions;
+
 
 public class DialogueSpeaker : MonoBehaviour
 {
-    [ReorderableList]
     public List<Conversacion> conversacionesDisponibles = new List<Conversacion>();
 
     [SerializeField]

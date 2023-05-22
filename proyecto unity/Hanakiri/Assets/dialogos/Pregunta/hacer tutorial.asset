@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37785e349ed933d4b8705cdc8efcca01, type: 3}
+  m_Name: hacer tutorial
+  m_EditorClassIdentifier: 
+  pregunta: "Ver\xE1s, dej\xE9 olvidadas las llaves de la puerta al final del s\xF3tano,
+    \xBFte importar\xEDa ir a por ellas?"
+  opciones:
+  - opcion: "Est\xE1 bien, qu\xE9 remedio (hacer tutorial)"
+    convResultante: {fileID: 0}
+  - opcion: "Illo, haz magia de esa rara tuya y hazlo t\xFA (saltar tutorial)"
+    convResultante: {fileID: 0}

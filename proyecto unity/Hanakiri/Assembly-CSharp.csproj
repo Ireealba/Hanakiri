@@ -110,6 +110,7 @@
     <Compile Include="Assets\Scripts\Objects\tutorial\aparecerllave.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\candy corn\cornBulletController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\dialogos\ControladorPreguntas.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\MeleeBaseState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\WallSpider.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets\Scripts\Player\ataque melee\ComboCharacter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\State.cs" />
+    <Compile Include="Assets\Scripts\dialogos\DialogueSpeaker.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\Attack\GroundEntryState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\BossSpider.cs" />
@@ -128,6 +130,7 @@
     <Compile Include="Assets\Scripts\Player\ataque melee\StateMachine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\SpiderSlide.cs" />
+    <Compile Include="Assets\Scripts\dialogos\DialogoManager.cs" />
     <Compile Include="Assets\Scripts\NPC\ControlIcono.cs" />
     <Compile Include="Assets\Scripts\colliders\changeColliders.cs" />
     <Compile Include="Assets\Scripts\Objects\activateObjects.cs" />
@@ -142,9 +145,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\dialogos\Pregunta.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\dialogos\DialogoManager.cs" />
-    <Compile Include="Assets\Scripts\dialogos\DialogueSpeaker.cs" />
-    <Compile Include="Assets\Scripts\dialogos\ControladorPreguntas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -890,9 +890,6 @@
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityExtensions.ArrayDrawer.Editor">
-      <HintPath>Library\ScriptAssemblies\UnityExtensions.ArrayDrawer.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
@@ -985,9 +982,6 @@
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityExtensions.ArrayDrawer">
-      <HintPath>Library\ScriptAssemblies\UnityExtensions.ArrayDrawer.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
