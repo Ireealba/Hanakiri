@@ -11,11 +11,13 @@ public class DialogueSpeaker : MonoBehaviour
     private int indexDeConversaciones = 0;
 
     public int dialLocalIn = 0;
+    public bool dialogue = false;
 
     private void Start()
     {
         indexDeConversaciones = 0;
         dialLocalIn = 0;
+        dialogue = false;
 
         foreach(var conv in conversacionesDisponibles)
         {
@@ -31,11 +33,20 @@ public class DialogueSpeaker : MonoBehaviour
         }
     }
 
+    /*
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
+        if(collision.CompareTag("Player") && Input.GetButtonUp("Interact"))
         {
-            Conversar();
+            if(!dialogue)
+            {
+                dialogue = true;
+                Conversar();
+            }
+            else
+            {
+                DialogoManager.instance.siguienteDialogo();
+            }
         }
 
         if(collision.CompareTag("Player") && Input.GetKeyDown(KeyCode.Z))
@@ -43,6 +54,7 @@ public class DialogueSpeaker : MonoBehaviour
             DialogoManager.instance.cambiarEstadoDeReusable(conversacionesDisponibles[indexDeConversaciones], !conversacionesDisponibles[indexDeConversaciones].reUsar);
         }
     }
+    */
 
     public void Conversar()
     {

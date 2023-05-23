@@ -1997,6 +1997,7 @@ MonoBehaviour:
   Configuracion: {fileID: 2093486441}
   Logros: {fileID: 1899963682}
   Salir: {fileID: 352976462}
+  dataC: {fileID: 1600921515}
 --- !u!1 &1514649269
 GameObject:
   m_ObjectHideFlags: 0

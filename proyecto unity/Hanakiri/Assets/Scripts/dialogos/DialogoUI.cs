@@ -10,7 +10,6 @@ public class DialogoUI : MonoBehaviour
     [SerializeField]
     private float textSpeed = 10;
 
-
     [SerializeField]
     private GameObject convContainer;
     [SerializeField]
@@ -26,6 +25,8 @@ public class DialogoUI : MonoBehaviour
     public int localIn = 1;              //recorre cada dialogo dentro de la conversacion actual, lo mismo que dialLocalIn en DialogueSpeaker 
                                          //solo que este adopta el valor en base al que tenga puesto el Dialogue Speaker en el momento de hablar
 
+    [SerializeField] private Lobbycontroller lobby;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -35,6 +36,7 @@ public class DialogoUI : MonoBehaviour
 
     }
 
+    /*
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E)) 
@@ -42,6 +44,7 @@ public class DialogoUI : MonoBehaviour
             ActualizarTextos(1);
         }
     }
+    */
 
     public void ActualizarTextos( int comportamiento)
     {
@@ -126,12 +129,17 @@ public class DialogoUI : MonoBehaviour
                         convContainer.SetActive(false);
                         pregContainer.SetActive(true);
                         var preg = conversacion.pregunta;
-                        DialogoManager.instance.controladorPreguntas.ActivarBotones(preg.opciones.Length, preg.pregunta, preg.opciones);
+                        DialogoManager.instance.controladorPreguntas.ActivarBotones(preg.opciones.Length, preg.pregunta, preg.opciones, preg.personaje);
 
                         return;
                     }
 
+
                     DialogoManager.instance.MostrarUI(false);
+                    if(lobby != null)
+                    {
+                        lobby.conversacion = true;
+                    }
                     return;
                 }
 

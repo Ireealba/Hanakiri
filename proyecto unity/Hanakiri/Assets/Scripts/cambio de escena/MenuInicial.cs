@@ -14,6 +14,7 @@ public class MenuInicial : MonoBehaviour
     [SerializeField] private Button Configuracion;
     [SerializeField] private Button Logros;
     [SerializeField] private Button Salir;
+    [SerializeField] private DataController dataC;
 
     void Start()
     {
@@ -23,7 +24,9 @@ public class MenuInicial : MonoBehaviour
 
     void Newgame()
     {
+        
         Debug.Log("Nueva partida, enviando a escena " + nextScene);
+        dataC.DeleteData();
         SceneManager.LoadScene(nextScene);
     }
 

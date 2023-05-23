@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37785e349ed933d4b8705cdc8efcca01, type: 3}
   m_Name: hacer tutorial
   m_EditorClassIdentifier: 
+  personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}
   pregunta: "Ver\xE1s, dej\xE9 olvidadas las llaves de la puerta al final del s\xF3tano,
     \xBFte importar\xEDa ir a por ellas?"
   opciones:
   - opcion: "Est\xE1 bien, qu\xE9 remedio (hacer tutorial)"
-    convResultante: {fileID: 0}
+    convResultante: {fileID: 11400000, guid: 54c8b41bd88f8dd45bb1ddb4a25bd5f2, type: 2}
   - opcion: "Illo, haz magia de esa rara tuya y hazlo t\xFA (saltar tutorial)"
-    convResultante: {fileID: 0}
+    convResultante: {fileID: 11400000, guid: 3300a94cff23df942a1a0e146c5ced8b, type: 2}

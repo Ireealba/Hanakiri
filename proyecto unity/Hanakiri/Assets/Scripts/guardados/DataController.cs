@@ -11,7 +11,7 @@ public class DataController : MonoBehaviour
 
     private void Awake()
     {
-        data = Application.dataPath + "/gamesaves/gamedata.json";
+        data = Application.dataPath + "/Gamesaves/gamedata.json";
 
         player = GameObject.FindGameObjectWithTag("Player");
     }
@@ -22,6 +22,11 @@ public class DataController : MonoBehaviour
         {
             string loadData = File.ReadAllText(data);
             savedData = JsonUtility.FromJson<SavedData>(loadData);
+
+            player.GetComponent<personaje>().actualLvl = savedData.actualLvl;
+            player.GetComponent<personaje>().monedas = savedData.monedas;
+            player.GetComponent<personaje>().totalLife = savedData.totalLife;
+            player.GetComponent<personaje>().actualLife = savedData.actualLife;
 
             Debug.Log("Monedas: " + savedData.monedas);
         }
@@ -46,5 +51,21 @@ public class DataController : MonoBehaviour
         File.WriteAllText(data, cadenaJson);
 
         Debug.Log("Archivo guardado");
+    }
+
+    public void DeleteData()
+    {
+        SavedData newData = new SavedData()
+        {
+            actualLvl = 0,
+            monedas = 0,
+            totalLife = 3,
+            actualLife = 3
+        };        
+
+        string cadenaJson = JsonUtility.ToJson(newData);
+        File.WriteAllText (data, cadenaJson);
+
+        Debug.Log("Datos borrados");
     }
 }

@@ -5,14 +5,23 @@ using UnityEngine;
 public class ObjetoInteractable : MonoBehaviour
 {
     public Textos textos;
-    public static bool dialogo = false;
+    public bool dialogue = false;
+    [SerializeField] private DialogueSpeaker dialSp;
+    [SerializeField] private DialogoUI dialUI;
 
     private void Update()
     {
         if (Input.GetKeyDown("e") && personaje.accion == true)
-        {
-          FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
-            dialogo = true;
+        {          
+            if (!dialogue)
+            {
+                dialogue = true;
+                dialSp.Conversar();
+            }
+            else
+            {
+                dialUI.ActualizarTextos(1);
+            }
         }
     }
 

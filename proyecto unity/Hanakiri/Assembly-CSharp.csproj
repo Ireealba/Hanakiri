@@ -75,7 +75,6 @@
     <Compile Include="Assets\Scripts\Enemies\capitulo1\SetFalse.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\Scripts\Text\ControlDialogos.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\candy corn\candyCorn.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\gummybear\gummybear.cs" />
     <Compile Include="Assets\Scripts\dialogos\DialogoUI.cs" />

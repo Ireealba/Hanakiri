@@ -4,7 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 public struct Opciones
-{
+{    
     [TextArea(2, 4)]
     public string opcion;
     public Conversacion convResultante;
@@ -13,6 +13,7 @@ public struct Opciones
 [CreateAssetMenu(fileName = "Pregunta", menuName = "Sistema de Dialogo/Nueva Pregunta")]
 public class Pregunta : ScriptableObject
 {
+    public Personaje personaje;
     [TextArea(3, 5)]
     public string pregunta;
     public Opciones[] opciones;

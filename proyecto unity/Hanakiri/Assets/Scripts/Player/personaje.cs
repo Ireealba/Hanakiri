@@ -96,10 +96,17 @@ public class personaje : MonoBehaviour
 
     private void Update()
     {
-        textovidas.text = "Vidas: " + actualLife + "/" + totalLife;
-        textoMonedas.text = "Monedas: " + monedas;
+        if(textovidas != null)
+        {
+            textovidas.text = "Vidas: " + actualLife + "/" + totalLife;
+        }
+        if(textoMonedas != null)
+        {
+            textoMonedas.text = "Monedas: " + monedas;
+        }
 
-        if(actualLife < 1)
+
+        if (actualLife < 1)
         {
             Debug.Log("Player dead");
             //Destroy(gameObject);//Menú de muerte
@@ -164,8 +171,7 @@ public class personaje : MonoBehaviour
 
 
         //si no hay un dialogo
-        if (ObjetoInteractable.dialogo == false )
-        {
+        
             if (!wallJumping)
             {
                 if (canMove)
@@ -183,7 +189,7 @@ public class personaje : MonoBehaviour
                     rb2D.velocity = new Vector2(rb2D.velocity.x, Mathf.Clamp(rb2D.velocity.y, -slideSpeed, float.MaxValue));
                 }
             }
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

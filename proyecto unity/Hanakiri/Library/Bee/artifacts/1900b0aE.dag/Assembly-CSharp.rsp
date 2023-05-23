@@ -449,7 +449,6 @@
 "Assets/Scripts/Player/CheckWall.cs"
 "Assets/Scripts/Player/desactivarSlidePared.cs"
 "Assets/Scripts/Player/personaje.cs"
-"Assets/Scripts/Text/ControlDialogos.cs"
 "Assets/Scripts/Text/ObjetoInteractable.cs"
 "Assets/Scripts/Text/textDown.cs"
 "Assets/Scripts/Text/Textos.cs"

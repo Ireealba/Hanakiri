@@ -9,7 +9,7 @@ public class Trampilla : MonoBehaviour
     public BoxCollider2D colliderTrampillaSuelo;
     public BoxCollider2D colliderTrampillaPared;
     public BoxCollider2D colliderSuelo;
-    public static bool activo = false;
+    public bool activo = false;
 
     void Update()
     {

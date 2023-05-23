@@ -8,8 +8,9 @@ public class DialogoManager : MonoBehaviour
     public static DialogueSpeaker speakerActual;
     [SerializeField]
     private DialogoUI dialUI;
-    [SerializeField]
-    private GameObject player;
+    //[SerializeField] private GameObject player;
+
+    [SerializeField] private ObjetoInteractable obIn;
 
     public ControladorPreguntas controladorPreguntas;
 
@@ -34,7 +35,7 @@ public class DialogoManager : MonoBehaviour
     {
         MostrarUI(false);
 
-        player.GetComponent<DialogueSpeaker>().Conversar();
+        //player.GetComponent<DialogueSpeaker>().Conversar();
     }
 
     public void MostrarUI(bool mostrar)
@@ -44,11 +45,14 @@ public class DialogoManager : MonoBehaviour
         if (!mostrar)
         {
             dialUI.localIn = 0;
-            //TODO: restrignir movimiento
+            obIn.dialogue = false;
+            
+            //TODO: devolver movimiento
         }
         else
         {
-            //TODO: devolver movimiento
+            obIn.dialogue = true;
+            //TODO: restringir movimiento
         }
     }
 
