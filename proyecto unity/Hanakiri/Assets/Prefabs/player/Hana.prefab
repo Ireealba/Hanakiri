@@ -187,7 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 6717678015036280541}
   animator: {fileID: 6717678015036280529}
-  vidas: 3
+  totalLife: 3
+  actualLife: 3
   textovidas: {fileID: 0}
   monedas: 0
   textoMonedas: {fileID: 0}
@@ -203,6 +204,7 @@ MonoBehaviour:
   moveSuavizador: 0
   jumpForce: 400
   doubleJumpForce: 400
+  actualLvl: 0
   lobby: 0
   dashSpeed: 50
   dashTime: 0.4
