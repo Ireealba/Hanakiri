@@ -1,0 +1,229 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreN' Language: 'es' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GitHub Desktop/Hanakiri/proyecto unity/Hanakiri
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56438
+Successfully changed project path to: D:/GitHub Desktop/Hanakiri/proyecto unity/Hanakiri
+D:/GitHub Desktop/Hanakiri/proyecto unity/Hanakiri
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7776] Host "[IP] 192.168.18.2 [Port] 0 [Flags] 2 [Guid] 3822035656 [EditorId] 3822035656 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7SH3CHB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7776] Host "[IP] 192.168.18.2 [Port] 0 [Flags] 2 [Guid] 3822035656 [EditorId] 3822035656 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7SH3CHB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 112.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub Desktop/Hanakiri/proyecto unity/Hanakiri/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.14057.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007472 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 129.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005117 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1174ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4965 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (257.6 KB). Loaded Objects now: 5384.
+Memory consumption went from 178.5 MB to 178.2 MB.
+Total: 6.227000 ms (FindLiveObjects: 0.450600 ms CreateObjectMapping: 0.141700 ms MarkObjects: 5.448900 ms  DeleteObjects: 0.184800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76594.127246 seconds.
+  path: Assets/Sprites/suelo.png
+  artifactKey: Guid(13311f496f0c5a04a81cbcdffbd079f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/suelo.png using Guid(13311f496f0c5a04a81cbcdffbd079f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8bcaca66b8dd85d2ddc050b6d79d7e') in 0.355310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.286954 seconds.
+  path: Assets/Sprites/enemigos/capitulo1/caramelos.png
+  artifactKey: Guid(13120b29e5ebc804ea6de8805831c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemigos/capitulo1/caramelos.png using Guid(13120b29e5ebc804ea6de8805831c926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc9ea00744679638a5433c0ea49f4c4') in 0.130134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/enemigos/capitulo1/muffin.png
+  artifactKey: Guid(7f5c0f7c62ac70d4386db90c1b6a1283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemigos/capitulo1/muffin.png using Guid(7f5c0f7c62ac70d4386db90c1b6a1283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4363055768c0bb366a7b2150f7ee154') in 0.229997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.073076 seconds.
+  path: Assets/Prefabs/enemies/capitulo1/donaBullet_blue.prefab
+  artifactKey: Guid(83a2749d26c7c044b8afea207fde6e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemies/capitulo1/donaBullet_blue.prefab using Guid(83a2749d26c7c044b8afea207fde6e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e72d0b3d17c65cc84e7b002c3c119b') in 0.063217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/enemies/capitulo1/Muffin.prefab
+  artifactKey: Guid(18d2ce42a844e874789acdfed0e8ac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemies/capitulo1/Muffin.prefab using Guid(18d2ce42a844e874789acdfed0e8ac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52816e2d28b324ca0cc455365f6c9c4') in 0.538421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7887.175619 seconds.
+  path: Assets/Scenes/niveles/capitulo 1/parte 1/nivel 3.unity
+  artifactKey: Guid(bb53cc9db8712fe458323eba7993d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/niveles/capitulo 1/parte 1/nivel 3.unity using Guid(bb53cc9db8712fe458323eba7993d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f29ddb45fdf9c0bf0b2acff972db00') in 0.008168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 578.226308 seconds.
+  path: Assets/Prefabs/player/dustParticleFather.prefab
+  artifactKey: Guid(28d323fa8ad7046488daff3bf22dd388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player/dustParticleFather.prefab using Guid(28d323fa8ad7046488daff3bf22dd388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4956113563a8d2e6f4db0cca53cc7d64') in 0.062692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/player/Vida.prefab
+  artifactKey: Guid(8d1125ead1512234fa0b98a873543a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player/Vida.prefab using Guid(8d1125ead1512234fa0b98a873543a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb4f07e8e86ed5d4d0aa11fc8522d2d') in 0.081517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/player/Monedas.prefab
+  artifactKey: Guid(6df23d267f52ef045b632b6f1e06c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player/Monedas.prefab using Guid(6df23d267f52ef045b632b6f1e06c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06c7109eeabd3fdbe18cce7ea2aefd0') in 0.025830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.401106 seconds.
+  path: Assets/Scenes/niveles/capitulo 1/parte 1/nivel 1 + 2.unity
+  artifactKey: Guid(d121870a266cf8b4483f53625b38c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/niveles/capitulo 1/parte 1/nivel 1 + 2.unity using Guid(d121870a266cf8b4483f53625b38c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b74f3e003634d85b6dfde6888a8bf9') in 0.002629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.700065 seconds.
+  path: Assets/Scenes/niveles/capitulo 1/parte 1/nivel 3.unity
+  artifactKey: Guid(bb53cc9db8712fe458323eba7993d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/niveles/capitulo 1/parte 1/nivel 3.unity using Guid(bb53cc9db8712fe458323eba7993d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab9acc42c2b0623aa8e211b4a20c75') in 0.001843 seconds 
