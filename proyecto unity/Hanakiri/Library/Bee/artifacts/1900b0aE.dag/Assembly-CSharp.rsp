@@ -432,6 +432,7 @@
 "Assets/Scripts/Objects/activateObjects.cs"
 "Assets/Scripts/Objects/CollectObjects.cs"
 "Assets/Scripts/Objects/PlataformaMovil.cs"
+"Assets/Scripts/Objects/Power-Ups/PowerUp.cs"
 "Assets/Scripts/Objects/puerta.cs"
 "Assets/Scripts/Objects/Trampilla/Trampilla.cs"
 "Assets/Scripts/Objects/tutorial/aparecerllave.cs"
