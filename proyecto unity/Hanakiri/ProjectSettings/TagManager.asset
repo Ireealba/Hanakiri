@@ -15,6 +15,7 @@ TagManager:
   - puerta
   - noSlide
   - dataController
+  - PuntoDeControl
   layers:
   - Default
   - TransparentFX
