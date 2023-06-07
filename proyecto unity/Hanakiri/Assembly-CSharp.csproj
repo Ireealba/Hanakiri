@@ -53,11 +53,12 @@
     <UnityVersion>2021.3.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\ataque melee\Damage\TeamComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Scripts\guardados\objetos\ObjectsController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\dialogos\Conversacion.cs" />
     <Compile Include="Assets\Scripts\Player\CheckWall.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Camara\CamaraJugador.cs" />
+    <Compile Include="Assets\Scripts\shop\ShopController.cs" />
     <Compile Include="Assets\Scripts\Text\Textos.cs" />
     <Compile Include="Assets\Scripts\guardados\logros\SavedAchivement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -120,6 +122,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\WallSpider.cs" />
     <Compile Include="Assets\Scripts\Enemies\tutorial\SpiderBullet.cs" />
+    <Compile Include="Assets\Scripts\guardados\objetos\SavedObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Objects\PlataformaMovil.cs" />
     <Compile Include="Assets\Scripts\Player\desactivarSlidePared.cs" />
@@ -151,9 +154,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\dialogos\Pregunta.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\shop\ShopController.cs" />
-    <Compile Include="Assets\Scripts\guardados\objetos\SavedObject.cs" />
-    <Compile Include="Assets\Scripts\guardados\objetos\ObjectsController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
