@@ -56,8 +56,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: objetos1
+    uniqueID: 494502739
+    locked: 0
   - name: NPC
     uniqueID: 2343004219
+    locked: 0
+  - name: objetos2
+    uniqueID: 1603855611
+    locked: 0
+  - name: powerUp
+    uniqueID: 3390528019
     locked: 0
   - name: IconosAccion
     uniqueID: 2005238975

@@ -82,7 +82,7 @@ public class personaje : MonoBehaviour
         initialGravity = rb2D.gravityScale;
 
         //nos indicará si estamos o no en el lobby para desactivar o activar algunas funciones
-        if (scene.name == "lobby")
+        if (scene.name == "lobby" || scene.name == "shop")
         {
             //animator.SetBool("Lobby", true);
             lobby = true;
