@@ -1993,11 +1993,12 @@ MonoBehaviour:
   nextScene: 1
   nuevaPartida: {fileID: 1674934547}
   continuar: {fileID: 809778741}
-  Coleccionables: {fileID: 1398321418}
-  Configuracion: {fileID: 2093486441}
-  Logros: {fileID: 1899963682}
+  BotonColeccionables: {fileID: 1398321418}
+  BotonConfiguracion: {fileID: 2093486441}
+  BotonLogros: {fileID: 1899963682}
   Salir: {fileID: 352976462}
   dataC: {fileID: 1600921515}
+  oc: {fileID: 1600921518}
 --- !u!1 &1514649269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,6 +2251,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1600921516}
   - component: {fileID: 1600921515}
+  - component: {fileID: 1600921518}
+  - component: {fileID: 1600921517}
   m_Layer: 0
   m_Name: DataController
   m_TagString: dataController
@@ -2291,6 +2294,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1600921517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600921514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b44163263003c42948885e9793e9c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUps:
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  player: {fileID: 0}
+  oc: {fileID: 1600921518}
+  pUp: []
+--- !u!114 &1600921518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600921514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280193456378a6d4fab0075bd48841f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 
+  powerUpsController: {fileID: 1600921517}
 --- !u!1 &1674934544
 GameObject:
   m_ObjectHideFlags: 0

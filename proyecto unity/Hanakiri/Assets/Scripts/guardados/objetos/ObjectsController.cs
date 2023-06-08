@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class ObjectsContr : MonoBehaviour
+public class ObjectsController : MonoBehaviour
 {
     public string data;
     public SavedObject savedObject = new SavedObject();
@@ -14,7 +14,7 @@ public class ObjectsContr : MonoBehaviour
         data = Application.dataPath + "/Gamesaves/objects.json";
         powerUpsController = GameObject.FindObjectOfType<PowerUpController>();
     }
-    public void ChargeDate()
+    public void ChargeData()
     {
         if(File.Exists(data))
         {
@@ -28,6 +28,7 @@ public class ObjectsContr : MonoBehaviour
                 powerUpsController.powerUps[i].speed = savedObject.PowerUps[i].speed;
                 powerUpsController.powerUps[i].jump = savedObject.PowerUps[i].jump;
                 powerUpsController.powerUps[i].attack = savedObject.PowerUps[i].attack;
+                powerUpsController.powerUps[i].monedas = savedObject.PowerUps[i].monedas;
                 powerUpsController.powerUps[i].active = savedObject.PowerUps[i].active;
                 powerUpsController.powerUps[i].time = savedObject.PowerUps[i].time;
 
@@ -35,7 +36,7 @@ public class ObjectsContr : MonoBehaviour
         }
         else
         {
-            Debug.Log("El archivo no existe");
+            Debug.Log("El archivo de objetos no existe");
         }
     }
 
@@ -54,6 +55,7 @@ public class ObjectsContr : MonoBehaviour
                 speed = powerUpsController.powerUps[i].speed,
                 jump = powerUpsController.powerUps[i].jump,
                 attack = powerUpsController.powerUps[i].attack,
+                monedas = powerUpsController.powerUps[i].monedas,
                 active = powerUpsController.powerUps[i].active,
                 time = powerUpsController.powerUps[i].time,
             };
@@ -74,134 +76,138 @@ public class ObjectsContr : MonoBehaviour
         for(int i = 0; i < 9; i++)
         {
             string nameAux;
+            int lifeAux;
+            int speedAux;
+            int jumpAux;
+            int attackAux;
+            int monedasAux;
+
             switch (i)
             {
                 case 0:
 
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+                    nameAux = "Vida Pos";
+                    lifeAux = 1;
+                    speedAux = 0;
+                    jumpAux = 0;
+                    attackAux = 0;
+                    monedasAux = 0;
+
                     break;
 
                 case 1:
-                    name = "Vida Neg";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+
+                    nameAux = "Vida Neg";
+                    lifeAux = -1;
+                    speedAux = 0;
+                    jumpAux = 0;
+                    attackAux = 20;
+                    monedasAux = 0;
+
                     break;
 
                 case 2:
-                    name = "Velocidad Pos";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+
+                    nameAux = "Velocidad Pos";
+                    lifeAux = 0;
+                    speedAux = 20;
+                    jumpAux = 0;
+                    attackAux = 0;
+                    monedasAux = 0;
+
                     break;
 
                 case 3:
-                    name = "Velocidad Neg";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+ 
+                    nameAux = "Velocidad Neg";
+                    lifeAux = 0;
+                    speedAux = -20;
+                    jumpAux = 0;
+                    attackAux = 20;
+                    monedasAux = 0;
+
                     break;
 
                 case 4:
-                    name = "Salto Pos";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+
+                    nameAux = "Salto Pos";
+                    lifeAux = 0;
+                    speedAux = 0;
+                    jumpAux = 20;
+                    attackAux = 0;
+                    monedasAux = 0;
+
                     break;
 
                 case 5:
-                    name = "Salto Neg";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+
+                    nameAux = "Salto Neg";
+                    lifeAux = 1;
+                    speedAux = 0;
+                    jumpAux = -20;
+                    attackAux = 0;
+                    monedasAux = 0;
+
                     break;
 
                 case 6:
-                    name = "Ataque Pos";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+
+                    nameAux = "Ataque Pos";
+                    lifeAux = 0;
+                    speedAux = 0;
+                    jumpAux = 0;
+                    attackAux = 20;
+                    monedasAux = 0;
+
                     break;
 
                 case 7:
-                    name = "Ataque Neg";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+
+                    nameAux = "Ataque Neg";
+                    lifeAux = 1;
+                    speedAux = 0;
+                    jumpAux = 0;
+                    attackAux = -20;
+                    monedasAux = 0;
+
                     break;
 
                 case 8:
-                    name = "Monedas";
-                    newData.PowerUps[i] = new PowerUp()
-                    {
-                        name = "Vida Pos",
-                        life = 20,
-                        speed = 0,
-                        jump = 0,
-                        attack = 0,
-                        active = true,
-                        time = 12
-                    };
+ 
+                    nameAux = "Monedas";
+                    lifeAux = 0;
+                    speedAux = 0;
+                    jumpAux = 0;
+                    attackAux = 0;
+                    monedasAux = 10;
+
                     break;
+
+                default:
+                    
+                    nameAux = "";
+                    lifeAux = 0;
+                    speedAux = 0;
+                    jumpAux = 0;
+                    attackAux = 0;
+                    monedasAux = 0;
+
+                    break;
+                    
             }
+
+            newData.PowerUps[i] = new PowerUp()
+            {
+                name = nameAux,
+                life = lifeAux,
+                speed = speedAux,
+                jump = jumpAux,
+                attack = attackAux,
+                monedas = monedasAux,
+                active = false,
+                time = 12
+            };
+
         }
 
         string jsonData = JsonUtility.ToJson(newData, true);

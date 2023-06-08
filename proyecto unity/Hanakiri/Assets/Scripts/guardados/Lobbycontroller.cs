@@ -7,7 +7,6 @@ public class Lobbycontroller : MonoBehaviour
 {
     [SerializeField] private GameObject dataController;
     private DataController dataControl;
-    private int actualLvl;
     [SerializeField] private Conversacion conversacion0;
     [SerializeField] private Conversacion conversacion1;
     [SerializeField] private Conversacion conversacion2;
@@ -17,6 +16,8 @@ public class Lobbycontroller : MonoBehaviour
     public bool conversacion;
     public int conversacionOp;
     [SerializeField] private Trampilla trampilla;
+    public changeScene changeSc;
+    public personaje player;
 
     void Start()
     {
@@ -26,10 +27,9 @@ public class Lobbycontroller : MonoBehaviour
 
         dataControl.ChargeData();
 
-        actualLvl = dataControl.savedData.actualLvl;
         conversacion = false;
 
-        switch (actualLvl)
+        switch (player.actualLvl)
         {
             case 0:
                 Debug.Log("nivel 0");
@@ -66,7 +66,7 @@ public class Lobbycontroller : MonoBehaviour
         {
             Debug.Log("Conversación hecha");
 
-            switch (actualLvl)
+            switch (player.actualLvl)
             {
                 case 0:
                     Debug.Log(conversacionOp);
@@ -115,8 +115,10 @@ public class Lobbycontroller : MonoBehaviour
         
         
         dialUI.conversacion = conversacion0;
+        changeSc.enabled = false;
+        player.actualLvl = 0;
 
-        
+
 
     }
 
@@ -126,6 +128,12 @@ public class Lobbycontroller : MonoBehaviour
         
 
         dialUI.conversacion = conversacion1;
+        changeSc.enabled = true;
+        changeSc.nextScene = 6;
+        player.actualLvl = 1;
+
+
+
     }
 
     private void lvl2()

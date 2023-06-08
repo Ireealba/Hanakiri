@@ -1,0 +1,94 @@
+{
+    "PowerUps": [
+        {
+            "name": "Vida Pos",
+            "life": 1,
+            "speed": 0,
+            "jump": 0,
+            "attack": 0,
+            "monedas": 0,
+            "active": false,
+            "time": 12.0
+        },
+        {
+            "name": "Vida Neg",
+            "life": -1,
+            "speed": 0,
+            "jump": 0,
+            "attack": 20,
+            "monedas": 0,
+            "active": false,
+            "time": 12.0
+        },
+        {
+            "name": "Velocidad Pos",
+            "life": 0,
+            "speed": 20,
+            "jump": 0,
+            "attack": 0,
+            "monedas": 0,
+            "active": true,
+            "time": 12.0
+        },
+        {
+            "name": "Velocidad Neg",
+            "life": 0,
+            "speed": -20,
+            "jump": 0,
+            "attack": 20,
+            "monedas": 0,
+            "active": true,
+            "time": 12.0
+        },
+        {
+            "name": "Salto Pos",
+            "life": 0,
+            "speed": 0,
+            "jump": 20,
+            "attack": 0,
+            "monedas": 0,
+            "active": false,
+            "time": 12.0
+        },
+        {
+            "name": "Salto Neg",
+            "life": 1,
+            "speed": 0,
+            "jump": -20,
+            "attack": 0,
+            "monedas": 0,
+            "active": true,
+            "time": 12.0
+        },
+        {
+            "name": "Ataque Pos",
+            "life": 0,
+            "speed": 0,
+            "jump": 0,
+            "attack": 20,
+            "monedas": 0,
+            "active": false,
+            "time": 12.0
+        },
+        {
+            "name": "Ataque Neg",
+            "life": 1,
+            "speed": 0,
+            "jump": 0,
+            "attack": -20,
+            "monedas": 0,
+            "active": true,
+            "time": 12.0
+        },
+        {
+            "name": "Monedas",
+            "life": 0,
+            "speed": 0,
+            "jump": 0,
+            "attack": 0,
+            "monedas": 10,
+            "active": false,
+            "time": 12.0
+        }
+    ]
+}

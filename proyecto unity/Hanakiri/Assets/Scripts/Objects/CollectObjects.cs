@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollectObjects : MonoBehaviour
 {
     private puerta puerta;
+    public PowerUpController puc;
     
     void Start()
     {
@@ -21,6 +22,10 @@ public class CollectObjects : MonoBehaviour
                 Debug.Log("Aparece puerta");
                 puerta.aparecer();
 
+            }
+            else if (gameObject.CompareTag("powerUp"))
+            {
+                puc.agregarPowerUp(gameObject);
             }
 
             Debug.Log("Object collected");

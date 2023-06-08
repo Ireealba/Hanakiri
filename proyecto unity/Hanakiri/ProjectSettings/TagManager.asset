@@ -16,6 +16,7 @@ TagManager:
   - noSlide
   - dataController
   - PuntoDeControl
+  - powerUp
   layers:
   - Default
   - TransparentFX

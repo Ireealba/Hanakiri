@@ -15,6 +15,7 @@ public class MenuInicial : MonoBehaviour
     [SerializeField] private Button BotonLogros;
     [SerializeField] private Button Salir;
     [SerializeField] private DataController dataC;
+    public ObjectsController oc;
 
     void Start()
     {
@@ -30,6 +31,7 @@ public class MenuInicial : MonoBehaviour
         
         Debug.Log("Nueva partida, enviando a escena " + nextScene);
         dataC.DeleteData();
+        oc.DeleteData();
         SceneManager.LoadScene(nextScene);
     }
 
@@ -47,17 +49,17 @@ public class MenuInicial : MonoBehaviour
 
     void Coleccionables()
     {
-        SceneManager.LoadScene(BotonColeccionables);
+        SceneManager.LoadScene("BotonColeccionables");
     }
 
     void Logros()
     {
-        SceneManager.LoadScene(BotonLogros);
+        SceneManager.LoadScene("BotonLogros");
     }
 
     void Configuracion()
     {
-        SceneManager.LoadScene(BotonConfiguracion);
+        SceneManager.LoadScene("BotonConfiguracion");
     }
 
 

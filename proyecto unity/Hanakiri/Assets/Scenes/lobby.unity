@@ -1527,6 +1527,8 @@ MonoBehaviour:
   conversacion: 0
   conversacionOp: 0
   trampilla: {fileID: 1607655234}
+  changeSc: {fileID: 1504596511}
+  player: {fileID: 1574654902}
 --- !u!1 &1042364615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,7 +1722,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1890374983
-  m_SortingLayer: 4
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9def0aa3d5336d246b5383cc67482655, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2074,7 +2076,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2005238975
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 77b7477c4a690044aa0715e784ce64bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2100,6 +2102,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1457304519}
+--- !u!1 &1504596510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504596513}
+  - component: {fileID: 1504596512}
+  - component: {fileID: 1504596511}
+  m_Layer: 0
+  m_Name: cambio de escena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1504596511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504596510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 333d94975f9a06149b8648359bbb951f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualScene: 1
+  nextScene: 6
+  player: {fileID: 1574654902}
+  dc: {fileID: 668609786}
+--- !u!61 &1504596512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504596510}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.50179005, y: -1.6580887}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.00358, y: 15.748276}
+  m_EdgeRadius: 0
+--- !u!4 &1504596513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504596510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30.32, y: -41.93, z: 0.13035901}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1574654901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2209,6 +2286,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+--- !u!114 &1574654902 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6717678015036280543, guid: 19dc2e8a4dd5f5d42b859f08fde4beb0, type: 3}
+  m_PrefabInstance: {fileID: 1574654901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be5138adb3deb747af8067b03151d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1607655230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,7 +2738,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1951963077
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2962,6 +3050,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actualScene: 1
   nextScene: 2
+  player: {fileID: 0}
+  dc: {fileID: 0}
 --- !u!1 &2058528973
 GameObject:
   m_ObjectHideFlags: 0

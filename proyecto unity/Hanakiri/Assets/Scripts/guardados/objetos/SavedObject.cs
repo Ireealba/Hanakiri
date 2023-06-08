@@ -11,6 +11,7 @@ public struct PowerUp
     public int speed;
     public int jump;
     public int attack;
+    public int monedas;
     public bool active;
     public float time;
 }

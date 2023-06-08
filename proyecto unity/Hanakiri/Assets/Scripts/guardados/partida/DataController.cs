@@ -8,6 +8,7 @@ public class DataController : MonoBehaviour
     public GameObject player;
     public string data;
     public SavedData savedData = new SavedData();
+    
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class DataController : MonoBehaviour
             player.GetComponent<personaje>().totalLife = savedData.totalLife;
             player.GetComponent<personaje>().actualLife = savedData.actualLife;
 
+
             Debug.Log("Monedas: " + savedData.monedas);
         }
         else
@@ -47,6 +49,7 @@ public class DataController : MonoBehaviour
 
         };
 
+
         string cadenaJson = JsonUtility.ToJson(newData);
         File.WriteAllText(data, cadenaJson);
 
@@ -62,6 +65,7 @@ public class DataController : MonoBehaviour
             totalLife = 3,
             actualLife = 3
         };        
+
 
         string cadenaJson = JsonUtility.ToJson(newData);
         File.WriteAllText (data, cadenaJson);

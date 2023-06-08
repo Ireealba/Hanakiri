@@ -30,15 +30,15 @@ public class personaje : MonoBehaviour
 
     //movimiento
     private float horizontalMove = 0f;
-    [SerializeField] private float moveSpeed;
+    [SerializeField] public float moveSpeed;
     [Range(0, 0.3f)][SerializeField] private float moveSuavizador;
     private Vector3 speed = Vector3.zero;
     private bool lookRight = true;
     private float inputX;
 
     //salto
-    [SerializeField] private float jumpForce;
-    [SerializeField] private float doubleJumpForce;
+    [SerializeField] public float jumpForce;
+    [SerializeField] public float doubleJumpForce;
     private bool jump = false;
     private bool canDoubleJump;
 
