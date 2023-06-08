@@ -10,9 +10,9 @@ public class MenuInicial : MonoBehaviour
     [SerializeField] private int nextScene;
     [SerializeField] private Button nuevaPartida;
     [SerializeField] private Button continuar;
-    [SerializeField] private Button Coleccionables;
-    [SerializeField] private Button Configuracion;
-    [SerializeField] private Button Logros;
+    [SerializeField] private Button BotonColeccionables;
+    [SerializeField] private Button BotonConfiguracion;
+    [SerializeField] private Button BotonLogros;
     [SerializeField] private Button Salir;
     [SerializeField] private DataController dataC;
 
@@ -20,6 +20,9 @@ public class MenuInicial : MonoBehaviour
     {
         nuevaPartida.onClick.AddListener(Newgame);
         continuar.onClick.AddListener(ContinueGame);
+        BotonColeccionables.onClick.AddListener(Coleccionables);
+        BotonLogros.onClick.AddListener(Logros);
+        BotonConfiguracion.onClick.AddListener(Configuracion);
     }
 
     void Newgame()
@@ -42,6 +45,22 @@ public class MenuInicial : MonoBehaviour
         }
     }
 
+    void Coleccionables()
+    {
+        SceneManager.LoadScene(BotonColeccionables);
+    }
+
+    void Logros()
+    {
+        SceneManager.LoadScene(BotonLogros);
+    }
+
+    void Configuracion()
+    {
+        SceneManager.LoadScene(BotonConfiguracion);
+    }
+
+
     public void SalidaJuego()
     {
 
@@ -52,5 +71,7 @@ public class MenuInicial : MonoBehaviour
     #endif
     
     }
+
+
     
 }

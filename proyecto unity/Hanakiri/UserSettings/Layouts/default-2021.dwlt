@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 75
+  controlID: 74
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 104
+  controlID: 105
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,8 +226,8 @@ MonoBehaviour:
     y: 0
     width: 254
     height: 987
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -346,7 +346,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -88.51067, y: 108.80251, z: 5.1302004}
+    m_Target: {x: 639.47406, y: 524.95624, z: 3.9201107}
     speed: 2
-    m_Value: {x: -91.3285, y: 113.92422, z: 5.0329056}
+    m_Value: {x: 639.47406, y: 524.95624, z: 3.9201107}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -559,9 +559,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 206.48076
+    m_Target: 585.4748
     speed: 2
-    m_Value: 216.21022
+    m_Value: 585.4748
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2006,22 +2006,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes/menus
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes/menus
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub Desktop\Hanakiri\proyecto unity\Hanakiri
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: ae760000
-    m_LastClickedID: 30382
-    m_ExpandedIDs: 00000000ae760000b0760000b2760000b4760000b6760000b8760000ba760000bc760000be76000000ca9a3bffffff7f
+    m_SelectedIDs: de6d0000
+    m_LastClickedID: 28126
+    m_ExpandedIDs: 00000000b26d0000b46d0000b66d0000b86d0000ba6d0000bc6d0000be6d0000c06d0000c26d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2049,7 +2049,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae760000b0760000b2760000b4760000b6760000b8760000ba760000bc760000be760000
+    m_ExpandedIDs: 00000000b26d0000b46d0000b66d0000b86d0000ba6d0000bc6d0000be6d0000c06d0000c26d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2138,21 +2138,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ba72ffff987affffa27affff187bffffe47bffffee7bffff047cffff1a7cffff307cffff547cffff5e7cffff827cffff8c7cffffa27cfffff47cffff467dffff6a7dffff747dffff267effff3c7effff9c7effffa67effffbc7effff027fffff3880ffff7e80fffff680ffff0c81ffff6081ffff6a81ffff8081ffff4082ffff4a82ffff9e82ffffa882ffffbe82ffffe282ffffec82ffffaa83fffffe83ffff0884fffffa84ffff3e8cffff628cffff6c8cffffbe8cffffe28cffffec8cffff028dfffffc8dffff208effff2a8effff408effff648effff6e8effff928effff9c8effffb28effffd68effffe08effff268fffffaa8fffffb48fffffca8fffff7090ffff7a90ffff9e90ffffa890fffffc90ffff0691ffff4c91ffff7091ffff7a91ffff9091ffffa691ffff2a92ffff3492ffff3692ffffd09cfffff49cfffffe9cffff509dffffa29dfffff69dffff009effff4a9fffff549fffff6a9fffffb09fffff04a0ffff0ea0ffff24a0ffff78a0ffff82a0ffff98a0ffffaea0ffffd4a0ffffdea0ffff2aa1ffff7ea1ffff88a1ffffcea1ffffe4a1fffffaa1ffff10a2ffff4ca2ffff92a2ffffb6a2ffffc0a2ffffd6a2ffffc6a3ffffd0a3ffff16a4ffff3aa4ffff44a4ffff5aa4ffffa0a4ffff54a5ffff5ea5ffff82a5ffff8ca5ffffeea5ffff84abffff06b7ffffa0c1ffff76cbffff06d2ffff50d9ffff52e8ffff7ef2ffff08f4ffffa4770000f4c40000
+      m_ExpandedIDs: d0eaffff82ebffffc8ebffffc0f0ffff0efbffff706e0000a66e0000d66e0000466f00005c8e0000888e0000a28e0000be8e0000d28e0000ee8e00001e8f00004a8f00005e8f0000668f00007a8f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: detectar explosion
-        m_OriginalName: detectar explosion
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -24010
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
