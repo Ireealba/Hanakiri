@@ -123,6 +123,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &49559944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49559946}
+  - component: {fileID: 49559945}
+  m_Layer: 0
+  m_Name: ObjectsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &49559945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49559944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280193456378a6d4fab0075bd48841f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 
+  powerUpsController: {fileID: 1329879902}
+--- !u!4 &49559946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49559944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.265455, y: -44.900475, z: -0.05985989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &87306641
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,7 +250,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.3282251, y: -14.846455}
+  m_Offset: {x: -1.6059597, y: -14.846455}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -215,7 +261,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.2033176, y: 34.183342}
+  m_Size: {x: 7.6478486, y: 34.183342}
   m_EdgeRadius: 0
 --- !u!114 &96370179
 MonoBehaviour:
@@ -230,7 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sc: {fileID: 1015938392}
-  objeto: 3
+  objeto: 2
   precio: 10
 --- !u!1 &125281455
 GameObject:
@@ -1126,8 +1172,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1015938391}
   - component: {fileID: 1015938392}
-  - component: {fileID: 1015938393}
-  - component: {fileID: 1015938394}
   m_Layer: 0
   m_Name: ShopController
   m_TagString: Untagged
@@ -1162,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae004b8d823a9241a7e6daebb14fa0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puc: {fileID: 1015938393}
+  puc: {fileID: 1329879902}
   pUp:
   - {fileID: 1065356933}
   - {fileID: 304331636}
@@ -1179,108 +1223,6 @@ MonoBehaviour:
   - {fileID: -360996376, guid: 82648e5381e282e4aad88f57231e1bcb, type: 3}
   n: 
   player: {fileID: 878341134}
---- !u!114 &1015938393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015938390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b44163263003c42948885e9793e9c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerUps:
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  - name: 
-    life: 0
-    speed: 0
-    jump: 0
-    attack: 0
-    monedas: 0
-    active: 0
-    time: 0
-  player: {fileID: 878341133}
-  oc: {fileID: 1015938394}
-  pUp: []
---- !u!114 &1015938394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015938390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 280193456378a6d4fab0075bd48841f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: 
-  powerUpsController: {fileID: 1015938393}
 --- !u!1 &1065356933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,7 +1376,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -3.1696665, y: -14.846455}
+  m_Offset: {x: -1.1795119, y: -14.846455}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1445,7 +1387,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.520435, y: 34.183342}
+  m_Size: {x: 8.500744, y: 34.183342}
   m_EdgeRadius: 0
 --- !u!114 &1071264963
 MonoBehaviour:
@@ -1460,7 +1402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sc: {fileID: 1015938392}
-  objeto: 1
+  objeto: 0
   precio: 10
 --- !u!1 &1092318634
 GameObject:
@@ -1774,6 +1716,127 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1329879901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1329879903}
+  - component: {fileID: 1329879902}
+  m_Layer: 0
+  m_Name: powerUpsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1329879902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329879901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b44163263003c42948885e9793e9c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUps:
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  - name: 
+    life: 0
+    speed: 0
+    jump: 0
+    attack: 0
+    monedas: 0
+    active: 0
+    time: 0
+  player: {fileID: 878341133}
+  oc: {fileID: 49559945}
+  pUp: []
+  sc: {fileID: 1015938392}
+--- !u!4 &1329879903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329879901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.265455, y: -44.900475, z: -0.05985989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1371812409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2326,7 +2389,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.648421, y: -14.846455}
+  m_Offset: {x: 2.8416014, y: -14.846455}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2337,7 +2400,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.8862023, y: 34.183342}
+  m_Size: {x: 6.790756, y: 34.183342}
   m_EdgeRadius: 0
 --- !u!114 &1979394483
 MonoBehaviour:
@@ -2352,7 +2415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sc: {fileID: 1015938392}
-  objeto: 2
+  objeto: 1
   precio: 10
 --- !u!1 &2011653541
 GameObject:
@@ -2501,7 +2564,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.5295033, y: -14.846455}
+  m_Offset: {x: 2.2159111, y: -14.846455}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2512,7 +2575,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.1240377, y: 34.183342}
+  m_Size: {x: 6.751222, y: 34.183342}
   m_EdgeRadius: 0
 --- !u!114 &2016161898
 MonoBehaviour:
@@ -2527,7 +2590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sc: {fileID: 1015938392}
-  objeto: 4
+  objeto: 3
   precio: 10
 --- !u!1 &2067012868
 GameObject:

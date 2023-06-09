@@ -21,6 +21,7 @@ public class ObjectsController : MonoBehaviour
             string loadData = File.ReadAllText(data);
             savedObject = JsonUtility.FromJson<SavedObject>(loadData);
 
+
             for(int i = 0; i < savedObject.PowerUps.Length; i++)
             {
                 powerUpsController.powerUps[i].name = savedObject.PowerUps[i].name;

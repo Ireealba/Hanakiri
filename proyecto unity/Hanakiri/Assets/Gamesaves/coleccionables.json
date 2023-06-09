@@ -1,0 +1,44 @@
+{
+    "coleccionables": [
+        {
+            "name": "plushie_alex",
+            "owned": false
+        },
+        {
+            "name": "plushie_ancor",
+            "owned": false
+        },
+        {
+            "name": "plushie_candy",
+            "owned": false
+        },
+        {
+            "name": "plushie_forget",
+            "owned": false
+        },
+        {
+            "name": "plushie_freya",
+            "owned": false
+        },
+        {
+            "name": "plushie_hana",
+            "owned": false
+        },
+        {
+            "name": "plushie_sanse",
+            "owned": false
+        },
+        {
+            "name": "plushie_skull",
+            "owned": false
+        },
+        {
+            "name": "plushie_spider",
+            "owned": false
+        },
+        {
+            "name": "plushie_wachin",
+            "owned": false
+        }
+    ]
+}

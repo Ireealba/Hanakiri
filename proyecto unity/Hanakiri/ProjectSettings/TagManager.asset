@@ -17,6 +17,7 @@ TagManager:
   - dataController
   - PuntoDeControl
   - powerUp
+  - coleccionable
   layers:
   - Default
   - TransparentFX

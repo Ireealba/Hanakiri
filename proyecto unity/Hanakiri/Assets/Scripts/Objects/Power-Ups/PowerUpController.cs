@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PowerUpController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PowerUpController : MonoBehaviour
     public GameObject player;
     public ObjectsController oc;
     public GameObject[] pUp;
+    public ShopController sc;
     
 
     private int timer;
@@ -16,8 +18,27 @@ public class PowerUpController : MonoBehaviour
 
     private void Start()
     {
-        oc.ChargeData();
-        charged = true;
+        oc = FindObjectOfType<ObjectsController>();
+
+        if(oc != null)
+        {
+            oc.ChargeData();
+            charged = true;
+            Debug.Log("Hay oc");
+            Debug.Log(oc);
+        }
+        else
+        {
+            Debug.Log("no se encontró ningun tipo oc");
+        }
+
+        
+        Scene scene = SceneManager.GetActiveScene();
+
+        if (scene.name == "shop")
+        {
+            sc.AsignarProductos();
+        }
     }
 
 

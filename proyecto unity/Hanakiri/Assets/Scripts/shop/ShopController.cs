@@ -12,15 +12,21 @@ public class ShopController : MonoBehaviour
     public int[] n;
     public personaje player;
 
-    void Start()
+    private void Start()
     {
-        puc.oc.ChargeData();
+        puc = GameObject.Find("powerUpsController").GetComponent<PowerUpController>();
+    }
+    public void AsignarProductos()
+    {
+        //puc.oc.ChargeData();
 
+        /*
         Color verdeM = new Color(120, 255, 91);
         Color verdeB = new Color(206, 255, 196);
         Color rojo = new Color(255, 134, 135);
         Color naranja = new Color(255, 165, 134);
         Color[] color = new Color[] { rojo, rojo, verdeM, verdeB, rojo, rojo, naranja, naranja };
+        */
 
         n = new int[pUp.Length];
 
@@ -45,8 +51,8 @@ public class ShopController : MonoBehaviour
 
                 if (!repeat)
                 {
-                    if (!puc.powerUps[naux].active)
-                    {
+                    
+                    
                         //SpriteRenderer contenedor = pUp[i].GetComponentInChildren<SpriteRenderer>();
 
                         n[i] = naux;
@@ -56,7 +62,7 @@ public class ShopController : MonoBehaviour
                         //contenedor.color = color[naux];
                         Debug.Log(pUp[i].name);
                         done = true;
-                    }
+                    
                 }
 
             }while(!done);
@@ -65,9 +71,16 @@ public class ShopController : MonoBehaviour
 
     public void Comprar(int index, int monedas)
     {
-        player.monedas -= monedas;
-        Debug.Log("Objecto comprado: " + pUp[index].name);
-        puc.agregarPowerUp(pUp[index]);
-        Destroy(pUp[index]);
+        if(player.monedas >= monedas)
+        {
+            player.monedas -= monedas;
+            Debug.Log("Objecto comprado: " + pUp[index].name);
+            puc.agregarPowerUp(pUp[index]);
+            Destroy(pUp[index]);
+        }
+        else
+        {
+            Debug.Log("No hay dinero suficiente");
+        }
     }
 }

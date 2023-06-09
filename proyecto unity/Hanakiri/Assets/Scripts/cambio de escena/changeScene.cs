@@ -10,6 +10,10 @@ public class changeScene : MonoBehaviour
     public personaje player;
     public DataController dc;
 
+    private void Start()
+    {
+        dc = GameObject.Find("DataController").GetComponent<DataController>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
