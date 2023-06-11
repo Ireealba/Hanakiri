@@ -1,0 +1,310 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 32552 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+54307
+Successfully changed project path to: C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
+C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34264] Host "[IP] 192.168.1.138 [Port] 0 [Flags] 2 [Guid] 483430028 [EditorId] 483430028 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JTGBOU09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34264] Host "[IP] 192.168.1.138 [Port] 0 [Flags] 2 [Guid] 483430028 [EditorId] 483430028 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JTGBOU09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 242.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/iap23/Desktop/Hanakiri/proyecto unity/Hanakiri/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 Super (ID=0x1e91)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008885 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 131.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014370 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 141.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1797ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1524ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (976ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4980 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (258.0 KB). Loaded Objects now: 5399.
+Memory consumption went from 179.1 MB to 178.9 MB.
+Total: 8.500200 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.505300 ms MarkObjects: 7.339400 ms  DeleteObjects: 0.190500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\iap23\Desktop\Hanakiri\proyecto unity\Hanakiri\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2190ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1799ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1058ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (660ms)
+				ProcessInitializeOnLoadMethodAttributes (196ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4961 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (224.5 KB). Loaded Objects now: 5414.
+Memory consumption went from 177.8 MB to 177.6 MB.
+Total: 8.141000 ms (FindLiveObjects: 0.442900 ms CreateObjectMapping: 0.389100 ms MarkObjects: 7.131700 ms  DeleteObjects: 0.176100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 251797.810618 seconds.
+  path: Assets/Fonts/Autography.otf
+  artifactKey: Guid(9833cab4cb16f6243b0e89d33b3e56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Autography.otf using Guid(9833cab4cb16f6243b0e89d33b3e56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10afec6ba02cb88bdd4cf1728805cd2') in 0.254869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fonts/Purple Smile.otf
+  artifactKey: Guid(da4094da9c0759c42ba6dfc9cb694e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Purple Smile.otf using Guid(da4094da9c0759c42ba6dfc9cb694e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df692b18fd70b48d51e02d1dd565c796') in 0.023655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fonts/DailyNoted.otf
+  artifactKey: Guid(51aa1e99693cbf943a26954a68c8bdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DailyNoted.otf using Guid(51aa1e99693cbf943a26954a68c8bdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e859fdb785c779c09d60d3491dd0a1e') in 0.032701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fonts/Hey Comic SDF.asset
+  artifactKey: Guid(c0df7dcc8ab515f4cb172f17594114ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Hey Comic SDF.asset using Guid(c0df7dcc8ab515f4cb172f17594114ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0d40c6c2ec91a0e6959f8a6468b622') in 0.179877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fonts/Wash Your Hand.otf
+  artifactKey: Guid(40860e84bdb128d409a82b4b8c282b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Wash Your Hand.otf using Guid(40860e84bdb128d409a82b4b8c282b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965ea639d9326c7c9b21e5dbd5c7e0af') in 0.032277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fonts/Sunny Spells.ttf
+  artifactKey: Guid(2ff270b2c4a37394c9a29d5d7e5b4757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Sunny Spells.ttf using Guid(2ff270b2c4a37394c9a29d5d7e5b4757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bb9d99992683d55256edb14d006e69') in 0.033135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fonts/FuturaHandwritten.ttf
+  artifactKey: Guid(dc7ef7c24347ad5468e4fc2d586e4bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/FuturaHandwritten.ttf using Guid(dc7ef7c24347ad5468e4fc2d586e4bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce426ab8a2ae14dff84c1f1a28a9f26') in 0.040033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fonts/Lemon Juice.otf
+  artifactKey: Guid(577f4e6f96bd89b4e87bbb555f33c373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lemon Juice.otf using Guid(577f4e6f96bd89b4e87bbb555f33c373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc01640a9ff3a77452dcd1b9b6b373ca') in 0.023684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fonts/Wash Your Hand SDF.asset
+  artifactKey: Guid(6d4d96b756b447c42b292df96e004920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Wash Your Hand SDF.asset using Guid(6d4d96b756b447c42b292df96e004920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b615960595902ba2369ba8dd33025f') in 0.125152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fonts/Cheeky Rabbit.ttf
+  artifactKey: Guid(1f86d698080906d45a19988db68f9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cheeky Rabbit.ttf using Guid(1f86d698080906d45a19988db68f9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a4480d141a74e5a4b49eb515215cda') in 0.033111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fonts/Hey Comic.otf
+  artifactKey: Guid(24b9b6029b1c1654ba9cb8ec29f05145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Hey Comic.otf using Guid(24b9b6029b1c1654ba9cb8ec29f05145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c688654b3a76d7f9c5bc6f59b6bacb') in 0.027056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fonts/Purple Smile.ttf
+  artifactKey: Guid(0638cd52691c9a94f845e03b86c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Purple Smile.ttf using Guid(0638cd52691c9a94f845e03b86c9fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcdef2ed3325c168f2fb72ad9ac8859') in 0.017851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fonts/PinkChicken-Regular.ttf
+  artifactKey: Guid(095116b6c5448714da05954723ceb960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/PinkChicken-Regular.ttf using Guid(095116b6c5448714da05954723ceb960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96923c088c35ce0070e8a365d11b219') in 0.023537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fonts/Sunny Spells SDF.asset
+  artifactKey: Guid(cc508fb614e1e40468b20746ace8a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Sunny Spells SDF.asset using Guid(cc508fb614e1e40468b20746ace8a2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f11a6c2c10d4144644ca5a4fc3af0e') in 0.133075 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

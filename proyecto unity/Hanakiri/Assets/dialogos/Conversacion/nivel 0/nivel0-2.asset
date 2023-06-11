@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: nivel0-2
   m_EditorClassIdentifier: 
   desbloqueada: 0
-  finalizado: 0
+  finalizado: 1
   reUsar: 0
   dialogos:
   - personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}
@@ -22,4 +22,10 @@ MonoBehaviour:
   - personaje: {fileID: 11400000, guid: 71d134abb2bb75345b1ba28f54b95f2f, type: 2}
     sonido: {fileID: 0}
     dialogo: "\xAA"
+  - personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Hola
+  - personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Este es el nivel 1
   pregunta: {fileID: 0}

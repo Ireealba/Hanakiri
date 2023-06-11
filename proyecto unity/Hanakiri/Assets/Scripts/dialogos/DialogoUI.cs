@@ -8,7 +8,7 @@ public class DialogoUI : MonoBehaviour
 {
     public Conversacion conversacion;    //conversacion actual mostrada
     [SerializeField]
-    private float textSpeed = 10;
+    private float textSpeed = 20;
 
     [SerializeField]
     private GameObject convContainer;
@@ -57,7 +57,7 @@ public class DialogoUI : MonoBehaviour
             case -1:
                 if (localIn > 0)
                 {
-                    print("Dialogo anterior");
+                    //print("Dialogo anterior");
                     localIn--;
                     StopAllCoroutines();
                     StartCoroutine(EscribirTexto());
@@ -78,7 +78,7 @@ public class DialogoUI : MonoBehaviour
 
             //no avanzar con el texto
             case 0:
-                print("Dialogo actualizado");
+                //print("Dialogo actualizado");
 
                 //nombre.text = conversacion.dialogos[localIn].personaje.nombre;
                 StopAllCoroutines();
@@ -102,7 +102,7 @@ public class DialogoUI : MonoBehaviour
 
                 if(localIn < conversacion.dialogos.Length - 1)
                 {
-                    print("Dialogo siguiente");
+                    //print("Dialogo siguiente");
                     localIn++;
                     //nombre.text = conversacion.dialogos[localIn].personaje.nombre;
                     StopAllCoroutines();

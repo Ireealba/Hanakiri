@@ -11,10 +11,29 @@ public class ShopController : MonoBehaviour
     public Sprite[] img;
     public int[] n;
     public personaje player;
+    public changeScene changeSc;
 
     private void Start()
     {
         puc = GameObject.Find("powerUpsController").GetComponent<PowerUpController>();
+        
+    }
+    private void Update()
+    {
+        switch (player.actualLvl)
+        {
+            case 1:
+                changeSc.nextScene = 3;
+                break;
+
+            case 2:
+                changeSc.nextScene = 4;
+                break;
+
+            case 3:
+                changeSc.nextScene = 5;
+                break;
+        }
     }
     public void AsignarProductos()
     {

@@ -17,6 +17,14 @@ public class DataController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
+    private void Update()
+    {
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+    }
+
     public void ChargeData()
     {
         if(File.Exists(data))

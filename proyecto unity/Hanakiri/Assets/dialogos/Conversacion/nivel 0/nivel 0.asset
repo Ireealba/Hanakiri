@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: nivel 0
   m_EditorClassIdentifier: 
   desbloqueada: 1
-  finalizado: 1
+  finalizado: 0
   reUsar: 0
   dialogos:
   - personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}

@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Enemies\capitulo1\gummybear\gummybear.cs" />
     <Compile Include="Assets\Scripts\dialogos\DialogoUI.cs" />
     <Compile Include="Assets\Scripts\Player\ataqueCuerpoACuerpo.cs" />
+    <Compile Include="Assets\Scripts\controladorViñetas.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\IdleCombatState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -158,7 +159,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\dialogos\Pregunta.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\controladorViñetas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

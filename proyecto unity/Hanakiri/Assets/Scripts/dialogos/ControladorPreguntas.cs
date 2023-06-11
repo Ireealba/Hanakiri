@@ -35,7 +35,8 @@ public class ControladorPreguntas : MonoBehaviour
                     poolButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = opciones[i].opcion;
                     poolButtons[i].onClick.RemoveAllListeners();
                     Conversacion co = opciones[i].convResultante;
-                    poolButtons[i].onClick.AddListener(() => DarFuncionABotones(co, i-1) );
+                    int opcion = i + 1;
+                    poolButtons[i].onClick.AddListener(() => DarFuncionABotones(co, opcion) );
                     poolButtons[i].gameObject.SetActive(true);
                 }
                 else
@@ -59,7 +60,8 @@ public class ControladorPreguntas : MonoBehaviour
 
     public void DarFuncionABotones(Conversacion conv, int nOpcion)
     {
-
+        lobby.opcionPreg = nOpcion;
+        Debug.Log("opcion de boton: " + nOpcion);
         DialogoManager.instance.SetConversacion(conv, null);
     }
 }
