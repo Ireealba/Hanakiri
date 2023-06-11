@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/shop.unity
     guid: 509f34b1fac769b4eb68802b242c01b3
+  - enabled: 1
+    path: "Assets/Scenes/menus/Vi\xF1etas Iniciales.unity"
+    guid: 1a75df3a6ae3c594ebee74207ad778d4
+  - enabled: 1
+    path: Assets/Scenes/menus/Coleccionables.unity
+    guid: 5f9b3dc2e2df510488dc138d91600fb4
+  - enabled: 1
+    path: Assets/Scenes/menus/Logros.unity
+    guid: dbc614d1cb5c1aa4999028ad0ba0baad
+  - enabled: 1
+    path: Assets/Scenes/menus/Configuracion.unity
+    guid: f93644bf8a166744b8e246f414b7b33a
   m_configObjects: {}

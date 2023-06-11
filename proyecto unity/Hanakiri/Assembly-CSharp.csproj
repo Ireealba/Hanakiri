@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\guardados\coleccionables\savedColeccionables.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\Damage\TeamComponent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Scripts\guardados\objetos\ObjectsController.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\PuntoControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\muffin\muffin.cs" />
+    <Compile Include="Assets\Scripts\Objects\Plushies\PlushiesController.cs" />
     <Compile Include="Assets\Scripts\Enemies\capitulo1\SetFalse.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\ControladorJuego.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="Assets\Scripts\Enemies\tutorial\SpiderBullet.cs" />
     <Compile Include="Assets\Scripts\guardados\objetos\SavedObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\guardados\coleccionables\coleccionablesController.cs" />
     <Compile Include="Assets\Scripts\Objects\PlataformaMovil.cs" />
     <Compile Include="Assets\Scripts\Player\desactivarSlidePared.cs" />
     <Compile Include="Assets\Scripts\Player\ataque melee\ComboCharacter.cs" />
@@ -155,9 +158,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\dialogos\Pregunta.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\guardados\coleccionables\savedColeccionables.cs" />
-    <Compile Include="Assets\Scripts\guardados\coleccionables\coleccionablesController.cs" />
-    <Compile Include="Assets\Scripts\Objects\Plushies\PlushiesController.cs" />
+    <Compile Include="Assets\Scripts\controladorViñetas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

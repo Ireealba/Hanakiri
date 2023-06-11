@@ -404,6 +404,7 @@
 "Assets/Scripts/cambio de escena/MenuInicial.cs"
 "Assets/Scripts/colliders/changeColliders.cs"
 "Assets/Scripts/ControladorJuego.cs"
+"Assets/Scripts/controladorViñetas.cs"
 "Assets/Scripts/Damage Objects/DamageObject.cs"
 "Assets/Scripts/dialogos/ControladorPreguntas.cs"
 "Assets/Scripts/dialogos/Conversacion.cs"

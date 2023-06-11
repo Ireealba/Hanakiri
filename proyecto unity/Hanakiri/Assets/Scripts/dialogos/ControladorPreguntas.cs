@@ -59,10 +59,6 @@ public class ControladorPreguntas : MonoBehaviour
 
     public void DarFuncionABotones(Conversacion conv, int nOpcion)
     {
-        if(lobby != null)
-        {
-            lobby.conversacionOp = nOpcion;
-        }
 
         DialogoManager.instance.SetConversacion(conv, null);
     }

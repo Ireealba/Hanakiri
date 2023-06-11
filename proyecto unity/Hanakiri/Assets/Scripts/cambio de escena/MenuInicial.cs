@@ -34,14 +34,14 @@ public class MenuInicial : MonoBehaviour
         dataC.DeleteData();
         oc.DeleteData();
         cc.Deletedata();
-        SceneManager.LoadScene(nextScene);
+        SceneManager.LoadScene(7);//scene viñetas
     }
 
     void ContinueGame()
     {
         if(File.Exists(Application.dataPath + "/gamesaves/gamedata.json"))
         {
-            SceneManager.LoadScene(nextScene);
+            SceneManager.LoadScene(1);//scene lobby
         }
         else
         {
@@ -51,17 +51,17 @@ public class MenuInicial : MonoBehaviour
 
     void Coleccionables()
     {
-        SceneManager.LoadScene("BotonColeccionables");
+        SceneManager.LoadScene(8);//scene boton coleccionables
     }
 
     void Logros()
     {
-        SceneManager.LoadScene("BotonLogros");
+        SceneManager.LoadScene(9);//scene boton logros
     }
 
     void Configuracion()
     {
-        SceneManager.LoadScene("BotonConfiguracion");
+        SceneManager.LoadScene(10);//scene configuracion
     }
 
 

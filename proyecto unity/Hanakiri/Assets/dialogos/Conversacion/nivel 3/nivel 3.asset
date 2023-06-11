@@ -15,5 +15,11 @@ MonoBehaviour:
   desbloqueada: 0
   finalizado: 0
   reUsar: 0
-  dialogos: []
+  dialogos:
+  - personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Hola
+  - personaje: {fileID: 11400000, guid: cbee8d14c81664541aa2a4549dfbee41, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Este es el nivel 3
   pregunta: {fileID: 0}

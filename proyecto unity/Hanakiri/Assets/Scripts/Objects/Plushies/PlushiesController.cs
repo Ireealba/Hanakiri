@@ -15,6 +15,7 @@ public class PlushiesController : MonoBehaviour
 
         if(cc != null )
         {
+            plushies = new Coleccionable[10];
             cc.ChargeData();
             Debug.Log("coleccionables cargados");
             charged = true;
@@ -39,26 +40,42 @@ public class PlushiesController : MonoBehaviour
         Debug.Log(plushie.name);
         int index = -1;
 
-        for (int i = 0; i < plushies.Length; i++)//no entra al for :(
+        if(plushies != null)
         {
-            Debug.Log(plushies[i].name);
-            if (plushie.name == plushies[i].name)
+            if(plushies.Length > 0)
             {
-                index = i;
-                Debug.Log("agregado: " + plushie.name);
-            }
+                for (int i = 0; i < plushies.Length; i++)//no entra al for :(
+                {
 
-            if(index >= 0 && index < plushies.Length)
-            {
-                plushies[index].owned = true;
+                    if (plushie.name == plushies[i].name)
+                    {
+                        index = i;
+                        Debug.Log("agregado: " + plushie.name);
+                    }
 
-                cc.SaveData();
-                charged = false;
+                    
+                }
+
+                if (index >= 0 && index < plushies.Length)
+                {
+                    plushies[index].owned = true;
+
+                    cc.SaveData();
+                    charged = false;
+                }
+                else
+                {
+                    Debug.Log("index erroneo");
+                }
             }
             else
             {
-                Debug.Log("index erroneo");
+                Debug.Log("plushies.length = " + plushies.Length);
             }
+        }
+        else
+        {
+            Debug.Log("plushies es null");
         }
     }
 }

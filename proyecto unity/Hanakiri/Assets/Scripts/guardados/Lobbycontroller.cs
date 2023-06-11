@@ -13,8 +13,6 @@ public class Lobbycontroller : MonoBehaviour
     [SerializeField] private Conversacion conversacion3;
     [SerializeField] private Conversacion conversacion4;
     [SerializeField] private DialogoUI dialUI;
-    public bool conversacion;
-    public int conversacionOp;
     [SerializeField] private Trampilla trampilla;
     public changeScene changeSc;
     public personaje player;
@@ -27,7 +25,6 @@ public class Lobbycontroller : MonoBehaviour
 
         dataControl.ChargeData();
 
-        conversacion = false;
 
         switch (player.actualLvl)
         {
@@ -51,10 +48,6 @@ public class Lobbycontroller : MonoBehaviour
                 lvl3();
                 break;
 
-            case 4:
-                Debug.Log("nivel 4");
-                lvl4();
-                break;
         }
 
     }
@@ -62,61 +55,82 @@ public class Lobbycontroller : MonoBehaviour
     void Update()
     {
         //TODO: meter restricciones de movimiento hacia el objeto con tag player
-        if (conversacion)
-        {
-            Debug.Log("Conversación hecha");
+
+
 
             switch (player.actualLvl)
             {
                 case 0:
-                    Debug.Log(conversacionOp);
-                    switch (conversacionOp)
-                    {
-                        case 1:
-                            trampilla.activo = true;
-                            break;
-
-                        case 2:
-                            conversacion = false;
-                            lvl1();
-                            break;
-
-                    }
+                    lvl0();
                     break;
 
                 case 1:
-                    Debug.Log("nivel 1");
+                    //Debug.Log("nivel 1");
                     lvl1();
                     break;
 
                 case 2:
-                    Debug.Log("nivel 2");
+                    //Debug.Log("nivel 2");
                     lvl2();
                     break;
 
                 case 3:
-                    Debug.Log("nivel 3");
+                    //Debug.Log("nivel 3");
                     lvl3();
                     break;
 
-                case 4:
-                    Debug.Log("nivel 4");
-                    lvl4();
-                    break;
             }
 
-        }
+        
         
     }
 
     private void lvl0()
     {
-        //conversación tutorial y da a elegir entre tutorial o no si tutorial abrir trampilla
-        
-        
+        //probar bloquear al finalizar la conversación para no repetirla
         dialUI.conversacion = conversacion0;
-        changeSc.enabled = false;
         player.actualLvl = 0;
+
+        if (dialUI.conversacion.finalizado)
+        {
+            dialUI.conversacion.desbloqueada = false;
+            int opcion = -1;
+
+            for(int i = 1; i <= dialUI.conversacion.pregunta.opciones.Length; i++)
+            {
+                if (dialUI.conversacion.pregunta.opciones[i].convResultante.finalizado)
+                {
+                    opcion = i;
+                }
+            }
+
+            if(opcion > 0)
+            {
+                switch(opcion)
+                {
+                    case 1:
+
+                        trampilla.activo = true;
+                        changeSc.enabled = true;
+
+                        break;
+
+                    case 2:
+
+                        lvl1();
+
+                        break;
+                }
+            }
+
+        }
+        else
+        {
+            changeSc.enabled = false;
+        }
+        
+        
+        
 
 
 
@@ -125,12 +139,21 @@ public class Lobbycontroller : MonoBehaviour
     private void lvl1()
     {
         //conversación antes del nivel uno
-        
-
         dialUI.conversacion = conversacion1;
-        changeSc.enabled = true;
-        changeSc.nextScene = 6;
         player.actualLvl = 1;
+
+        if (dialUI.conversacion.finalizado)
+        {
+            changeSc.enabled = true;
+            changeSc.nextScene = 6;
+        }
+        else
+        {
+            changeSc.enabled = false;
+        }
+
+        
+        
 
 
 
@@ -152,11 +175,4 @@ public class Lobbycontroller : MonoBehaviour
         dialUI.conversacion = conversacion3;
     }
 
-    private void lvl4()
-    {
-        //conversación antes del nivel cuatro
-        
-
-        dialUI.conversacion = conversacion4;
-    }
 }

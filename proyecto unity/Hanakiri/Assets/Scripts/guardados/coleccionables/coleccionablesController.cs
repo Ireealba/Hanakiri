@@ -13,6 +13,7 @@ public class coleccionablesController : MonoBehaviour
     {
         data = Application.dataPath + "/Gamesaves/coleccionables.json";
         plushiesC = GameObject.FindObjectOfType<PlushiesController>();
+
     }
 
     public void ChargeData()

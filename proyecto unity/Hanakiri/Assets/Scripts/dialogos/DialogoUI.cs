@@ -136,11 +136,7 @@ public class DialogoUI : MonoBehaviour
 
 
                     DialogoManager.instance.MostrarUI(false);
-                    if(lobby != null)
-                    {
-                        lobby.conversacion = true;
-                    }
-                    return;
+                    
                 }
 
                 DialogoManager.speakerActual.dialLocalIn = localIn;
